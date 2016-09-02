@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 9e08856e4bb4f2e43b62098744876e95
+timeCreated: 1456829675
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PutzEimer_0
+    21300002: PutzEimer_1
+    21300004: PutzEimer_2
+    21300006: PutzEimer_3
+    21300008: PutzEimer_4
+    21300010: PutzEimer_5
+    21300012: PutzEimer_6
+    21300014: PutzEimer_7
+    21300016: PutzEimer_8
+    21300018: PutzEimer_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PutzEimer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 226
+        height: 510
+      alignment: 9
+      pivot: {x: 0.38789713, y: 0.1994544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 138.33525, y: 408.27826}
+        - {x: 124.33525, y: 408.27826}
+        - {x: 115.33525, y: 391.27826}
+        - {x: -39.66475, y: 78.27826}
+        - {x: -87.66475, y: 54.27826}
+        - {x: -87.66475, y: -40.72174}
+        - {x: -64.66475, y: -101.72174}
+        - {x: 29.33525, y: -101.72174}
+        - {x: 88.33525, y: -37.72174}
+        - {x: 85.33525, y: 35.27826}
+        - {x: 138.33525, y: 367.27826}
+    - name: PutzEimer_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 548
+        width: 226
+        height: 510
+      alignment: 9
+      pivot: {x: 0.3991074, y: 0.1820674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135.80173, y: 417.14563}
+        - {x: 120.80173, y: 417.14563}
+        - {x: 117.80173, y: 416.14563}
+        - {x: 18.801727, y: 93.14563}
+        - {x: -90.19827, y: 73.14563}
+        - {x: -90.19827, y: -51.85437}
+        - {x: -78.19827, y: -92.85437}
+        - {x: 30.801727, y: -92.85437}
+        - {x: 43.801727, y: -89.85437}
+        - {x: 74.80173, y: -25.85437}
+        - {x: 84.80173, y: 37.14563}
+        - {x: 135.80173, y: 374.14563}
+    - name: PutzEimer_2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 548
+        width: 226
+        height: 510
+      alignment: 9
+      pivot: {x: 0.4047125, y: 0.20442206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 133.53497, y: 383.74475}
+        - {x: 134.53497, y: 386.74475}
+        - {x: 134.53497, y: 405.74475}
+        - {x: 116.53497, y: 405.74475}
+        - {x: -77.46503, y: 91.74475}
+        - {x: -91.46503, y: 50.74475}
+        - {x: -91.46503, y: -76.25525}
+        - {x: -58.465027, y: -104.25525}
+        - {x: 51.534973, y: -104.25525}
+        - {x: 94.53497, y: 13.744751}
+        - {x: 69.53497, y: 36.74475}
+        - {x: 51.534973, y: 52.74475}
+    - name: PutzEimer_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 548
+        width: 226
+        height: 510
+      alignment: 9
+      pivot: {x: 0.42152795, y: 0.20690595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130.73468, y: 354.47797}
+        - {x: 130.73468, y: 404.47797}
+        - {x: 56.73468, y: 404.47797}
+        - {x: -95.26532, y: 83.47797}
+        - {x: -95.26532, y: -56.522034}
+        - {x: -89.26532, y: -58.522034}
+        - {x: -45.26532, y: -105.52203}
+        - {x: 43.73468, y: -105.52203}
+        - {x: 93.73468, y: 29.477966}
+        - {x: 53.73468, y: 51.477966}
+    - name: PutzEimer_4
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 548
+        width: 226
+        height: 510
+      alignment: 9
+      pivot: {x: 0.42152768, y: 0.18703517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130.73474, y: 414.61206}
+        - {x: 116.73474, y: 414.61206}
+        - {x: 112.73474, y: 412.61206}
+        - {x: -2.2652588, y: 97.61206}
+        - {x: -95.26526, y: 60.61206}
+        - {x: -95.26526, y: -45.38794}
+        - {x: -51.26526, y: -95.38794}
+        - {x: 42.73474, y: -95.38794}
+        - {x: 100.73474, y: 25.61206}
+        - {x: 36.73474, y: 70.61206}
+        - {x: 130.73474, y: 385.61206}
+    - name: PutzEimer_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 228
+        height: 509
+      alignment: 9
+      pivot: {x: 0.6277874, y: 0.19637522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123.13553, y: 407.045}
+        - {x: -127.13553, y: 409.045}
+        - {x: -143.13553, y: 409.045}
+        - {x: -143.13553, y: 378.045}
+        - {x: -54.13553, y: 70.04501}
+        - {x: -83.13553, y: 52.045013}
+        - {x: -90.13553, y: -32.954987}
+        - {x: -32.13553, y: -99.95499}
+        - {x: 65.86447, y: -99.95499}
+        - {x: 84.86447, y: -58.954987}
+        - {x: 84.86447, y: 62.045013}
+        - {x: -19.135529, y: 92.04501}
+    - name: PutzEimer_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 227
+        height: 509
+      alignment: 9
+      pivot: {x: 0.60044813, y: 0.20881882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.698273, y: 62.711212}
+        - {x: -120.30173, y: 399.7112}
+        - {x: -123.30173, y: 402.7112}
+        - {x: -136.30173, y: 402.7112}
+        - {x: -136.30173, y: 369.7112}
+        - {x: -73.30173, y: 39.711212}
+        - {x: -123.30173, y: -31.288788}
+        - {x: -41.301727, y: -106.28879}
+        - {x: 77.69827, y: -106.28879}
+        - {x: 90.69827, y: -51.288788}
+        - {x: 90.69827, y: 54.711212}
+    - name: PutzEimer_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1
+        width: 227
+        height: 509
+      alignment: 9
+      pivot: {x: 0.6171894, y: 0.21628505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -122.10199, y: 398.91092}
+        - {x: -140.10199, y: 398.91092}
+        - {x: -140.10199, y: 369.91092}
+        - {x: -45.10199, y: 51.91092}
+        - {x: -109.10199, y: 52.91092}
+        - {x: -66.10199, y: -110.08908}
+        - {x: 63.89801, y: -110.08908}
+        - {x: 86.89801, y: -93.08908}
+        - {x: 86.89801, y: 54.91092}
+        - {x: -9.10199, y: 85.91092}
+    - name: PutzEimer_8
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1
+        width: 228
+        height: 509
+      alignment: 9
+      pivot: {x: 0.6166754, y: 0.2212625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.39801, y: 60.37738}
+        - {x: -25.60199, y: 58.37738}
+        - {x: -122.60199, y: 395.37738}
+        - {x: -125.60199, y: 396.37738}
+        - {x: -140.60199, y: 396.37738}
+        - {x: -140.60199, y: 308.37738}
+        - {x: -95.60199, y: -38.62262}
+        - {x: -30.60199, y: -112.62262}
+        - {x: 68.39801, y: -112.62262}
+        - {x: 87.39801, y: -70.62262}
+        - {x: 87.39801, y: 35.37738}
+        - {x: 85.39801, y: 35.37738}
+    - name: PutzEimer_9
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1
+        width: 228
+        height: 509
+      alignment: 9
+      pivot: {x: 0.63598096, y: 0.2436665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -125.00366, y: 383.97375}
+        - {x: -130.00366, y: 384.97375}
+        - {x: -145.00366, y: 384.97375}
+        - {x: -145.00366, y: 350.97375}
+        - {x: -84.00366, y: 18.973755}
+        - {x: -95.00366, y: -60.026245}
+        - {x: -34.003662, y: -124.026245}
+        - {x: 39.996338, y: -124.026245}
+        - {x: 82.99634, y: -71.026245}
+        - {x: 82.99634, y: 43.973755}
+        - {x: -25.003662, y: 53.973755}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

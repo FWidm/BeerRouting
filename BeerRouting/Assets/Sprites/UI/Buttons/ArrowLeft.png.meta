@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: cd9ea385ad7b9a4408b9a756ff2fad45
+timeCreated: 1456231898
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ArrowLeft_0
+    21300002: ArrowLeft_1
+    21300004: ArrowLeft_2
+    21300006: ArrowLeft_3
+    21300008: ArrowLeft_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ArrowLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 730
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 51}
+        - {x: 58, y: 81}
+        - {x: -47, y: 81}
+        - {x: -80, y: 61}
+        - {x: -80, y: -67}
+        - {x: -39, y: -81}
+        - {x: 44, y: -81}
+        - {x: 74, y: -54}
+        - {x: 80, y: -30}
+        - {x: 80, y: 33}
+    - name: ArrowLeft_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 80.5}
+        - {x: -80, y: 44.5}
+        - {x: -80, y: -36.5}
+        - {x: -57, y: -77.5}
+        - {x: -40, y: -80.5}
+        - {x: 55, y: -80.5}
+        - {x: 80, y: -61.5}
+        - {x: 80, y: 42.5}
+        - {x: 63, y: 80.5}
+    - name: ArrowLeft_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 80.5}
+        - {x: -80, y: 47.5}
+        - {x: -80, y: -47.5}
+        - {x: -48, y: -79.5}
+        - {x: -42, y: -80.5}
+        - {x: 41, y: -80.5}
+        - {x: 80, y: -51.5}
+        - {x: 80, y: 46.5}
+        - {x: 44, y: 80.5}
+    - name: ArrowLeft_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 80.5}
+        - {x: -80, y: 54.5}
+        - {x: -80, y: -43.5}
+        - {x: -79, y: -46.5}
+        - {x: -51, y: -80.5}
+        - {x: 52, y: -80.5}
+        - {x: 80, y: -51.5}
+        - {x: 80, y: 59.5}
+        - {x: 59, y: 80.5}
+    - name: ArrowLeft_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 80}
+        - {x: -80, y: 70}
+        - {x: -80, y: -66}
+        - {x: -48, y: -78}
+        - {x: -39, y: -80}
+        - {x: 45, y: -80}
+        - {x: 80, y: -52}
+        - {x: 80, y: 75}
+        - {x: 60, y: 80}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2797 @@
+fileFormatVersion: 2
+guid: 5e5a28f57c537ea49b1e91340a22e304
+timeCreated: 1457027493
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Icons_Sprite_0
+    21300002: Icons_Sprite_1
+    21300004: Icons_Sprite_2
+    21300006: Icons_Sprite_3
+    21300008: Icons_Sprite_4
+    21300010: Icons_Sprite_5
+    21300012: Icons_Sprite_6
+    21300014: Icons_Sprite_7
+    21300016: Icons_Sprite_8
+    21300018: Icons_Sprite_9
+    21300020: Icons_Sprite_10
+    21300022: Icons_Sprite_11
+    21300024: Icons_Sprite_12
+    21300026: Icons_Sprite_13
+    21300028: Icons_Sprite_14
+    21300030: Icons_Sprite_15
+    21300032: Icons_Sprite_16
+    21300034: Icons_Sprite_17
+    21300036: Icons_Sprite_18
+    21300038: Icons_Sprite_19
+    21300040: Icons_Sprite_20
+    21300042: Icons_Sprite_21
+    21300044: Icons_Sprite_22
+    21300046: Icons_Sprite_23
+    21300048: Icons_Sprite_24
+    21300050: Icons_Sprite_25
+    21300052: Icons_Sprite_26
+    21300054: Icons_Sprite_27
+    21300056: Icons_Sprite_28
+    21300058: Icons_Sprite_29
+    21300060: Icons_Sprite_30
+    21300062: Icons_Sprite_31
+    21300064: Icons_Sprite_32
+    21300066: Icons_Sprite_33
+    21300068: Icons_Sprite_34
+    21300070: Icons_Sprite_35
+    21300072: Icons_Sprite_36
+    21300074: Icons_Sprite_37
+    21300076: Icons_Sprite_38
+    21300078: Icons_Sprite_39
+    21300080: Icons_Sprite_40
+    21300082: Icons_Sprite_41
+    21300084: Icons_Sprite_42
+    21300086: Icons_Sprite_43
+    21300088: Icons_Sprite_44
+    21300090: Icons_Sprite_45
+    21300092: Icons_Sprite_46
+    21300094: Icons_Sprite_47
+    21300096: Icons_Sprite_48
+    21300098: Icons_Sprite_49
+    21300100: Icons_Sprite_50
+    21300102: Icons_Sprite_51
+    21300104: Icons_Sprite_52
+    21300106: Icons_Sprite_53
+    21300108: Icons_Sprite_54
+    21300110: Icons_Sprite_55
+    21300112: Icons_Sprite_56
+    21300114: Icons_Sprite_57
+    21300116: Icons_Sprite_58
+    21300118: Icons_Sprite_59
+    21300120: Icons_Sprite_60
+    21300122: Icons_Sprite_61
+    21300124: Icons_Sprite_62
+    21300126: Icons_Sprite_63
+    21300128: Icons_Sprite_64
+    21300130: Icons_Sprite_65
+    21300132: Icons_Sprite_66
+    21300134: Icons_Sprite_67
+    21300136: Icons_Sprite_68
+    21300138: Icons_Sprite_69
+    21300140: Icons_Sprite_70
+    21300142: Icons_Sprite_71
+    21300144: Icons_Sprite_72
+    21300146: Icons_Sprite_73
+    21300148: Icons_Sprite_74
+    21300150: Icons_Sprite_75
+    21300152: Icons_Sprite_76
+    21300154: Icons_Sprite_77
+    21300156: Icons_Sprite_78
+    21300158: Icons_Sprite_79
+    21300160: Icons_Sprite_80
+    21300162: Icons_Sprite_81
+    21300164: Icons_Sprite_82
+    21300166: Icons_Sprite_83
+    21300168: Icons_Sprite_84
+    21300170: Icons_Sprite_85
+    21300172: Icons_Sprite_86
+    21300174: Icons_Sprite_87
+    21300176: Icons_Sprite_88
+    21300178: Icons_Sprite_89
+    21300180: Icons_Sprite_90
+    21300182: Icons_Sprite_91
+    21300184: Icons_Sprite_92
+    21300186: Icons_Sprite_93
+    21300188: Icons_Sprite_94
+    21300190: Icons_Sprite_95
+    21300192: Icons_Sprite_96
+    21300194: Icons_Sprite_97
+    21300196: Icons_Sprite_98
+    21300198: Icons_Sprite_99
+    21300200: Icons_Sprite_100
+    21300202: Icons_Sprite_101
+    21300204: Icons_Sprite_102
+    21300206: Icons_Sprite_103
+    21300208: Icons_Sprite_104
+    21300210: Icons_Sprite_105
+    21300212: Icons_Sprite_106
+    21300214: Icons_Sprite_107
+    21300216: Icons_Sprite_108
+    21300218: Icons_Sprite_109
+    21300220: Icons_Sprite_110
+    21300222: Icons_Sprite_111
+    21300224: Icons_Sprite_112
+    21300226: Icons_Sprite_113
+    21300228: Icons_Sprite_114
+    21300230: Icons_Sprite_115
+    21300232: Icons_Sprite_116
+    21300234: Icons_Sprite_117
+    21300236: Icons_Sprite_118
+    21300238: Icons_Sprite_119
+    21300240: Icons_Sprite_120
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Icons_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1286
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.5, y: 80}
+        - {x: -78.5, y: 80}
+        - {x: -80.5, y: 74}
+        - {x: -80.5, y: -37}
+        - {x: -68.5, y: -80}
+        - {x: 65.5, y: -80}
+        - {x: 80.5, y: -37}
+    - name: Icons_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1286
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 80}
+        - {x: -37, y: 80}
+        - {x: -80, y: 51}
+        - {x: -80, y: -39}
+        - {x: -46, y: -80}
+        - {x: 54, y: -80}
+        - {x: 80, y: -44}
+        - {x: 80, y: 32}
+        - {x: 73, y: 60}
+    - name: Icons_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1286
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 80}
+        - {x: -66.5, y: 80}
+        - {x: -80.5, y: 40}
+        - {x: -80.5, y: -55}
+        - {x: -52.5, y: -77}
+        - {x: -35.5, y: -80}
+        - {x: 40.5, y: -80}
+        - {x: 74.5, y: -65}
+        - {x: 80.5, y: -45}
+        - {x: 80.5, y: 46}
+    - name: Icons_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1282
+        width: 160
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 81.5}
+        - {x: -46, y: 81.5}
+        - {x: -80, y: 67.5}
+        - {x: -80, y: -48.5}
+        - {x: -58, y: -79.5}
+        - {x: -42, y: -81.5}
+        - {x: 62, y: -81.5}
+        - {x: 80, y: -40.5}
+        - {x: 80, y: 61.5}
+    - name: Icons_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1280
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 80.5}
+        - {x: -48, y: 80.5}
+        - {x: -80, y: 47.5}
+        - {x: -80, y: -67.5}
+        - {x: -48, y: -80.5}
+        - {x: 58, y: -80.5}
+        - {x: 76, y: -57.5}
+        - {x: 80, y: -44.5}
+        - {x: 80, y: 40.5}
+    - name: Icons_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1281
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.5, y: 80}
+        - {x: -80.5, y: 42}
+        - {x: -80.5, y: -53}
+        - {x: -47.5, y: -78}
+        - {x: -42.5, y: -80}
+        - {x: 33.5, y: -80}
+        - {x: 57.5, y: -76}
+        - {x: 80.5, y: -53}
+        - {x: 80.5, y: 45}
+        - {x: 69.5, y: 80}
+    - name: Icons_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1272
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 80.5}
+        - {x: -80, y: 46.5}
+        - {x: -80, y: -35.5}
+        - {x: -63, y: -75.5}
+        - {x: -41, y: -80.5}
+        - {x: 43, y: -80.5}
+        - {x: 80, y: -47.5}
+        - {x: 80, y: 64.5}
+        - {x: 38, y: 80.5}
+    - name: Icons_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1273
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 80}
+        - {x: -80, y: 44}
+        - {x: -80, y: -66}
+        - {x: -42, y: -80}
+        - {x: 56, y: -80}
+        - {x: 80, y: -55}
+        - {x: 80, y: 46}
+        - {x: 64, y: 80}
+    - name: Icons_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1281
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 80}
+        - {x: -80, y: 59}
+        - {x: -80, y: -67}
+        - {x: -75, y: -80}
+        - {x: 73, y: -80}
+        - {x: 80, y: -79}
+        - {x: 80, y: 39}
+        - {x: 43, y: 80}
+    - name: Icons_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 80}
+        - {x: -80, y: 50}
+        - {x: -80, y: -61}
+        - {x: -74, y: -80}
+        - {x: 66, y: -80}
+        - {x: 80, y: -38}
+        - {x: 80, y: 51}
+        - {x: 45, y: 80}
+    - name: Icons_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1278
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 80.5}
+        - {x: -33.5, y: 80.5}
+        - {x: -80.5, y: 51.5}
+        - {x: -80.5, y: -66.5}
+        - {x: -49.5, y: -80.5}
+        - {x: 49.5, y: -80.5}
+        - {x: 80.5, y: -47.5}
+        - {x: 80.5, y: 36.5}
+        - {x: 55.5, y: 77.5}
+    - name: Icons_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1280
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 81}
+        - {x: -48, y: 81}
+        - {x: -75, y: 61}
+        - {x: -80, y: 53}
+        - {x: -80, y: -65}
+        - {x: -55, y: -81}
+        - {x: 68, y: -81}
+        - {x: 80, y: -46}
+        - {x: 80, y: 57}
+    - name: Icons_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 1281
+        width: 161
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 75}
+        - {x: 33.5, y: 81}
+        - {x: -41.5, y: 81}
+        - {x: -80.5, y: 54}
+        - {x: -80.5, y: -37}
+        - {x: -46.5, y: -81}
+        - {x: 36.5, y: -81}
+        - {x: 73.5, y: -62}
+        - {x: 80.5, y: -34}
+        - {x: 80.5, y: 43}
+    - name: Icons_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 1280
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 51}
+        - {x: 58, y: 81}
+        - {x: -47, y: 81}
+        - {x: -80, y: 61}
+        - {x: -80, y: -67}
+        - {x: -39, y: -81}
+        - {x: 44, y: -81}
+        - {x: 74, y: -54}
+        - {x: 80, y: -30}
+        - {x: 80, y: 33}
+    - name: Icons_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 1273
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.5, y: 80}
+        - {x: -80.5, y: 55}
+        - {x: -80.5, y: -66}
+        - {x: -61.5, y: -75}
+        - {x: -47.5, y: -80}
+        - {x: 49.5, y: -80}
+        - {x: 80.5, y: -46}
+        - {x: 80.5, y: 49}
+        - {x: 46.5, y: 80}
+    - name: Icons_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 1273
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.5, y: 80}
+        - {x: -80.5, y: 55}
+        - {x: -80.5, y: -66}
+        - {x: -61.5, y: -75}
+        - {x: -47.5, y: -80}
+        - {x: 49.5, y: -80}
+        - {x: 80.5, y: -46}
+        - {x: 80.5, y: 49}
+        - {x: 46.5, y: 80}
+    - name: Icons_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1273
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 80}
+        - {x: -80, y: 44}
+        - {x: -80, y: -61}
+        - {x: -36, y: -80}
+        - {x: 80, y: -80}
+        - {x: 80, y: 80}
+    - name: Icons_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1107
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 80}
+        - {x: -64, y: 80}
+        - {x: -80, y: 46}
+        - {x: -80, y: -73}
+        - {x: -75, y: -80}
+        - {x: 54, y: -80}
+        - {x: 80, y: -74}
+        - {x: 80, y: 33}
+        - {x: 73, y: 62}
+    - name: Icons_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1107
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 80}
+        - {x: -80.5, y: 49}
+        - {x: -80.5, y: -44}
+        - {x: -50.5, y: -80}
+        - {x: 73.5, y: -80}
+        - {x: 80.5, y: -47}
+        - {x: 80.5, y: 57}
+        - {x: 40.5, y: 80}
+    - name: Icons_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1107
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 80}
+        - {x: -60, y: 73}
+        - {x: -80, y: 48}
+        - {x: -80, y: -70}
+        - {x: -53, y: -80}
+        - {x: 48, y: -80}
+        - {x: 80, y: -45}
+        - {x: 80, y: 50}
+        - {x: 47, y: 80}
+    - name: Icons_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1107
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 80}
+        - {x: -49, y: 80}
+        - {x: -80, y: 41}
+        - {x: -80, y: -44}
+        - {x: -70, y: -80}
+        - {x: 69, y: -80}
+        - {x: 77, y: -61}
+        - {x: 80, y: -52}
+        - {x: 80, y: 48}
+    - name: Icons_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1106
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 80}
+        - {x: -80, y: 58}
+        - {x: -80, y: -55}
+        - {x: -41, y: -80}
+        - {x: 61, y: -80}
+        - {x: 80, y: -37}
+        - {x: 80, y: 74}
+        - {x: 77, y: 80}
+    - name: Icons_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1105
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 80}
+        - {x: -69, y: 70}
+        - {x: -80, y: 37}
+        - {x: -80, y: -44}
+        - {x: -47, y: -80}
+        - {x: 64, y: -80}
+        - {x: 80, y: -40}
+        - {x: 80, y: 54}
+        - {x: 56, y: 80}
+    - name: Icons_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1106
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 80}
+        - {x: -66, y: 80}
+        - {x: -80, y: 39}
+        - {x: -80, y: -51}
+        - {x: -52, y: -80}
+        - {x: 52, y: -80}
+        - {x: 80, y: -70}
+        - {x: 80, y: 39}
+        - {x: 75, y: 61}
+    - name: Icons_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1102
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 80.5}
+        - {x: -80, y: 47.5}
+        - {x: -80, y: -38.5}
+        - {x: -59, y: -78.5}
+        - {x: -50, y: -80.5}
+        - {x: 47, y: -80.5}
+        - {x: 80, y: -42.5}
+        - {x: 80, y: 51.5}
+        - {x: 33, y: 80.5}
+    - name: Icons_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1100
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 80}
+        - {x: -80, y: 58}
+        - {x: -80, y: -51}
+        - {x: -44, y: -80}
+        - {x: 32, y: -80}
+        - {x: 58, y: -72}
+        - {x: 80, y: -27}
+        - {x: 80, y: 49}
+        - {x: 54, y: 80}
+    - name: Icons_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1096
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 80.5}
+        - {x: -80, y: 43.5}
+        - {x: -80, y: -39.5}
+        - {x: -58, y: -80.5}
+        - {x: 58, y: -80.5}
+        - {x: 80, y: -49.5}
+        - {x: 80, y: 42.5}
+        - {x: 73, y: 80.5}
+    - name: Icons_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1092
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 80}
+        - {x: -48.5, y: 80}
+        - {x: -80.5, y: 47}
+        - {x: -80.5, y: -41}
+        - {x: -69.5, y: -62}
+        - {x: -38.5, y: -80}
+        - {x: 67.5, y: -80}
+        - {x: 80.5, y: -41}
+        - {x: 80.5, y: 44}
+        - {x: 55.5, y: 75}
+    - name: Icons_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1098
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 80}
+        - {x: -33, y: 80}
+        - {x: -51, y: 76}
+        - {x: -80, y: 53}
+        - {x: -80, y: -80}
+        - {x: 80, y: -80}
+        - {x: 80, y: 29}
+        - {x: 74, y: 53}
+    - name: Icons_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1097
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 80}
+        - {x: -80, y: 49}
+        - {x: -80, y: -48}
+        - {x: -59, y: -68}
+        - {x: -25, y: -80}
+        - {x: 37, y: -80}
+        - {x: 80, y: -58}
+        - {x: 80, y: 77}
+        - {x: 72, y: 80}
+    - name: Icons_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 1098
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 80.5}
+        - {x: -80, y: 44.5}
+        - {x: -80, y: -36.5}
+        - {x: -57, y: -77.5}
+        - {x: -40, y: -80.5}
+        - {x: 55, y: -80.5}
+        - {x: 80, y: -61.5}
+        - {x: 80, y: 42.5}
+        - {x: 63, y: 80.5}
+    - name: Icons_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 1092
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 80}
+        - {x: -80.5, y: 37}
+        - {x: -80.5, y: -47}
+        - {x: -72.5, y: -80}
+        - {x: 63.5, y: -80}
+        - {x: 80.5, y: -32}
+        - {x: 80.5, y: 46}
+        - {x: 36.5, y: 80}
+    - name: Icons_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1092
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 80}
+        - {x: -80.5, y: 37}
+        - {x: -80.5, y: -47}
+        - {x: -72.5, y: -80}
+        - {x: 63.5, y: -80}
+        - {x: 80.5, y: -32}
+        - {x: 80.5, y: 46}
+        - {x: 36.5, y: 80}
+    - name: Icons_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1093
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 80}
+        - {x: -65, y: 77}
+        - {x: -80, y: 64}
+        - {x: -80, y: -49}
+        - {x: -63, y: -80}
+        - {x: 37, y: -80}
+        - {x: 80, y: -49}
+        - {x: 80, y: 60}
+        - {x: 53, y: 80}
+    - name: Icons_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 931
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 80}
+        - {x: -80, y: 48}
+        - {x: -80, y: -49}
+        - {x: -79, y: -56}
+        - {x: -33, y: -80}
+        - {x: 29, y: -80}
+        - {x: 45, y: -77}
+        - {x: 80, y: -54}
+        - {x: 80, y: 45}
+        - {x: 64, y: 80}
+    - name: Icons_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 931
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 80}
+        - {x: -80, y: 51}
+        - {x: -80, y: -48}
+        - {x: -39, y: -80}
+        - {x: 43, y: -80}
+        - {x: 80, y: -56}
+        - {x: 80, y: 72}
+        - {x: 55, y: 80}
+    - name: Icons_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 931
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 80}
+        - {x: -50, y: 80}
+        - {x: -76, y: 61}
+        - {x: -80, y: 43}
+        - {x: -80, y: -63}
+        - {x: -38, y: -80}
+        - {x: 55, y: -80}
+        - {x: 80, y: -51}
+        - {x: 80, y: 68}
+    - name: Icons_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 931
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 80}
+        - {x: -47, y: 80}
+        - {x: -80, y: 61}
+        - {x: -80, y: -52}
+        - {x: -49, y: -80}
+        - {x: 39, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 33}
+        - {x: 74, y: 62}
+    - name: Icons_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 929
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 80}
+        - {x: -51, y: 80}
+        - {x: -80, y: 46}
+        - {x: -80, y: -41}
+        - {x: -75, y: -55}
+        - {x: -55, y: -80}
+        - {x: 52, y: -80}
+        - {x: 80, y: -47}
+        - {x: 80, y: 45}
+        - {x: 73, y: 79}
+    - name: Icons_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 923
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 80}
+        - {x: -80, y: 55}
+        - {x: -80, y: -41}
+        - {x: -65, y: -78}
+        - {x: -55, y: -80}
+        - {x: 36, y: -80}
+        - {x: 80, y: -46}
+        - {x: 80, y: 68}
+        - {x: 47, y: 80}
+    - name: Icons_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 921
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 80.5}
+        - {x: -80, y: 65.5}
+        - {x: -80, y: -37.5}
+        - {x: -49, y: -80.5}
+        - {x: 41, y: -80.5}
+        - {x: 80, y: -50.5}
+        - {x: 80, y: 52.5}
+        - {x: 51, y: 80.5}
+    - name: Icons_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 926
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 80}
+        - {x: -80, y: 43}
+        - {x: -80, y: -43}
+        - {x: -46, y: -80}
+        - {x: 33, y: -80}
+        - {x: 57, y: -75}
+        - {x: 80, y: -59}
+        - {x: 80, y: 51}
+        - {x: 66, y: 80}
+    - name: Icons_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 927
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 80}
+        - {x: -80, y: 42}
+        - {x: -80, y: -37}
+        - {x: -52, y: -80}
+        - {x: 56, y: -80}
+        - {x: 80, y: -41}
+        - {x: 80, y: 63}
+        - {x: 57, y: 80}
+    - name: Icons_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 924
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 80.5}
+        - {x: -80, y: 49.5}
+        - {x: -80, y: -66.5}
+        - {x: -76, y: -80.5}
+        - {x: 60, y: -80.5}
+        - {x: 80, y: -41.5}
+        - {x: 80, y: 40.5}
+        - {x: 41, y: 80.5}
+    - name: Icons_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 919
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 80.5}
+        - {x: -80.5, y: 46.5}
+        - {x: -80.5, y: -36.5}
+        - {x: -72.5, y: -51.5}
+        - {x: -41.5, y: -80.5}
+        - {x: 32.5, y: -80.5}
+        - {x: 59.5, y: -74.5}
+        - {x: 80.5, y: -48.5}
+        - {x: 80.5, y: 39.5}
+        - {x: 63.5, y: 80.5}
+    - name: Icons_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 924
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 80}
+        - {x: -80, y: 36}
+        - {x: -80, y: -49}
+        - {x: -34, y: -80}
+        - {x: 55, y: -80}
+        - {x: 80, y: -43}
+        - {x: 80, y: 64}
+        - {x: 56, y: 80}
+    - name: Icons_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 922
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 80}
+        - {x: -80, y: 40}
+        - {x: -80, y: -49}
+        - {x: -54, y: -80}
+        - {x: 42, y: -80}
+        - {x: 80, y: -70}
+        - {x: 80, y: 44}
+        - {x: 43, y: 80}
+    - name: Icons_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 924
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 80.5}
+        - {x: -80, y: 47.5}
+        - {x: -80, y: -47.5}
+        - {x: -48, y: -79.5}
+        - {x: -42, y: -80.5}
+        - {x: 41, y: -80.5}
+        - {x: 80, y: -51.5}
+        - {x: 80, y: 46.5}
+        - {x: 44, y: 80.5}
+    - name: Icons_Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 919
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 80.5}
+        - {x: -80.5, y: 46.5}
+        - {x: -80.5, y: -36.5}
+        - {x: -72.5, y: -51.5}
+        - {x: -41.5, y: -80.5}
+        - {x: 32.5, y: -80.5}
+        - {x: 59.5, y: -74.5}
+        - {x: 80.5, y: -48.5}
+        - {x: 80.5, y: 39.5}
+        - {x: 63.5, y: 80.5}
+    - name: Icons_Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 919
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 80.5}
+        - {x: -80.5, y: 46.5}
+        - {x: -80.5, y: -36.5}
+        - {x: -72.5, y: -51.5}
+        - {x: -41.5, y: -80.5}
+        - {x: 32.5, y: -80.5}
+        - {x: 59.5, y: -74.5}
+        - {x: 80.5, y: -48.5}
+        - {x: 80.5, y: 39.5}
+        - {x: 63.5, y: 80.5}
+    - name: Icons_Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 918
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 80}
+        - {x: -75, y: 59}
+        - {x: -80, y: 36}
+        - {x: -80, y: -43}
+        - {x: -55, y: -76}
+        - {x: -49, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -53}
+        - {x: 80, y: 65}
+        - {x: 36, y: 80}
+    - name: Icons_Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 754
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.5, y: 80}
+        - {x: -80.5, y: 56}
+        - {x: -80.5, y: -42}
+        - {x: -48.5, y: -80}
+        - {x: 53.5, y: -80}
+        - {x: 80.5, y: -73}
+        - {x: 80.5, y: 63}
+        - {x: 72.5, y: 80}
+    - name: Icons_Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 754
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 80}
+        - {x: -80.5, y: 51}
+        - {x: -80.5, y: -67}
+        - {x: -62.5, y: -80}
+        - {x: 43.5, y: -80}
+        - {x: 47.5, y: -78}
+        - {x: 80.5, y: -53}
+        - {x: 80.5, y: 51}
+        - {x: 43.5, y: 80}
+    - name: Icons_Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 754
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 80}
+        - {x: -59.5, y: 73}
+        - {x: -80.5, y: 35}
+        - {x: -80.5, y: -75}
+        - {x: -57.5, y: -80}
+        - {x: 65.5, y: -80}
+        - {x: 80.5, y: -65}
+        - {x: 80.5, y: 67}
+        - {x: 50.5, y: 80}
+    - name: Icons_Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 754
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: 80}
+        - {x: -80, y: -70}
+        - {x: -42, y: -80}
+        - {x: 45, y: -80}
+        - {x: 80, y: -46}
+        - {x: 80, y: 55}
+        - {x: 49, y: 80}
+    - name: Icons_Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 752
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 80}
+        - {x: -80.5, y: 41}
+        - {x: -80.5, y: -39}
+        - {x: -67.5, y: -78}
+        - {x: -53.5, y: -80}
+        - {x: 65.5, y: -80}
+        - {x: 80.5, y: -45}
+        - {x: 80.5, y: 54}
+        - {x: 56.5, y: 80}
+    - name: Icons_Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 749
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 76}
+        - {x: 43.5, y: 80}
+        - {x: -45.5, y: 80}
+        - {x: -80.5, y: 45}
+        - {x: -80.5, y: -69}
+        - {x: -39.5, y: -80}
+        - {x: 43.5, y: -80}
+        - {x: 77.5, y: -46}
+        - {x: 80.5, y: -33}
+        - {x: 80.5, y: 37}
+    - name: Icons_Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 746
+        width: 161
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 81}
+        - {x: -80.5, y: 44}
+        - {x: -80.5, y: -40}
+        - {x: -76.5, y: -55}
+        - {x: -37.5, y: -81}
+        - {x: 48.5, y: -81}
+        - {x: 80.5, y: -52}
+        - {x: 80.5, y: 57}
+        - {x: 74.5, y: 81}
+    - name: Icons_Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 744
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 81}
+        - {x: -62, y: 81}
+        - {x: -80, y: 77}
+        - {x: -80, y: -68}
+        - {x: -42, y: -81}
+        - {x: 48, y: -81}
+        - {x: 76, y: -62}
+        - {x: 80, y: -41}
+        - {x: 80, y: 65}
+    - name: Icons_Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 744
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 81}
+        - {x: -68, y: 81}
+        - {x: -80, y: 58}
+        - {x: -80, y: -66}
+        - {x: -40, y: -81}
+        - {x: 49, y: -81}
+        - {x: 75, y: -60}
+        - {x: 80, y: -47}
+        - {x: 80, y: 47}
+    - name: Icons_Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 736
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80.5, y: -39.5}
+        - {x: -43.5, y: -77.5}
+        - {x: -43.5, y: -80.5}
+        - {x: 64.5, y: -80.5}
+        - {x: 80.5, y: -74.5}
+        - {x: 80.5, y: 73.5}
+        - {x: 77.5, y: 80.5}
+        - {x: -43.5, y: 80.5}
+        - {x: -80.5, y: 44.5}
+    - name: Icons_Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 729
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 80.5}
+        - {x: -49.5, y: 80.5}
+        - {x: -80.5, y: 59.5}
+        - {x: -80.5, y: -37.5}
+        - {x: -64.5, y: -80.5}
+        - {x: 44.5, y: -80.5}
+        - {x: 80.5, y: -48.5}
+        - {x: 80.5, y: 37.5}
+        - {x: 52.5, y: 75.5}
+    - name: Icons_Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 734
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 72.5}
+        - {x: 44.5, y: 80.5}
+        - {x: -43.5, y: 80.5}
+        - {x: -80.5, y: 63.5}
+        - {x: -80.5, y: -67.5}
+        - {x: -35.5, y: -80.5}
+        - {x: 51.5, y: -80.5}
+        - {x: 78.5, y: -59.5}
+        - {x: 80.5, y: -46.5}
+        - {x: 80.5, y: 45.5}
+    - name: Icons_Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 735
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 80.5}
+        - {x: -80, y: 43.5}
+        - {x: -80, y: -41.5}
+        - {x: -66, y: -76.5}
+        - {x: -43, y: -80.5}
+        - {x: 70, y: -80.5}
+        - {x: 80, y: -76.5}
+        - {x: 80, y: 80.5}
+    - name: Icons_Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 735
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 80.5}
+        - {x: -80, y: 54.5}
+        - {x: -80, y: -43.5}
+        - {x: -79, y: -46.5}
+        - {x: -51, y: -80.5}
+        - {x: 52, y: -80.5}
+        - {x: 80, y: -51.5}
+        - {x: 80, y: 59.5}
+        - {x: 59, y: 80.5}
+    - name: Icons_Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 732
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 80.5}
+        - {x: -73.5, y: 80.5}
+        - {x: -80.5, y: 77.5}
+        - {x: -80.5, y: -80.5}
+        - {x: 40.5, y: -80.5}
+        - {x: 80.5, y: -43.5}
+        - {x: 80.5, y: 42.5}
+        - {x: 63.5, y: 78.5}
+    - name: Icons_Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 732
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 80.5}
+        - {x: -73.5, y: 80.5}
+        - {x: -80.5, y: 77.5}
+        - {x: -80.5, y: -80.5}
+        - {x: 40.5, y: -80.5}
+        - {x: 80.5, y: -43.5}
+        - {x: 80.5, y: 42.5}
+        - {x: 63.5, y: 78.5}
+    - name: Icons_Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 724
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 80}
+        - {x: -77, y: 60}
+        - {x: -80, y: 44}
+        - {x: -80, y: -47}
+        - {x: -57, y: -74}
+        - {x: -40, y: -80}
+        - {x: 45, y: -80}
+        - {x: 80, y: -49}
+        - {x: 80, y: 67}
+        - {x: 36, y: 80}
+    - name: Icons_Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 574
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 80}
+        - {x: -45.5, y: 77}
+        - {x: -80.5, y: 38}
+        - {x: -80.5, y: -34}
+        - {x: -74.5, y: -62}
+        - {x: -47.5, y: -80}
+        - {x: 47.5, y: -80}
+        - {x: 62.5, y: -77}
+        - {x: 80.5, y: -50}
+        - {x: 80.5, y: 71}
+        - {x: 42.5, y: 80}
+    - name: Icons_Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 574
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 80}
+        - {x: -39.5, y: 80}
+        - {x: -79.5, y: 61}
+        - {x: -80.5, y: 56}
+        - {x: -80.5, y: -47}
+        - {x: -39.5, y: -80}
+        - {x: 71.5, y: -80}
+        - {x: 80.5, y: -43}
+        - {x: 80.5, y: 45}
+        - {x: 52.5, y: 77}
+    - name: Icons_Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 574
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 80}
+        - {x: -51, y: 80}
+        - {x: -80, y: 66}
+        - {x: -80, y: -39}
+        - {x: -54, y: -80}
+        - {x: 59, y: -80}
+        - {x: 80, y: -53}
+        - {x: 80, y: 46}
+        - {x: 76, y: 65}
+    - name: Icons_Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 571
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 75}
+        - {x: 46, y: 80}
+        - {x: -51, y: 80}
+        - {x: -80, y: 54}
+        - {x: -80, y: -43}
+        - {x: -59, y: -80}
+        - {x: 51, y: -80}
+        - {x: 77, y: -69}
+        - {x: 80, y: -49}
+        - {x: 80, y: 53}
+    - name: Icons_Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 569
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 80.5}
+        - {x: -80, y: 80.5}
+        - {x: -80, y: -67.5}
+        - {x: -48, y: -80.5}
+        - {x: 64, y: -80.5}
+        - {x: 80, y: -37.5}
+        - {x: 80, y: 46.5}
+        - {x: 71, y: 58.5}
+    - name: Icons_Sprite_73
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 559
+        width: 163
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 80}
+        - {x: -74.5, y: 59}
+        - {x: -81.5, y: 34}
+        - {x: -81.5, y: -51}
+        - {x: -70.5, y: -76}
+        - {x: -50.5, y: -80}
+        - {x: 71.5, y: -80}
+        - {x: 81.5, y: -72}
+        - {x: 81.5, y: 80}
+    - name: Icons_Sprite_74
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 557
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 80}
+        - {x: -59.5, y: 74}
+        - {x: -80.5, y: 54}
+        - {x: -80.5, y: -80}
+        - {x: 65.5, y: -80}
+        - {x: 80.5, y: -47}
+        - {x: 80.5, y: 46}
+        - {x: 49.5, y: 80}
+    - name: Icons_Sprite_75
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 555
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 80}
+        - {x: -80.5, y: 40}
+        - {x: -80.5, y: -31}
+        - {x: -55.5, y: -77}
+        - {x: -40.5, y: -80}
+        - {x: 48.5, y: -80}
+        - {x: 80.5, y: -47}
+        - {x: 80.5, y: 75}
+        - {x: 79.5, y: 80}
+    - name: Icons_Sprite_76
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 557
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 80}
+        - {x: -80.5, y: 57}
+        - {x: -80.5, y: -65}
+        - {x: -74.5, y: -80}
+        - {x: 73.5, y: -80}
+        - {x: 80.5, y: -59}
+        - {x: 80.5, y: 69}
+        - {x: 46.5, y: 80}
+    - name: Icons_Sprite_77
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 555
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 80}
+        - {x: -80.5, y: 70}
+        - {x: -80.5, y: -50}
+        - {x: -79.5, y: -54}
+        - {x: -54.5, y: -80}
+        - {x: 68.5, y: -80}
+        - {x: 80.5, y: -42}
+        - {x: 80.5, y: 57}
+        - {x: 66.5, y: 80}
+    - name: Icons_Sprite_78
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 549
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 80}
+        - {x: -54, y: 80}
+        - {x: -80, y: 69}
+        - {x: -80, y: -35}
+        - {x: -50, y: -80}
+        - {x: 42, y: -80}
+        - {x: 75, y: -61}
+        - {x: 80, y: -36}
+        - {x: 80, y: 45}
+    - name: Icons_Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 549
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5, y: 80}
+        - {x: -80.5, y: 45}
+        - {x: -80.5, y: -36}
+        - {x: -64.5, y: -80}
+        - {x: 50.5, y: -80}
+        - {x: 80.5, y: -41}
+        - {x: 80.5, y: 52}
+        - {x: 37.5, y: 80}
+    - name: Icons_Sprite_80
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 555
+        width: 161
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 74.5}
+        - {x: -67.5, y: 74.5}
+        - {x: -80.5, y: 72.5}
+        - {x: -80.5, y: -54.5}
+        - {x: -43.5, y: -74.5}
+        - {x: 33.5, y: -74.5}
+        - {x: 62.5, y: -68.5}
+        - {x: 80.5, y: -40.5}
+        - {x: 80.5, y: 35.5}
+        - {x: 73.5, y: 60.5}
+    - name: Icons_Sprite_81
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 550
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 80}
+        - {x: -80, y: 70}
+        - {x: -80, y: -66}
+        - {x: -48, y: -78}
+        - {x: -39, y: -80}
+        - {x: 45, y: -80}
+        - {x: 80, y: -52}
+        - {x: 80, y: 75}
+        - {x: 60, y: 80}
+    - name: Icons_Sprite_82
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 544
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 80}
+        - {x: -80, y: 44}
+        - {x: -80, y: -43}
+        - {x: -54, y: -80}
+        - {x: 65, y: -80}
+        - {x: 80, y: -35}
+        - {x: 80, y: 62}
+        - {x: 50, y: 80}
+    - name: Icons_Sprite_83
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 544
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 80}
+        - {x: -80, y: 44}
+        - {x: -80, y: -43}
+        - {x: -54, y: -80}
+        - {x: 65, y: -80}
+        - {x: 80, y: -35}
+        - {x: 80, y: 62}
+        - {x: 50, y: 80}
+    - name: Icons_Sprite_84
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 544
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 80}
+        - {x: -80.5, y: 53}
+        - {x: -80.5, y: -53}
+        - {x: -57.5, y: -80}
+        - {x: 41.5, y: -80}
+        - {x: 80.5, y: -66}
+        - {x: 80.5, y: 50}
+        - {x: 41.5, y: 80}
+    - name: Icons_Sprite_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 164
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 80}
+        - {x: -65, y: 80}
+        - {x: -82, y: 43}
+        - {x: -82, y: -33}
+        - {x: -71, y: -50}
+        - {x: -40, y: -80}
+        - {x: 42, y: -80}
+        - {x: 82, y: -49}
+        - {x: 82, y: 42}
+        - {x: 80, y: 49}
+      - - {x: -69, y: 28}
+        - {x: 46, y: 59}
+        - {x: 73, y: -10}
+        - {x: 7, y: -75}
+    - name: Icons_Sprite_86
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 385
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 80}
+        - {x: -55, y: 80}
+        - {x: -80, y: 57}
+        - {x: -80, y: -36}
+        - {x: -58, y: -80}
+        - {x: 38, y: -80}
+        - {x: 78, y: -66}
+        - {x: 80, y: -62}
+        - {x: 80, y: 34}
+        - {x: 68, y: 73}
+    - name: Icons_Sprite_87
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 385
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 80}
+        - {x: -44, y: 77}
+        - {x: -80, y: 40}
+        - {x: -80, y: -44}
+        - {x: -48, y: -80}
+        - {x: 66, y: -80}
+        - {x: 80, y: -50}
+        - {x: 80, y: 55}
+        - {x: 43, y: 80}
+    - name: Icons_Sprite_88
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 385
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 80}
+        - {x: -80, y: 63}
+        - {x: -80, y: -47}
+        - {x: -42, y: -80}
+        - {x: 41, y: -80}
+        - {x: 80, y: -41}
+        - {x: 80, y: 52}
+        - {x: 51, y: 80}
+    - name: Icons_Sprite_89
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 385
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 74}
+        - {x: 46, y: 80}
+        - {x: -63, y: 80}
+        - {x: -80, y: 69}
+        - {x: -80, y: -53}
+        - {x: -59, y: -80}
+        - {x: 37, y: -80}
+        - {x: 55, y: -67}
+        - {x: 78, y: -55}
+        - {x: 80, y: -43}
+        - {x: 80, y: 50}
+    - name: Icons_Sprite_90
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 384
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 80}
+        - {x: -80, y: 41}
+        - {x: -80, y: -44}
+        - {x: -42, y: -80}
+        - {x: 43, y: -80}
+        - {x: 80, y: -47}
+        - {x: 80, y: 68}
+        - {x: 54, y: 80}
+    - name: Icons_Sprite_91
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 383
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 80.5}
+        - {x: -37.5, y: 80.5}
+        - {x: -80.5, y: 45.5}
+        - {x: -80.5, y: -39.5}
+        - {x: -44.5, y: -80.5}
+        - {x: 59.5, y: -80.5}
+        - {x: 80.5, y: -38.5}
+        - {x: 80.5, y: 32.5}
+        - {x: 75.5, y: 58.5}
+    - name: Icons_Sprite_92
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 384
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 80}
+        - {x: -80, y: 49}
+        - {x: -80, y: -41}
+        - {x: -47, y: -80}
+        - {x: 54, y: -80}
+        - {x: 80, y: -59}
+        - {x: 80, y: 43}
+        - {x: 61, y: 80}
+    - name: Icons_Sprite_93
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 380
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 80.5}
+        - {x: -80, y: 53.5}
+        - {x: -80, y: -44.5}
+        - {x: -66, y: -80.5}
+        - {x: 41, y: -80.5}
+        - {x: 80, y: -53.5}
+        - {x: 80, y: 36.5}
+        - {x: 46, y: 80.5}
+    - name: Icons_Sprite_94
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 377
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 80.5}
+        - {x: -80.5, y: 63.5}
+        - {x: -80.5, y: -40.5}
+        - {x: -58.5, y: -74.5}
+        - {x: -32.5, y: -80.5}
+        - {x: 38.5, y: -80.5}
+        - {x: 80.5, y: -46.5}
+        - {x: 80.5, y: 62.5}
+        - {x: 50.5, y: 80.5}
+    - name: Icons_Sprite_95
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 375
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 80}
+        - {x: -80, y: 53}
+        - {x: -80, y: -56}
+        - {x: -54, y: -74}
+        - {x: -51, y: -80}
+        - {x: 55, y: -80}
+        - {x: 80, y: -68}
+        - {x: 80, y: 47}
+        - {x: 45, y: 80}
+    - name: Icons_Sprite_96
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 370
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 80}
+        - {x: -81, y: 46}
+        - {x: -81, y: -53}
+        - {x: -50, y: -80}
+        - {x: 51, y: -80}
+        - {x: 81, y: -55}
+        - {x: 81, y: 39}
+        - {x: 58, y: 80}
+    - name: Icons_Sprite_97
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 376
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 80}
+        - {x: -76.5, y: 66}
+        - {x: -80.5, y: 53}
+        - {x: -80.5, y: -64}
+        - {x: -48.5, y: -80}
+        - {x: 61.5, y: -80}
+        - {x: 80.5, y: -64}
+        - {x: 80.5, y: 56}
+        - {x: 47.5, y: 80}
+    - name: Icons_Sprite_98
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 374
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 80.5}
+        - {x: -80.5, y: 72.5}
+        - {x: -80.5, y: -80.5}
+        - {x: 46.5, y: -80.5}
+        - {x: 64.5, y: -77.5}
+        - {x: 80.5, y: -52.5}
+        - {x: 80.5, y: 36.5}
+        - {x: 62.5, y: 80.5}
+    - name: Icons_Sprite_99
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 377
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.5, y: 80}
+        - {x: -80.5, y: 48}
+        - {x: -80.5, y: -72}
+        - {x: -51.5, y: -80}
+        - {x: 50.5, y: -80}
+        - {x: 80.5, y: -49}
+        - {x: 80.5, y: 35}
+        - {x: 55.5, y: 80}
+    - name: Icons_Sprite_100
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 371
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 80.5}
+        - {x: -80, y: 52.5}
+        - {x: -80, y: -58.5}
+        - {x: -45, y: -80.5}
+        - {x: 48, y: -80.5}
+        - {x: 80, y: -42.5}
+        - {x: 80, y: 62.5}
+        - {x: 42, y: 80.5}
+    - name: Icons_Sprite_101
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 371
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 80.5}
+        - {x: -80, y: 52.5}
+        - {x: -80, y: -58.5}
+        - {x: -45, y: -80.5}
+        - {x: 48, y: -80.5}
+        - {x: 80, y: -42.5}
+        - {x: 80, y: 62.5}
+        - {x: 42, y: 80.5}
+    - name: Icons_Sprite_102
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 371
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: 80.5}
+        - {x: -76, y: 80.5}
+        - {x: -80, y: 59.5}
+        - {x: -80, y: -59.5}
+        - {x: -56, y: -75.5}
+        - {x: -33, y: -80.5}
+        - {x: 39, y: -80.5}
+        - {x: 55, y: -67.5}
+        - {x: 80, y: -41.5}
+        - {x: 80, y: 47.5}
+    - name: Icons_Sprite_103
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 212
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 80}
+        - {x: -76, y: 53}
+        - {x: -80, y: 29}
+        - {x: -80, y: -57}
+        - {x: -75, y: -80}
+        - {x: 71, y: -80}
+        - {x: 80, y: -56}
+        - {x: 80, y: 69}
+        - {x: 45, y: 80}
+    - name: Icons_Sprite_104
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 212
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 80}
+        - {x: -80, y: 43}
+        - {x: -80, y: -45}
+        - {x: -76, y: -61}
+        - {x: -35, y: -80}
+        - {x: 28, y: -80}
+        - {x: 45, y: -78}
+        - {x: 80, y: -54}
+        - {x: 80, y: 42}
+        - {x: 69, y: 80}
+    - name: Icons_Sprite_105
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 212
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 80}
+        - {x: -56, y: 80}
+        - {x: -80, y: 65}
+        - {x: -80, y: -66}
+        - {x: -77, y: -80}
+        - {x: 47, y: -80}
+        - {x: 80, y: -47}
+        - {x: 80, y: 34}
+        - {x: 56, y: 77}
+    - name: Icons_Sprite_106
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 212
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 80}
+        - {x: -80.5, y: 45}
+        - {x: -80.5, y: -28}
+        - {x: -69.5, y: -58}
+        - {x: -54.5, y: -80}
+        - {x: 46.5, y: -80}
+        - {x: 80.5, y: -67}
+        - {x: 80.5, y: 37}
+        - {x: 56.5, y: 80}
+    - name: Icons_Sprite_107
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 211
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 80}
+        - {x: -80, y: 46}
+        - {x: -80, y: -47}
+        - {x: -71, y: -80}
+        - {x: 68, y: -80}
+        - {x: 80, y: -54}
+        - {x: 80, y: 72}
+        - {x: 47, y: 80}
+    - name: Icons_Sprite_108
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 210
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 80}
+        - {x: -53, y: 80}
+        - {x: -80, y: 49}
+        - {x: -80, y: -39}
+        - {x: -46, y: -76}
+        - {x: -27, y: -80}
+        - {x: 40, y: -80}
+        - {x: 79, y: -64}
+        - {x: 80, y: -62}
+        - {x: 80, y: 61}
+    - name: Icons_Sprite_109
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 211
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 80}
+        - {x: -56, y: 80}
+        - {x: -78, y: 67}
+        - {x: -80, y: 53}
+        - {x: -80, y: -49}
+        - {x: -38, y: -80}
+        - {x: 30, y: -80}
+        - {x: 55, y: -74}
+        - {x: 80, y: -57}
+        - {x: 80, y: 54}
+    - name: Icons_Sprite_110
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 207
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 80}
+        - {x: -59.5, y: 80}
+        - {x: -80.5, y: 36}
+        - {x: -80.5, y: -48}
+        - {x: -51.5, y: -80}
+        - {x: 59.5, y: -80}
+        - {x: 71.5, y: -76}
+        - {x: 80.5, y: -31}
+        - {x: 80.5, y: 38}
+        - {x: 57.5, y: 69}
+    - name: Icons_Sprite_111
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 204
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: 80}
+        - {x: -80, y: -43}
+        - {x: -51, y: -80}
+        - {x: 38, y: -80}
+        - {x: 80, y: -52}
+        - {x: 80, y: 56}
+        - {x: 69, y: 80}
+    - name: Icons_Sprite_112
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 2
+        width: 2898
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 637, y: -101}
+        - {x: 658, y: -101}
+        - {x: 681, y: -91}
+        - {x: 713, y: -70}
+        - {x: 792, y: -101}
+        - {x: 811, y: -101}
+        - {x: 860, y: -96}
+        - {x: 889, y: -70}
+        - {x: 911, y: -39}
+        - {x: 926, y: -63}
+        - {x: 938, y: -78}
+        - {x: 978, y: -101}
+        - {x: 979, y: -101}
+        - {x: 1043, y: -93}
+        - {x: 1094, y: -52}
+        - {x: 1109, y: -72}
+        - {x: 1140, y: -95}
+        - {x: 1177, y: -101}
+        - {x: 1191, y: -101}
+        - {x: 1236, y: -83}
+        - {x: 1260, y: -49}
+        - {x: 1264, y: -41}
+        - {x: 1281, y: -63}
+        - {x: 1304, y: -85}
+        - {x: 1334, y: -100}
+        - {x: 1399, y: -97}
+        - {x: 1444, y: -52}
+        - {x: 1449, y: -35}
+        - {x: 1449, y: 29}
+        - {x: 1448, y: 35}
+        - {x: 1424, y: 69}
+        - {x: 1394, y: 91}
+        - {x: 1347, y: 97}
+        - {x: 1318, y: 88}
+        - {x: 1297, y: 77}
+        - {x: 1271, y: 48}
+        - {x: 1229, y: 83}
+        - {x: 1193, y: 99}
+        - {x: 1138, y: 91}
+        - {x: 1118, y: 77}
+        - {x: 1091, y: 50}
+        - {x: 1039, y: 93}
+        - {x: 992, y: 99}
+        - {x: 963, y: 89}
+        - {x: 943, y: 76}
+        - {x: 931, y: 67}
+        - {x: 901, y: 49}
+        - {x: 876, y: 79}
+        - {x: 834, y: 94}
+        - {x: 809, y: 94}
+        - {x: 779, y: 88}
+        - {x: 748, y: 66}
+        - {x: 726, y: 46}
+        - {x: 699, y: 80}
+        - {x: 657, y: 98}
+        - {x: 602, y: 91}
+        - {x: 568, y: 69}
+        - {x: 546, y: 47}
+        - {x: 519, y: 73}
+        - {x: 488, y: 92}
+        - {x: 422, y: 87}
+        - {x: 369, y: 49}
+        - {x: 343, y: 77}
+        - {x: 324, y: 89}
+        - {x: 277, y: 96}
+        - {x: 260, y: 92}
+        - {x: 225, y: 78}
+        - {x: 197, y: 39}
+        - {x: 187, y: 59}
+        - {x: 146, y: 96}
+        - {x: 98, y: 99}
+        - {x: 69, y: 91}
+        - {x: 37, y: 69}
+        - {x: 7, y: 60}
+        - {x: -15, y: 83}
+        - {x: -56, y: 101}
+        - {x: -99, y: 101}
+        - {x: -145, y: 73}
+        - {x: -167, y: 58}
+        - {x: -191, y: 90}
+        - {x: -220, y: 101}
+        - {x: -277, y: 101}
+        - {x: -289, y: 99}
+        - {x: -351, y: 68}
+        - {x: -372, y: 85}
+        - {x: -406, y: 101}
+        - {x: -447, y: 101}
+        - {x: -469, y: 99}
+        - {x: -499, y: 74}
+        - {x: -518, y: 45}
+        - {x: -548, y: 76}
+        - {x: -578, y: 98}
+        - {x: -596, y: 101}
+        - {x: -641, y: 101}
+        - {x: -655, y: 97}
+        - {x: -686, y: 75}
+        - {x: -709, y: 43}
+        - {x: -718, y: 66}
+        - {x: -761, y: 101}
+        - {x: -843, y: 101}
+        - {x: -887, y: 58}
+        - {x: -907, y: 65}
+        - {x: -934, y: 91}
+        - {x: -954, y: 101}
+        - {x: -1029, y: 101}
+        - {x: -1071, y: 61}
+        - {x: -1132, y: 100}
+        - {x: -1138, y: 101}
+        - {x: -1200, y: 101}
+        - {x: -1229, y: 85}
+        - {x: -1250, y: 67}
+        - {x: -1318, y: 98}
+        - {x: -1327, y: 101}
+        - {x: -1383, y: 101}
+        - {x: -1397, y: 99}
+        - {x: -1428, y: 78}
+        - {x: -1449, y: 39}
+        - {x: -1449, y: -24}
+        - {x: -1432, y: -56}
+        - {x: -1408, y: -77}
+        - {x: -1366, y: -92}
+        - {x: -1337, y: -94}
+        - {x: -1281, y: -64}
+        - {x: -1258, y: -37}
+        - {x: -1225, y: -81}
+        - {x: -1181, y: -94}
+        - {x: -1129, y: -83}
+        - {x: -1113, y: -72}
+        - {x: -1087, y: -44}
+        - {x: -1022, y: -85}
+        - {x: -975, y: -92}
+        - {x: -945, y: -81}
+        - {x: -913, y: -61}
+        - {x: -890, y: -33}
+        - {x: -874, y: -55}
+        - {x: -861, y: -70}
+        - {x: -822, y: -92}
+        - {x: -763, y: -87}
+        - {x: -728, y: -60}
+        - {x: -715, y: -40}
+        - {x: -710, y: -27}
+        - {x: -691, y: -55}
+        - {x: -679, y: -71}
+        - {x: -639, y: -92}
+        - {x: -599, y: -89}
+        - {x: -581, y: -85}
+        - {x: -545, y: -61}
+        - {x: -520, y: -29}
+        - {x: -510, y: -53}
+        - {x: -467, y: -91}
+        - {x: -419, y: -93}
+        - {x: -389, y: -84}
+        - {x: -359, y: -61}
+        - {x: -339, y: -36}
+        - {x: -317, y: -64}
+        - {x: -287, y: -87}
+        - {x: -240, y: -95}
+        - {x: -191, y: -75}
+        - {x: -160, y: -45}
+        - {x: -126, y: -84}
+        - {x: -83, y: -100}
+        - {x: -31, y: -88}
+        - {x: -2, y: -65}
+        - {x: 6, y: -54}
+        - {x: 30, y: -63}
+        - {x: 70, y: -94}
+        - {x: 96, y: -100}
+        - {x: 149, y: -92}
+        - {x: 177, y: -67}
+        - {x: 184, y: -56}
+        - {x: 250, y: -94}
+        - {x: 275, y: -100}
+        - {x: 313, y: -100}
+        - {x: 359, y: -72}
+        - {x: 369, y: -50}
+        - {x: 395, y: -78}
+        - {x: 425, y: -101}
+        - {x: 501, y: -101}
+        - {x: 535, y: -77}
+        - {x: 554, y: -50}
+        - {x: 585, y: -91}
+      - - {x: 427, y: 101}
+        - {x: 427, y: 98}
+        - {x: 441, y: 92}
+        - {x: 485, y: 92}
+        - {x: 497, y: 99}
+        - {x: 497, y: 101}
+      - - {x: 1148, y: 101}
+        - {x: 1148, y: 98}
+        - {x: 1157, y: 94}
+        - {x: 1196, y: 94}
+        - {x: 1208, y: 99}
+        - {x: 1208, y: 101}
+      - - {x: 1327, y: 101}
+        - {x: 1327, y: 98}
+        - {x: 1336, y: 94}
+        - {x: 1375, y: 94}
+        - {x: 1387, y: 99}
+        - {x: 1387, y: 101}
+      - - {x: 264, y: 101}
+        - {x: 264, y: 96}
+        - {x: 298, y: 96}
+        - {x: 305, y: 98}
+        - {x: 307, y: 100}
+        - {x: 307, y: 101}
+      - - {x: 839, y: 101}
+        - {x: 797, y: 101}
+        - {x: 798, y: 98}
+        - {x: 808, y: 96}
+        - {x: 823, y: 96}
+        - {x: 832, y: 97}
+        - {x: 837, y: 98}
+        - {x: 839, y: 100}
+      - - {x: 627, y: 101}
+        - {x: 628, y: 98}
+        - {x: 652, y: 98}
+        - {x: 654, y: 100}
+        - {x: 654, y: 101}
+      - - {x: 991, y: 101}
+        - {x: 992, y: 98}
+        - {x: 1007, y: 98}
+        - {x: 1009, y: 100}
+        - {x: 1009, y: 101}
+    - name: Icons_Sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 80}
+        - {x: -61, y: 72}
+        - {x: -80, y: 39}
+        - {x: -80, y: -51}
+        - {x: -43, y: -80}
+        - {x: 55, y: -80}
+        - {x: 60, y: -79}
+        - {x: 80, y: -35}
+        - {x: 80, y: 51}
+        - {x: 57, y: 80}
+    - name: Icons_Sprite_114
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 203
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 80}
+        - {x: -78.5, y: 58}
+        - {x: -80.5, y: 49}
+        - {x: -80.5, y: -43}
+        - {x: -46.5, y: -80}
+        - {x: 65.5, y: -80}
+        - {x: 80.5, y: -44}
+        - {x: 80.5, y: 54}
+        - {x: 46.5, y: 80}
+    - name: Icons_Sprite_115
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 201
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 80.5}
+        - {x: -80, y: 44.5}
+        - {x: -80, y: -80.5}
+        - {x: 80, y: -80.5}
+        - {x: 80, y: 65.5}
+        - {x: 36, y: 80.5}
+    - name: Icons_Sprite_116
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 203
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 80.5}
+        - {x: -68, y: 80.5}
+        - {x: -80, y: 60.5}
+        - {x: -80, y: -38.5}
+        - {x: -67, y: -80.5}
+        - {x: 37, y: -80.5}
+        - {x: 52, y: -72.5}
+        - {x: 80, y: -53.5}
+        - {x: 80, y: 41.5}
+    - name: Icons_Sprite_117
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 199
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 80}
+        - {x: -50, y: 80}
+        - {x: -80, y: 45}
+        - {x: -80, y: -48}
+        - {x: -55, y: -80}
+        - {x: 43, y: -80}
+        - {x: 80, y: -68}
+        - {x: 80, y: 34}
+        - {x: 70, y: 78}
+    - name: Icons_Sprite_118
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 199
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 80}
+        - {x: -50, y: 80}
+        - {x: -80, y: 45}
+        - {x: -80, y: -48}
+        - {x: -55, y: -80}
+        - {x: 43, y: -80}
+        - {x: 80, y: -68}
+        - {x: 80, y: 34}
+        - {x: 70, y: 78}
+    - name: Icons_Sprite_119
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 80}
+        - {x: -80, y: 47}
+        - {x: -80, y: -49}
+        - {x: -43, y: -80}
+        - {x: 65, y: -80}
+        - {x: 80, y: -37}
+        - {x: 80, y: 73}
+        - {x: 53, y: 80}
+    - name: Icons_Sprite_120
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 3
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 80.5}
+        - {x: 49.5, y: 93.5}
+        - {x: -48.5, y: 93.5}
+        - {x: -93.5, y: 51.5}
+        - {x: -93.5, y: -73.5}
+        - {x: -42.5, y: -93.5}
+        - {x: 33.5, y: -93.5}
+        - {x: 65.5, y: -81.5}
+        - {x: 93.5, y: -34.5}
+        - {x: 93.5, y: 36.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

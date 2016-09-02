@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{157C79D7-0559-4A0D-2177-8E783FDFBEF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AstarPathfindingProject\Core\AI\AIPath.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\AI\Seeker.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\AstarData.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\AstarMath.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\AstarPath.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\GraphUpdateScene.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\GraphUpdateShape.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AnimationLink.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AstarDebugger.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AstarEnumFlagAttr.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\BinaryHeap.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\Int3.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ListPool.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink2.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink3.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ObjectPool.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathPool.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\StackPool.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Nodes\GraphNode.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Path.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\PathHandler.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\JsonConverters.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\SimpleJsonReplacement.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\astarclasses.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralGridMover.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralWorld.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\AIFollow.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\AstarSmoothFollow2.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\DoorController.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\DynamicGridObstacle.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAI.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\ObjectPlacer.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\TargetMover.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\Base.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\GridGenerator.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\NavMeshGenerator.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\NodeClasses\GridNode.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\NodeClasses\PointNode.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\NodeClasses\TriangleMeshNode.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\PointGenerator.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\QuadtreeGraph.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\BBTree.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\EuclideanEmbedding.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Modifiers\AlternativePath.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Modifiers\Modifiers.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Modifiers\RaycastModifier.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Modifiers\SimpleSmoothModifier.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Modifiers\StartEndModifier.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Navmesh\RelevantGraphSurface.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Pathfinders\ABPath.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarChecksum.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarMemory.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarParallel.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarProfiler.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\DotNetReplacements.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\GraphUpdateUtilities.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\LockFreeStack.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\PathUtilities.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\Scripts\CheatSheet\ClickOnObjectsButton.cs" />
+     <Compile Include="Assets\Scripts\CheatSheet\DisableButton.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\DijkstraManager.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\DijkstraMove.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\DijkstraMovementManager.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\PathScript.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\RouterScript.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\ScoreTextScript.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\TextOutline.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\TextScript.cs" />
+     <Compile Include="Assets\Scripts\Dijkstra\UITextScriptPathInfo.cs" />
+     <Compile Include="Assets\Scripts\DisableMobileButton.cs" />
+     <Compile Include="Assets\Scripts\DisplayPathHovers.cs" />
+     <Compile Include="Assets\Scripts\EditorRelatedScript\DrawGizmosOnCollider.cs" />
+     <Compile Include="Assets\Scripts\EditorScripts\FindMissingScriptsRecursively.cs" />
+     <Compile Include="Assets\Scripts\EditorScripts\PathDisplayScript.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\GameManagerInterface.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\GameMovementManager.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\GameStatus.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\GameTuple.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\GreedyManager.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\HopBasedHotPotatoManager.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\HotPotatoTimer.cs" />
+     <Compile Include="Assets\Scripts\Game Modes\UniformCostManager.cs" />
+     <Compile Include="Assets\Scripts\GlassShardTriggerQTE.cs" />
+     <Compile Include="Assets\Scripts\Logging\LevelLogging.cs" />
+     <Compile Include="Assets\Scripts\Main\AudioFadeOut.cs" />
+     <Compile Include="Assets\Scripts\Main\BackgroundDimensions.cs" />
+     <Compile Include="Assets\Scripts\Main\CameraBounds.cs" />
+     <Compile Include="Assets\Scripts\Main\CameraFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\Main\CameraPan.cs" />
+     <Compile Include="Assets\Scripts\Main\Constants.cs" />
+     <Compile Include="Assets\Scripts\Main\GameState.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelController.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelControllerDijkstra.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelControllerFun.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelControllerGreedy.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelControllerHotPotato.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelControllerUniformCosts.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelProperties.cs" />
+     <Compile Include="Assets\Scripts\Main\LevelState.cs" />
+     <Compile Include="Assets\Scripts\Main\ObjectAdjustSortingOrder.cs" />
+     <Compile Include="Assets\Scripts\Main\PathAdjustOrder.cs" />
+     <Compile Include="Assets\Scripts\Main\PathHover.cs" />
+     <Compile Include="Assets\Scripts\Main\RandomizeBeerpath.cs" />
+     <Compile Include="Assets\Scripts\Main\RandomizeGuestsSprite.cs" />
+     <Compile Include="Assets\Scripts\Main\RandomizeSprite.cs" />
+     <Compile Include="Assets\Scripts\Main\RandomizeSpriteRendererColor.cs" />
+     <Compile Include="Assets\Scripts\Main\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Main\SpriteFontRenderer.cs" />
+     <Compile Include="Assets\Scripts\Main\TutorialControllerDijkstra.cs" />
+     <Compile Include="Assets\Scripts\Main\TutorialControllerGreedy.cs" />
+     <Compile Include="Assets\Scripts\Main\TutorialControllerHotPotato.cs" />
+     <Compile Include="Assets\Scripts\Main\TutorialControllerUniformCosts.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\ApplicationState.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\Bubble\RandomBubbleAnimation.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\Bubble\RandomizeBubblePosition.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\BubblesGenerator.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\ExitApplication.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\LoadOnClick.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Person\MirrorPerson.cs" />
+     <Compile Include="Assets\Scripts\Person\PersonAdjustSortingOrder.cs" />
+     <Compile Include="Assets\Scripts\Person\PersonGenerator.cs" />
+     <Compile Include="Assets\Scripts\Person\RandomPersonAnimation.cs" />
+     <Compile Include="Assets\Scripts\Person\RandomWomenAnimation.cs" />
+     <Compile Include="Assets\Scripts\Person\RandomizeWomen.cs" />
+     <Compile Include="Assets\Scripts\Person\WomanAdjustSortingOrder.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\CloudController.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\LevelBottom.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\LevelControllerPlatform.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\MovingIsland.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\Platform_CameraFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\Platformer_Collectibles.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\Platformer_Movement.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\Platformer_PenguinBehaviour.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\Platformer_SeagullBehaviour.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\PlayerPlatformController.cs" />
+     <Compile Include="Assets\Scripts\PlatformerLevel\PlayerPlatformStates.cs" />
+     <Compile Include="Assets\Scripts\Player\HighlightPaths.cs" />
+     <Compile Include="Assets\Scripts\Player\MovementManagerInterface.cs" />
+     <Compile Include="Assets\Scripts\Player\MovementScript.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAdjustSortingOrder.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerTransparencyScript.cs" />
+     <Compile Include="Assets\Scripts\Player\SpawnPuddles.cs" />
+     <Compile Include="Assets\Scripts\QuickTimeScript.cs" />
+     <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperColor.cs" />
+     <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperController.cs" />
+     <Compile Include="Assets\Scripts\SideMenu\SideMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\AudioMenu\AudioMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\AudioMenu\AudioMenuMain.cs" />
+     <Compile Include="Assets\Scripts\UI\AudioMenu\OnClickRoutingTable.cs" />
+     <Compile Include="Assets\Scripts\UI\AudioMenu\PlayerPrefAudio.cs" />
+     <Compile Include="Assets\Scripts\UI\AudioMenu\ResetMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\DeveloperMode.cs" />
+     <Compile Include="Assets\Scripts\UI\Level\LevelButtonController.cs" />
+     <Compile Include="Assets\Scripts\UI\Level\LevelButtonFunController.cs" />
+     <Compile Include="Assets\Scripts\UI\Professor\ProfessorButton.cs" />
+     <Compile Include="Assets\Scripts\UI\Professor\ProfessorController.cs" />
+     <Compile Include="Assets\Scripts\UI\Professor\SpeechBubble.cs" />
+     <Compile Include="Assets\Scripts\UI\Professor\SpeechBubbleSequence.cs" />
+     <Compile Include="Assets\Scripts\UI\Professor\SpeechBubbleSequences.cs" />
+     <Compile Include="Assets\Scripts\UI\Professor\SpeechBubbleState.cs" />
+     <Compile Include="Assets\Scripts\UI\RoutingTable\RoutingTableUI.cs" />
+     <Compile Include="Assets\Scripts\UI\Score\ScoreBeer.cs" />
+     <Compile Include="Assets\StateMachines\PlayerStates.cs" />
+     <Compile Include="Assets\StateMachines\ProfessorStates.cs" />
+     <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
+     <None Include="Assets\Fonts\!pizzadude.txt" />
+     <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
+     <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
+     <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\AstarPathfindingProject\Plugins\dependencies.txt" />
+     <None Include="Assets\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
+     <None Include="Assets\AstarPathfindingProject\Readme_upgrading.txt" />
+     <None Include="Assets\Shader\OutlineShader.shader" />
+     <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
+     <None Include="Assets\Shader\FontOutlineTestShader.shader" />
+     <None Include="Assets\AstarPathfindingProject\Readme.txt" />
+     <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\JsonFxLicense.txt" />
+     <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
+     <None Include="Assets\AstarPathfindingProject\link.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/Philipp/Documents/UnityProjects/BeerRouting/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>C:/Users/Philipp/Documents/UnityProjects/BeerRouting/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

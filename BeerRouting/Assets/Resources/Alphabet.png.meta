@@ -1,0 +1,902 @@
+fileFormatVersion: 2
+guid: b67cb7e8484c3f448b4cdb461454ebb8
+timeCreated: 1456828585
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alphabet_complete_0
+    21300002: alphabet_complete_1
+    21300004: alphabet_complete_2
+    21300006: alphabet_complete_3
+    21300008: alphabet_complete_4
+    21300010: alphabet_complete_5
+    21300012: alphabet_complete_6
+    21300014: alphabet_complete_7
+    21300016: alphabet_complete_8
+    21300018: alphabet_complete_9
+    21300020: alphabet_complete_10
+    21300022: alphabet_complete_11
+    21300024: alphabet_complete_12
+    21300026: alphabet_complete_13
+    21300028: alphabet_complete_14
+    21300030: alphabet_complete_15
+    21300032: alphabet_complete_16
+    21300034: alphabet_complete_17
+    21300036: alphabet_complete_18
+    21300038: alphabet_complete_19
+    21300040: alphabet_complete_20
+    21300042: alphabet_complete_21
+    21300044: alphabet_complete_22
+    21300046: alphabet_complete_23
+    21300048: alphabet_complete_24
+    21300050: alphabet_complete_25
+    21300052: alphabet_complete_26
+    21300054: alphabet_complete_27
+    21300056: alphabet_complete_28
+    21300058: alphabet_complete_29
+    21300060: alphabet_complete_30
+    21300062: alphabet_complete_31
+    21300064: alphabet_complete_32
+    21300066: alphabet_complete_33
+    21300068: alphabet_complete_34
+    21300070: alphabet_complete_35
+    21300072: alphabet_complete_36
+    21300074: alphabet_complete_37
+    21300076: alphabet_complete_38
+    21300078: alphabet_complete_39
+    21300080: alphabet_complete_40
+    21300082: alphabet_complete_41
+    21300084: alphabet_complete_42
+    21300086: alphabet_complete_43
+    21300088: alphabet_complete_44
+    21300090: alphabet_complete_45
+    21300092: alphabet_complete_46
+    21300094: alphabet_complete_47
+    21300096: alphabet_complete_48
+    21300098: alphabet_complete_49
+    21300100: alphabet_complete_50
+    21300102: alphabet_complete_51
+    21300104: alphabet_complete_52
+    21300106: alphabet_complete_53
+    21300108: alphabet_complete_54
+    21300110: alphabet_complete_55
+    21300112: alphabet_complete_56
+    21300114: alphabet_complete_57
+    21300116: alphabet_complete_58
+    21300118: alphabet_complete_59
+    21300120: alphabet_complete_60
+    21300122: alphabet_complete_61
+    21300124: alphabet_complete_62
+    21300126: alphabet_complete_63
+    21300128: alphabet_complete_64
+    21300130: Alphabet_009
+    21300132: Alphabet_008
+    21300134: Alphabet_007
+    21300136: Alphabet_006
+    21300138: Alphabet_005
+    21300140: Alphabet_004
+    21300142: Alphabet_003
+    21300144: Alphabet_002
+    21300146: Alphabet_010
+    21300148: Alphabet_001
+    21300150: Alphabet_000
+    21300152: 132123132
+    21300154: Alphabet_J
+    21300156: Z111212
+    21300158: Alphabet_S
+    21300160: Alphabet_15
+    21300162: Alphabet_16
+    21300164: Alphabet_17
+    21300166: Alphabet_18
+    21300168: Alphabet_19
+    21300170: Alphabet_20
+    21300172: Alphabet_21
+    21300174: Alphabet_22
+    21300176: Alphabet_23
+    21300178: Alphabet_24
+    21300180: Alphabet_25
+    21300182: Alphabet_26
+    21300184: Alphabet_27
+    21300186: Alphabet_28
+    21300188: Alphabet_29
+    21300190: Alphabet_30
+    21300192: Alphabet_31
+    21300194: Alphabet_32
+    21300196: Alphabet_33
+    21300198: Alphabet_34
+    21300200: Alphabet_35
+    21300202: Alphabet_36
+    21300204: Alphabet_37
+    21300206: Alphabet_38
+    21300208: Alphabet_42
+    21300210: Alphabet_40
+    21300212: Alphabet_47
+    21300214: Alphabet_44
+    21300216: Alphabet_45
+    21300218: Alphabet_46
+    21300220: Alphabet_41
+    21300222: Alphabet_48
+    21300224: Alphabet_49
+    21300226: Alphabet_50
+    21300228: Alphabet_51
+    21300230: Alphabet_52
+    21300232: Alphabet_53
+    21300234: Alphabet_54
+    21300236: Alphabet_55
+    21300238: Alphabet_56
+    21300240: Alphabet_57
+    21300242: Alphabet_58
+    21300244: Alphabet_59
+    21300246: Alphabet_60
+    21300248: Alphabet_61
+    21300250: Alphabet_62
+    21300252: Alphabet_63
+    21300254: Alphabet_64
+    21300256: Alphabet_39
+    21300258: Alphabet_43
+    21300260: Alphabet_I
+    21300262: Alphabet_H
+    21300264: Alphabet_G
+    21300266: Alphabet_F
+    21300268: Alphabet_E
+    21300270: Alphabet_D
+    21300272: Alphabet_C
+    21300274: Alphabet_B
+    21300276: Alphabet_A
+    21300278: Alphabet_R
+    21300280: Alphabet_Q
+    21300282: Alphabet_P
+    21300284: Alphabet_O
+    21300286: Alphabet_N
+    21300288: Alphabet_M
+    21300290: Alphabet_L
+    21300292: Alphabet_K
+    21300294: Alphabet_Z
+    21300296: Alphabet_Y
+    21300298: Alphabet_X
+    21300300: Alphabet_W
+    21300302: Alphabet_V
+    21300304: Alphabet_U
+    21300306: Alphabet_T
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Alphabet_010
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 587
+        width: 29
+        height: 73
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Alphabet_009
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 593
+        width: 53
+        height: 67
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 63}
+        - {x: 0, y: 31}
+        - {x: 8, y: 25}
+        - {x: 0, y: 19}
+        - {x: 0, y: 6}
+        - {x: 1, y: 3}
+        - {x: 45, y: 3}
+        - {x: 53, y: 5}
+        - {x: 53, y: 61}
+        - {x: 51, y: 63}
+    - name: Alphabet_008
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 593
+        width: 55
+        height: 67
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 28}
+        - {x: 54, y: 31}
+        - {x: 54, y: 60}
+        - {x: 47, y: 63}
+        - {x: 4, y: 63}
+        - {x: 1, y: 45}
+        - {x: 1, y: 6}
+        - {x: 8, y: 3}
+        - {x: 47, y: 3}
+        - {x: 54, y: 14}
+        - {x: 54, y: 25}
+    - name: Alphabet_007
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 593
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 62}
+        - {x: 1, y: 4}
+        - {x: 26, y: 4}
+        - {x: 52, y: 42}
+        - {x: 52, y: 62}
+    - name: Alphabet_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 593
+        width: 54
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 63}
+        - {x: 1, y: 52}
+        - {x: 1, y: 13}
+        - {x: 7, y: 3}
+        - {x: 46, y: 3}
+        - {x: 53, y: 5}
+        - {x: 53, y: 62}
+        - {x: 50, y: 63}
+    - name: Alphabet_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 593
+        width: 53
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 62}
+        - {x: 2, y: 60}
+        - {x: 2, y: 5}
+        - {x: 3, y: 3}
+        - {x: 47, y: 3}
+        - {x: 52, y: 6}
+        - {x: 52, y: 50}
+        - {x: 48, y: 59}
+        - {x: 45, y: 62}
+    - name: Alphabet_004
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 593
+        width: 59
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 62}
+        - {x: 26, y: 62}
+        - {x: 3, y: 33}
+        - {x: 2, y: 28}
+        - {x: 2, y: 16}
+        - {x: 35, y: 4}
+        - {x: 50, y: 4}
+        - {x: 58, y: 18}
+        - {x: 58, y: 44}
+        - {x: 53, y: 60}
+    - name: Alphabet_003
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 593
+        width: 51
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 63}
+        - {x: 0, y: 58}
+        - {x: 0, y: 35}
+        - {x: 4, y: 30}
+        - {x: 11, y: 27}
+        - {x: 2, y: 21}
+        - {x: 0, y: 19}
+        - {x: 0, y: 7}
+        - {x: 4, y: 3}
+        - {x: 41, y: 3}
+        - {x: 50, y: 6}
+        - {x: 50, y: 56}
+        - {x: 39, y: 63}
+    - name: Alphabet_002
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 592
+        width: 52
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 64}
+        - {x: 1, y: 5}
+        - {x: 51, y: 5}
+        - {x: 51, y: 64}
+    - name: Alphabet_001
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 592
+        width: 49
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 64}
+        - {x: 1, y: 5}
+        - {x: 48, y: 5}
+        - {x: 48, y: 51}
+        - {x: 44, y: 64}
+    - name: Alphabet_000
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 591
+        width: 55
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 65}
+        - {x: 13, y: 65}
+        - {x: 1, y: 54}
+        - {x: 1, y: 10}
+        - {x: 15, y: 5}
+        - {x: 44, y: 5}
+        - {x: 54, y: 13}
+        - {x: 55, y: 20}
+        - {x: 55, y: 52}
+    - name: Alphabet_J
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 492
+        width: 37
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 67}
+        - {x: 18, y: 64}
+        - {x: 2, y: 27}
+        - {x: 2, y: 8}
+        - {x: 31, y: 8}
+        - {x: 35, y: 11}
+        - {x: 35, y: 67}
+    - name: Z111212
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 367
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Alphabet_S
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 396
+        width: 54
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 67}
+        - {x: 3, y: 64}
+        - {x: 3, y: 8}
+        - {x: 52, y: 8}
+        - {x: 52, y: 67}
+    - name: Alphabet_I
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 494
+        width: 26
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Alphabet_H
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 494
+        width: 63
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 65}
+        - {x: 3, y: 7}
+        - {x: 59, y: 7}
+        - {x: 59, y: 65}
+    - name: Alphabet_G
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 494
+        width: 65
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 39}
+        - {x: 32, y: 27}
+        - {x: 26, y: 22}
+        - {x: 23, y: 47}
+        - {x: 64, y: 46}
+        - {x: 64, y: 63}
+        - {x: 57, y: 66}
+        - {x: 6, y: 66}
+        - {x: 1, y: 57}
+        - {x: 1, y: 6}
+        - {x: 64, y: 6}
+        - {x: 64, y: 42}
+        - {x: 31, y: 43}
+    - name: Alphabet_F
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 494
+        width: 49
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 65}
+        - {x: 7, y: 65}
+        - {x: 3, y: 62}
+        - {x: 3, y: 10}
+        - {x: 6, y: 7}
+        - {x: 17, y: 7}
+        - {x: 46, y: 32}
+        - {x: 46, y: 61}
+    - name: Alphabet_E
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 494
+        width: 50
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 65}
+        - {x: 3, y: 12}
+        - {x: 7, y: 7}
+        - {x: 49, y: 7}
+        - {x: 49, y: 65}
+    - name: Alphabet_D
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 494
+        width: 66
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 65}
+        - {x: 3, y: 8}
+        - {x: 4, y: 7}
+        - {x: 53, y: 7}
+        - {x: 63, y: 13}
+        - {x: 63, y: 55}
+        - {x: 56, y: 65}
+    - name: Alphabet_C
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 494
+        width: 63
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 39}
+        - {x: 60, y: 66}
+        - {x: 17, y: 66}
+        - {x: 3, y: 50}
+        - {x: 3, y: 21}
+        - {x: 17, y: 6}
+        - {x: 45, y: 6}
+        - {x: 52, y: 7}
+        - {x: 60, y: 12}
+        - {x: 60, y: 21}
+        - {x: 58, y: 28}
+    - name: Alphabet_B
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 494
+        width: 57
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 64}
+        - {x: 38, y: 65}
+        - {x: 5, y: 65}
+        - {x: 3, y: 61}
+        - {x: 3, y: 8}
+        - {x: 7, y: 7}
+        - {x: 47, y: 7}
+        - {x: 55, y: 14}
+        - {x: 55, y: 37}
+        - {x: 51, y: 56}
+    - name: Alphabet_A
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 494
+        width: 69
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 65}
+        - {x: 11, y: 39}
+        - {x: 2, y: 15}
+        - {x: 2, y: 7}
+        - {x: 68, y: 7}
+        - {x: 68, y: 27}
+        - {x: 44, y: 65}
+    - name: Alphabet_R
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 396
+        width: 54
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 9}
+        - {x: 54, y: 9}
+        - {x: 54, y: 56}
+        - {x: 52, y: 67}
+        - {x: 5, y: 67}
+        - {x: 2, y: 66}
+    - name: Alphabet_Q
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 396
+        width: 79
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 1}
+        - {x: 78, y: 1}
+        - {x: 78, y: 58}
+        - {x: 77, y: 66}
+        - {x: 70, y: 67}
+        - {x: 1, y: 67}
+    - name: Alphabet_P
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 396
+        width: 54
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 67}
+        - {x: 1, y: 67}
+        - {x: 0, y: 66}
+        - {x: 0, y: 9}
+        - {x: 14, y: 9}
+        - {x: 18, y: 10}
+        - {x: 48, y: 35}
+        - {x: 50, y: 38}
+        - {x: 50, y: 57}
+    - name: Alphabet_O
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 396
+        width: 69
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 67}
+        - {x: 1, y: 63}
+        - {x: 1, y: 18}
+        - {x: 12, y: 8}
+        - {x: 53, y: 8}
+        - {x: 69, y: 11}
+        - {x: 69, y: 67}
+    - name: Alphabet_N
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 396
+        width: 61
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 9}
+        - {x: 60, y: 67}
+        - {x: 46, y: 67}
+        - {x: 43, y: 64}
+        - {x: 43, y: 35}
+        - {x: 43, y: 37}
+        - {x: 39, y: 45}
+        - {x: 21, y: 67}
+        - {x: 5, y: 67}
+        - {x: 1, y: 63}
+        - {x: 1, y: 10}
+        - {x: 4, y: 9}
+        - {x: 17, y: 9}
+        - {x: 18, y: 12}
+        - {x: 31, y: 9}
+    - name: Alphabet_M
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 396
+        width: 85
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 67}
+        - {x: 2, y: 67}
+        - {x: 2, y: 9}
+        - {x: 83, y: 9}
+    - name: Alphabet_L
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 396
+        width: 48
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 67}
+        - {x: 3, y: 65}
+        - {x: 3, y: 12}
+        - {x: 4, y: 10}
+        - {x: 7, y: 9}
+        - {x: 44, y: 9}
+        - {x: 45, y: 12}
+        - {x: 45, y: 24}
+        - {x: 18, y: 67}
+    - name: Alphabet_K
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 396
+        width: 54
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 9}
+        - {x: 53, y: 67}
+        - {x: 1, y: 67}
+        - {x: 1, y: 11}
+        - {x: 4, y: 9}
+        - {x: 15, y: 9}
+        - {x: 17, y: 10}
+        - {x: 18, y: 13}
+        - {x: 29, y: 9}
+    - name: Alphabet_Z
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 300
+        width: 55
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 67}
+        - {x: 1, y: 9}
+        - {x: 54, y: 9}
+        - {x: 54, y: 67}
+    - name: Alphabet_Y
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 300
+        width: 55
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 67}
+        - {x: 0, y: 52}
+        - {x: 16, y: 10}
+        - {x: 21, y: 9}
+        - {x: 37, y: 9}
+        - {x: 55, y: 39}
+        - {x: 55, y: 67}
+    - name: Alphabet_X
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 300
+        width: 59
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 67}
+        - {x: 1, y: 64}
+        - {x: 1, y: 9}
+        - {x: 59, y: 9}
+        - {x: 59, y: 67}
+    - name: Alphabet_W
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 300
+        width: 100
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 67}
+        - {x: 78, y: 61}
+        - {x: 60, y: 66}
+        - {x: 56, y: 67}
+        - {x: 1, y: 67}
+        - {x: 1, y: 38}
+        - {x: 6, y: 9}
+        - {x: 86, y: 9}
+        - {x: 97, y: 52}
+        - {x: 97, y: 65}
+        - {x: 96, y: 67}
+    - name: Alphabet_V
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 300
+        width: 69
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 67}
+        - {x: 2, y: 51}
+        - {x: 26, y: 9}
+        - {x: 54, y: 9}
+        - {x: 66, y: 49}
+        - {x: 66, y: 67}
+    - name: Alphabet_U
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 300
+        width: 66
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 67}
+        - {x: 3, y: 13}
+        - {x: 15, y: 8}
+        - {x: 52, y: 8}
+        - {x: 62, y: 19}
+        - {x: 62, y: 67}
+    - name: Alphabet_T
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 300
+        width: 60
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 64}
+        - {x: 1, y: 57}
+        - {x: 4, y: 54}
+        - {x: 21, y: 12}
+        - {x: 24, y: 9}
+        - {x: 59, y: 9}
+        - {x: 59, y: 67}
+        - {x: 4, y: 67}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

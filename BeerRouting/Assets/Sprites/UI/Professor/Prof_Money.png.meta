@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: cb76b4e3ae4d15748a039f29c223b607
+timeCreated: 1460719633
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Prof_Money_0
+    21300002: Prof_Money_1
+    21300004: Prof_Money_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Prof_Money_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 139
+        height: 217
+      alignment: 9
+      pivot: {x: 0.14945197, y: 0.07132401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.2261734, y: 201.52269}
+        - {x: -20.773827, y: 189.52269}
+        - {x: -20.773827, y: -13.47731}
+        - {x: -17.773827, y: -15.47731}
+        - {x: 99.22617, y: -15.47731}
+        - {x: 114.22617, y: -0.47731018}
+        - {x: 118.22617, y: 68.52269}
+        - {x: 118.22617, y: 165.52269}
+        - {x: 66.22617, y: 201.52269}
+    - name: Prof_Money_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 209
+        height: 295
+      alignment: 9
+      pivot: {x: 0.46972203, y: 0.97192425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.828094, y: -161.71765}
+        - {x: 80.828094, y: -98.71765}
+        - {x: 45.828094, y: -43.71765}
+        - {x: 16.828094, y: 8.282349}
+        - {x: -17.171906, y: 8.282349}
+        - {x: -22.171906, y: -12.717651}
+        - {x: -87.171906, y: -127.71765}
+        - {x: -98.171906, y: -162.71765}
+        - {x: -98.171906, y: -237.71765}
+        - {x: -77.171906, y: -266.71765}
+        - {x: -63.171906, y: -276.71765}
+        - {x: -33.171906, y: -286.71765}
+        - {x: 52.828094, y: -286.71765}
+        - {x: 74.828094, y: -276.71765}
+        - {x: 98.828094, y: -256.71765}
+        - {x: 110.828094, y: -224.71765}
+    - name: Prof_Money_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 7
+        width: 117
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4783656, y: 0.40537465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.968777, y: 63.624912}
+        - {x: -55.968777, y: 41.624912}
+        - {x: -55.968777, y: -6.3750877}
+        - {x: -7.9687767, y: -43.375088}
+        - {x: 53.031223, y: -43.375088}
+        - {x: 61.031223, y: -6.3750877}
+        - {x: 61.031223, y: 15.624912}
+        - {x: -8.968777, y: 63.624912}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
