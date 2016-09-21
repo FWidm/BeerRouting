@@ -161,8 +161,6 @@
     <Compile Include="Assets\Scripts\Dijkstra\TextOutline.cs" />
     <Compile Include="Assets\Scripts\Dijkstra\TextScript.cs" />
     <Compile Include="Assets\Scripts\Dijkstra\UITextScriptPathInfo.cs" />
-    <Compile Include="Assets\Scripts\DisableMobileButton.cs" />
-    <Compile Include="Assets\Scripts\DisplayPathHovers.cs" />
     <Compile Include="Assets\Scripts\EditorRelatedScript\DrawGizmosOnCollider.cs" />
     <Compile Include="Assets\Scripts\EditorScripts\FindMissingScriptsRecursively.cs" />
     <Compile Include="Assets\Scripts\EditorScripts\PathDisplayScript.cs" />
@@ -175,7 +173,6 @@
     <Compile Include="Assets\Scripts\Game Modes\HopBasedHotPotatoManager.cs" />
     <Compile Include="Assets\Scripts\Game Modes\HotPotatoTimer.cs" />
     <Compile Include="Assets\Scripts\Game Modes\UniformCostManager.cs" />
-    <Compile Include="Assets\Scripts\GlassShardTriggerQTE.cs" />
     <Compile Include="Assets\Scripts\GmailScript.cs" />
     <Compile Include="Assets\Scripts\Logging\LevelLogging.cs" />
     <Compile Include="Assets\Scripts\Main\AudioFadeOut.cs" />
@@ -184,6 +181,8 @@
     <Compile Include="Assets\Scripts\Main\CameraFollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Main\CameraPan.cs" />
     <Compile Include="Assets\Scripts\Main\Constants.cs" />
+    <Compile Include="Assets\Scripts\Main\DisableMobileButton.cs" />
+    <Compile Include="Assets\Scripts\Main\DisplayPathHovers.cs" />
     <Compile Include="Assets\Scripts\Main\GameState.cs" />
     <Compile Include="Assets\Scripts\Main\LevelController.cs" />
     <Compile Include="Assets\Scripts\Main\LevelControllerDijkstra.cs" />
@@ -238,7 +237,8 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerTransparencyScript.cs" />
     <Compile Include="Assets\Scripts\Player\SpawnPuddles.cs" />
-    <Compile Include="Assets\Scripts\QuickTimeScript.cs" />
+    <Compile Include="Assets\Scripts\QTE\GlassShardTriggerQTE.cs" />
+    <Compile Include="Assets\Scripts\QTE\QuickTimeScript.cs" />
     <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperColor.cs" />
     <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperController.cs" />
     <Compile Include="Assets\Scripts\SideMenu\SideMenu.cs" />

@@ -6,11 +6,18 @@ public class SpawnPuddles : MonoBehaviour
 {
 	public List<GameObject> puddleList;
 	public GameObject PuddlePrefab;
+    private GameObject PuddleParent;
 
 	// Use this for initialization
 	void Start ()
 	{
 		puddleList = new List<GameObject> ();
+        PuddleParent = GameObject.Find("Puddles");
+        if (PuddleParent == null)
+        {
+            PuddleParent = new GameObject("Puddles");
+
+        }
 	}
 
 	/// <summary>
@@ -21,8 +28,10 @@ public class SpawnPuddles : MonoBehaviour
 	public void Spawn (Vector2 pos)
 	{
 		GameObject puddle = (GameObject)Instantiate (PuddlePrefab, pos, new Quaternion ());
-		puddle.transform.parent = this.transform.parent;
-		RandomizeBeerpath spawn = puddle.GetComponent<RandomizeBeerpath> ();
+
+        puddle.transform.parent = PuddleParent.transform;
+
+        RandomizeBeerpath spawn = puddle.GetComponent<RandomizeBeerpath> ();
 		spawn.RandomizeGraphics ();
 		puddleList.Add (puddle);
 	}

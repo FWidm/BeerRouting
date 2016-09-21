@@ -24,12 +24,14 @@ public class LevelLogging
         Debug.Log("[LevelLogging] file is:" + filePath);
         string directoryBeerRoutingData = appDataFolder + "/" + directoryName;
         Debug.Log("LevelLogging] dir exists? " + Directory.Exists(directoryBeerRoutingData) + "; file exists?" + File.Exists(filePath));
-        if (Directory.Exists(directoryBeerRoutingData) && !File.Exists(filePath))
-        {
-            File.Create(filePath);
-        }
-        AppendLine("Level=" + levelInformation + "\t current Time=" + getTimeStamp());
 
+        using (FileStream fs = new FileStream(filePath, FileMode.Append))
+        {
+            using (StreamWriter writer = new StreamWriter(fs))
+            {
+                writer.WriteLine("Level=" + levelInformation + "\t current Time=" + getTimeStamp());
+            }
+        }
     }
 
     public LevelLogging(String levelName, String levelInformation, String UserName)
@@ -45,11 +47,14 @@ public class LevelLogging
         Debug.Log("[LevelLogging] file is:" + filePath);
         string directoryBeerRoutingData = appDataFolder + "/" + directoryName;
         Debug.Log("LevelLogging] dir exists? " + Directory.Exists(directoryBeerRoutingData) + "; file exists?" + File.Exists(filePath));
-        if (Directory.Exists(directoryBeerRoutingData) && !File.Exists(filePath))
+
+        using (FileStream fs = new FileStream(filePath, FileMode.Append))
         {
-            File.Create(filePath);
+            using (StreamWriter writer = new StreamWriter(fs))
+            {
+                writer.WriteLine("Username=" + UserName + ";\t Level=" + levelInformation + "\t current Time=" + getTimeStamp());
+            }
         }
-        AppendLine("Username=" + UserName + ";\t Level=" + levelInformation + "\t current Time=" + getTimeStamp());
     }
 
     private String getTimeStamp()

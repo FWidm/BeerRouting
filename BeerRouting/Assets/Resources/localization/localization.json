@@ -1,168 +1,153 @@
 {
-	"English": {
+  "english": {
     "ui": {
-        "btn_close": "close",
-        "btn_help": "help"
-      },
+      "btn_close": "close",
+      "btn_help": "help"
+    },
     "prof": {
-			"seq_0_dijkstra_tut_0":{
-				"text": "Greetings beerfriends!",
-				"size": 480
-			},
-			"seq_0_dijkstra_tut_1":{
-				"text": "I am <ProfessorName> and love computer science almost as much as beer.",
-				"size": 600
-			},
-			"seq_0_dijkstra_tut_2":{
-				"text": "I will teach you the secrets of Dijkstra's algorithm.",
-				"size": 700
-			},
-			"seq_0_dijkstra_tut_3":{
-				"text": "To prevent this from becoming a dry affair, i'll take a sip of delicious beer...",
-				"size": 760
-			},
-
-			"seq_1_dijkstra_tut_0":{
-				"text": "Ok, let's do this!",
-				"size": 480
-			},
-			"seq_1_dijkstra_tut_1":{
-				"text": "<PlayerName> is currently at the table <CurrentRouterName>. You will have to discover the paths to all neighbors first",
-				"size": 800
-			},
-			"seq_1_dijkstra_tut_2":{
-				"text": "To begin you might want to explore the path between table A and B. You can do this by clicking on the bottle with the label B on table A or clicking on the beer bottle with label A on table B. Just try it! You can drag your mouse to explore the level as well before making a decision!",
-				"size": 1200
-			},
-
-			"seq_2_dijkstra_tut_0":{
-				"text": "Well done, now you saw that <PlayerName> discovered the path between table <SourceRouterName> and <DestinationRouterName>. Now <PlayerName> knows how the distance  between table <SourceRouterName> and table <DestinationRouterName>. This distance is displayed above the bottles.",
-				"size": 1400
-			},
-			"seq_2_dijkstra_tut_1":{
-				"text": "<PlayerName> did spill a bit of beer. This shows you which paths have already been discovered.",
-				"size": 800
-			},
-			"seq_2_dijkstra_tut_2":{
-				"text": "You already discovered one path to a neighbor from table <CurrentRouterName>. Dijkstra's algorithm expects you to always explore all neighbors that are reachable from the current table. Let's get to work!",
-				"size": 1000
-			},
-
-
-			"seq_3_dijkstra_tut_0":{
-				"text": "You just got +5 points for the discovery of a path. You'll get points for every correct action you perform. However you can lose points by performing wrong options.",
-				"size": 900
-			},
-			"seq_3_dijkstra_tut_1":{
-				"text": "The glass of beer on the upper right side of the screen represents your score as a percentage. When you finish the score with a perfect 100% the beer will be filled to the top. That is your goal!",
-				"size": 1000
-			},
-			"seq_3_dijkstra_tut_2":{
-				"text": "Nice, only one way left to explore, do it!",
-				"size": 600
-			},
-
-			"seq_4_dijkstra_tut_0":{
-				"text": "Perfect, you just finished one table. A completed table is marked for you.",
-				"size": 740
-			},
-			"seq_4_dijkstra_tut_1":{
-				"text": "According to Dijkstra's algorithm, tables near the starting table (table a) have to be explored.",
-				"size": 850
-			},
-			"seq_4_dijkstra_tut_2":{
-				"text": "All currently known distances to other tables are now in the routing table (click on the blue button on the side menu). The table will be updated as you play.",
-				"size": 1100
-			},
-			"seq_4_dijkstra_tut_3":{
-				"text": "The distance from the starting table a to table <NeighbourRouterName1> is <NeighbourRouterCost1>, table <NeighbourRouterName2> is <NeighbourRouterCost2> steps away and it takes <NeighbourRouterCost2> to table <NeighbourRouterName3>. Take the route to the nearest table.",
-				"size": 1200
-			},
-
-			"seq_5_dijkstra_tut_0":{
-				"text": "Well done, you arrived at table <CurrentRouterName>. You will now repeat the exploration for this table as you did with the starting router A. We will continue with the next step if you are finished. Let's go!",
-				"size": 1100
-			},
-
-			"seq_6_dijkstra_tut_0":{
-				"text": "Great, you have completed the exploration of all neighbors. You already know what to do now. Explore the table that is closest to the starting table A.",
-				"size": 1000
-			},
-			"seq_6_dijkstra_tut_1":{
-				"text": "If you are unsure how to proceed, the routing table can help you here as well. You can see, that table D now has an entry. Table D (7, C) means, that you can reach table D via C in 7 steps.",
-				"size": 1150
-			},
-			"seq_6_dijkstra_tut_2":{
-				"text": "The distance to table D is calculated by taking the sum of the route between A and C plus the route between C and D.",
-				"size": 720
-			},
-			"seq_6_dijkstra_tut_3":{
-				"text": "Additionally you can see another interesting thing in the routing table. You can reach B from the starting table A by going 5 steps. But according to the table you have the option to use the faster route via table C, this shortens the path to 4 steps.",
-				"size": 1300
-			},
-			"seq_6_dijkstra_tut_4":{
-				"text": "This means that exploring more tables means that you can find shorter paths than the direct paths via the routing table. This is helpful for the optimal beer delivery.",
-				"size": 1000
-			},
-
-			"seq_7_dijkstra_tut_0":{
-				"text": "Well done, you probably noticed that the distance to table D and table F is the same. If this happens, you can choose either one to proceed.",
-				"size": 1150
-			},
-
-			"seq_7_dijkstra_tut_1":{
-				"text": "Now you have only one table left. Go there.",
-				"size": 600
-			},
-
-			"seq_8_dijkstra_tut_0":{
-				"text": "Excellent work! You explored all the tables and now know all about Dijkstra's algorithm and finished the tutorial!",
-				"size": 650
-			},
-
-			"seq_8_dijkstra_tut_1":{
-				"text": "<PlayerName> now knows the shortest paths to all his neighbors. Using this knowledge he can always pick the shortest path to any table!",
-				"size": 900
-			},
-
-			"seq_8_dijkstra_tut_2":{
-				"text": "The guests will be stoked when they get their beers as fast as possible. <PlayerName> will not treat himself to a well deserved beer! Cheers!",
-				"size": 1000
-			},
-
-			"seq_9_dijkstra_tut_0":{
-				"text": "This is not possible. You can not go to <ClickedPathName> because you are currently at <CurrentRouterName>. You can only move between neighbors.",
-				"size": 850
-			},
-
-			"seq_10_dijkstra_tut_0":{
-				"text": "This is not correct, you have to explore the table completely before moving to the next table. Go back to <SourceRouterName> and finish the discovery process.",
-				"size": 850
-			},
-
-			"seq_11_dijkstra_tut_0":{
-				"text": "You just made a subsequent error. Please correct your error before you can continue. The original error was..",
-				"size": 900
-			},
-			"seq_11_dijkstra_tut_1":{
-				"text": "Before continuing to another table you first have to discover all possible paths of the current table. Head back to <PreviousSourceRouterName> and discover all paths.",
-				"size": 850
-			},
-
-			"seq_12_dijkstra_tut_0":{
-				"text": "This was not the right move. Table <ClickedPathName> is not the table that would have been chosen by the algorithm. Go back to table <SourceRouterName> and correct your mistake. Then head to table <SourceRouterName> to the table that is closest to the starting table.",
-				"size": 1100
-			},
-
-			"seq_13_dijkstra_tut_0":{
-				"text": "You just made a subsequent error. Please correct your error before you can continue. The original error was..",
-				"size": 900
-			},
-			"seq_14_dijkstra_tut_1":{
-				"text": "Table <ClickedPathName> is not the table the algorithm would chose. Go back to table <PreviousSourceRouterName> to correct the mistake. Then head from table <PreviousSourceRouterName> to the table closest to the starting table.",
-				"size": 850
-			},
-
+      "dijkstra_tutorial": {
+        "seq_0_dijkstra_tut_0": {
+          "text": "Greetings beerfriends!",
+          "size": 480
+        },
+        "seq_0_dijkstra_tut_1": {
+          "text": "I am <ProfessorName> and love computer science almost as much as beer.",
+          "size": 600
+        },
+        "seq_0_dijkstra_tut_2": {
+          "text": "I will teach you the secrets of Dijkstra's algorithm.",
+          "size": 700
+        },
+        "seq_0_dijkstra_tut_3": {
+          "text": "To prevent this from becoming a dry affair, i'll take a sip of delicious beer...",
+          "size": 760
+        },
+        "seq_1_dijkstra_tut_0": {
+          "text": "Ok, let's do this!",
+          "size": 480
+        },
+        "seq_1_dijkstra_tut_1": {
+          "text": "<PlayerName> is currently at the table <CurrentRouterName>. You will have to discover the paths to all neighbors first",
+          "size": 800
+        },
+        "seq_1_dijkstra_tut_2": {
+          "text": "To begin you might want to explore the path between table A and B. You can do this by clicking on the bottle with the label B on table A or clicking on the beer bottle with label A on table B. Just try it! You can drag your mouse to explore the level as well before making a decision!",
+          "size": 1200
+        },
+        "seq_2_dijkstra_tut_0": {
+          "text": "Well done, now you saw that <PlayerName> discovered the path between table <SourceRouterName> and <DestinationRouterName>. Now <PlayerName> knows how the distance  between table <SourceRouterName> and table <DestinationRouterName>. This distance is displayed above the bottles.",
+          "size": 1400
+        },
+        "seq_2_dijkstra_tut_1": {
+          "text": "<PlayerName> did spill a bit of beer. This shows you which paths have already been discovered.",
+          "size": 800
+        },
+        "seq_2_dijkstra_tut_2": {
+          "text": "You already discovered one path to a neighbor from table <CurrentRouterName>. Dijkstra's algorithm expects you to always explore all neighbors that are reachable from the current table. Let's get to work!",
+          "size": 1000
+        },
+        "seq_3_dijkstra_tut_0": {
+          "text": "You just got +5 points for the discovery of a path. You'll get points for every correct action you perform. However you can lose points by performing wrong options.",
+          "size": 900
+        },
+        "seq_3_dijkstra_tut_1": {
+          "text": "The glass of beer on the upper right side of the screen represents your score as a percentage. When you finish the score with a perfect 100% the beer will be filled to the top. That is your goal!",
+          "size": 1000
+        },
+        "seq_3_dijkstra_tut_2": {
+          "text": "Nice, only one way left to explore, do it!",
+          "size": 600
+        },
+        "seq_4_dijkstra_tut_0": {
+          "text": "Perfect, you just finished one table. A completed table is marked for you.",
+          "size": 740
+        },
+        "seq_4_dijkstra_tut_1": {
+          "text": "According to Dijkstra's algorithm, tables near the starting table (table a) have to be explored.",
+          "size": 850
+        },
+        "seq_4_dijkstra_tut_2": {
+          "text": "All currently known distances to other tables are now in the routing table (click on the blue button on the side menu). The table will be updated as you play.",
+          "size": 1100
+        },
+        "seq_4_dijkstra_tut_3": {
+          "text": "The distance from the starting table a to table <NeighbourRouterName1> is <NeighbourRouterCost1>, table <NeighbourRouterName2> is <NeighbourRouterCost2> steps away and it takes <NeighbourRouterCost2> to table <NeighbourRouterName3>. Take the route to the nearest table.",
+          "size": 1200
+        },
+        "seq_5_dijkstra_tut_0": {
+          "text": "Well done, you arrived at table <CurrentRouterName>. You will now repeat the exploration for this table as you did with the starting router A. We will continue with the next step if you are finished. Let's go!",
+          "size": 1100
+        },
+        "seq_6_dijkstra_tut_0": {
+          "text": "Great, you have completed the exploration of all neighbors. You already know what to do now. Explore the table that is closest to the starting table A.",
+          "size": 1000
+        },
+        "seq_6_dijkstra_tut_1": {
+          "text": "If you are unsure how to proceed, the routing table can help you here as well. You can see, that table D now has an entry. Table D (7, C) means, that you can reach table D via C in 7 steps.",
+          "size": 1150
+        },
+        "seq_6_dijkstra_tut_2": {
+          "text": "The distance to table D is calculated by taking the sum of the route between A and C plus the route between C and D.",
+          "size": 720
+        },
+        "seq_6_dijkstra_tut_3": {
+          "text": "Additionally you can see another interesting thing in the routing table. You can reach B from the starting table A by going 5 steps. But according to the table you have the option to use the faster route via table C, this shortens the path to 4 steps.",
+          "size": 1300
+        },
+        "seq_6_dijkstra_tut_4": {
+          "text": "This means that exploring more tables means that you can find shorter paths than the direct paths via the routing table. This is helpful for the optimal beer delivery.",
+          "size": 1000
+        },
+        "seq_7_dijkstra_tut_0": {
+          "text": "Well done, you probably noticed that the distance to table D and table F is the same. If this happens, you can choose either one to proceed.",
+          "size": 1150
+        },
+        "seq_7_dijkstra_tut_1": {
+          "text": "Now you have only one table left. Go there.",
+          "size": 600
+        },
+        "seq_8_dijkstra_tut_0": {
+          "text": "Excellent work! You explored all the tables and now know all about Dijkstra's algorithm and finished the tutorial!",
+          "size": 650
+        },
+        "seq_8_dijkstra_tut_1": {
+          "text": "<PlayerName> now knows the shortest paths to all his neighbors. Using this knowledge he can always pick the shortest path to any table!",
+          "size": 900
+        },
+        "seq_8_dijkstra_tut_2": {
+          "text": "The guests will be stoked when they get their beers as fast as possible. <PlayerName> will not treat himself to a well deserved beer! Cheers!",
+          "size": 1000
+        },
+        "seq_9_dijkstra_tut_0": {
+          "text": "This is not possible. You can not go to <ClickedPathName> because you are currently at <CurrentRouterName>. You can only move between neighbors.",
+          "size": 850
+        },
+        "seq_10_dijkstra_tut_0": {
+          "text": "This is not correct, you have to explore the table completely before moving to the next table. Go back to <SourceRouterName> and finish the discovery process.",
+          "size": 850
+        },
+        "seq_11_dijkstra_tut_0": {
+          "text": "You just made a subsequent error. Please correct your error before you can continue. The original error was..",
+          "size": 900
+        },
+        "seq_11_dijkstra_tut_1": {
+          "text": "Before continuing to another table you first have to discover all possible paths of the current table. Head back to <PreviousSourceRouterName> and discover all paths.",
+          "size": 850
+        },
+        "seq_12_dijkstra_tut_0": {
+          "text": "This was not the right move. Table <ClickedPathName> is not the table that would have been chosen by the algorithm. Go back to table <SourceRouterName> and correct your mistake. Then head to table <SourceRouterName> to the table that is closest to the starting table.",
+          "size": 1100
+        },
+        "seq_13_dijkstra_tut_0": {
+          "text": "You just made a subsequent error. Please correct your error before you can continue. The original error was..",
+          "size": 900
+        },
+        "seq_14_dijkstra_tut_1": {
+          "text": "Table <ClickedPathName> is not the table the algorithm would chose. Go back to table <PreviousSourceRouterName> to correct the mistake. Then head from table <PreviousSourceRouterName> to the table closest to the starting table.",
+          "size": 850
+        }
+      },
+      "fun": {
         "seq_0_fun_0": {
           "text": "Welcome to Beer-Island!",
           "size": 450
@@ -172,7 +157,7 @@
           "size": 500
         },
         "seq_0_fun_2": {
-          "text":"But be careful, the seagulls here are very aggressive, don't let them touch you! There are crazy penguins as well that want to push you into the water.",
+          "text": "But be careful, the seagulls here are very aggressive, don't let them touch you! There are crazy penguins as well that want to push you into the water.",
           "size": 1200
         },
         "seq_0_fun_3": {
@@ -188,168 +173,201 @@
           "size": 550
         }
       }
-	},
-  "German": {
+    }
+  },
+  "german": {
     "ui": {
-        "btn_close": "Schließen",
-        "btn_help": "Hilfe"
-      },
+      "btn_close": "Schließen",
+      "btn_help": "Hilfe"
+    },
     "prof": {
-				"seq_0_dijkstra_tut_0":{
-					"text": "Hallo Bierfreunde!",
-					"size": 480
-				},
-				"seq_0_dijkstra_tut_1":{
-					"text": "Ich bin <ProfessorName> und ich mag Informatik fast so sehr wie Bier.",
-					"size": 600
-				},
-				"seq_0_dijkstra_tut_2":{
-					"text": "Ich werde euch nun in die Geheimnisse des Dijkstra - Routingalgorithmus einweihen.",
-					"size": 700
-				},
-				"seq_0_dijkstra_tut_3":{
-					"text": "Damit das nicht zu trocken wird, genehmige ich mir aber zunächst mal ein köstliches Bier...",
-					"size": 760
-				},
-
-				"seq_1_dijkstra_tut_0":{
-					"text": "Ok, legen wir los!",
-					"size": 480
-				},
-				"seq_1_dijkstra_tut_1":{
-					"text": "<PlayerName> befindet sich momentan an Tisch <CurrentRouterName>. Du musst nun zuerst alle seine benachbarten Tische erkunden.",
-					"size": 800
-				},
-				"seq_1_dijkstra_tut_2":{
-					"text": "Als erstes kannst du z. B. den Weg zwischen Tisch A und B erkunden. Dazu musst du entweder bei Tisch A auf die Bierflasche B klicken oder auf die gegenüberliegende Bierflasche A auf Tisch B. Außerdem kannst du die Karte durch draggen verschieben. Versuche es. ",
-					"size": 1200
-				},
-
-				"seq_2_dijkstra_tut_0":{
-					"text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Nun weiß <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird über den Bierflaschen angezeigt.",
-					"size": 1400
-				},
-				"seq_2_dijkstra_tut_1":{
-					"text": "<PlayerName> hat beim Erkunden etwas Bier verschüttet. Dadurch kannst du erkennen, welche Wege bereits erkundet wurden.",
-					"size": 800
-				},
-				"seq_2_dijkstra_tut_2":{
-					"text": "Du hast bereits einen Weg von Tisch <CurrentRouterName> erkundet. Der Dijkstra-Algorithmus gibt vor, dass du zunächst alle Tische erkunden musst, die vom aktuellen Tisch aus erreichbar sind. Leg los!",
-					"size": 1000
-				},
-
-
-				"seq_3_dijkstra_tut_0":{
-					"text": "Du hast für die korrekte Erkundung des Weges +5 Punkte erhalten. Für jede richtige Aktion erhälst du Pluspunke. Bei falschen Aktionen gibt es Minuspunkte.",
-					"size": 900
-				},
-				"seq_3_dijkstra_tut_1":{
-					"text": "Das Bierglas (rechts oben) repräsentiert deinen aktuellen Punktestand in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist das Bier zu 100% gefüllt. Genau das ist dein Ziel!",
-					"size": 1000
-				},
-				"seq_3_dijkstra_tut_2":{
-					"text": "Bei Tisch <CurrentRouterName> ist jetzt nur noch ein Weg übrig. Vervollständige die Erkundung.",
-					"size": 600
-				},
-
-				"seq_4_dijkstra_tut_0":{
-					"text": "Gut. Du hast den ersten Tisch vollständig abgearbeitet. Der Tisch wurde entsprechend markiert.",
-					"size": 740
-				},
-				"seq_4_dijkstra_tut_1":{
-					"text": "Laut Dijkstra-Algorithmus muss nun der Tisch, der dem Starttisch am nächsten ist, erkundet werden. Der Starttisch ist immer Tisch A.",
+      "dijkstra_tutorial": {
+        "seq_0_dijkstra_tut_0": {
+          "text": "Hallo Bierfreunde!",
+          "size": 480
+        },
+        "seq_0_dijkstra_tut_1": {
+          "text": "Ich bin <ProfessorName> und ich mag Informatik fast so sehr wie Bier.",
+          "size": 600
+        },
+        "seq_0_dijkstra_tut_2": {
+          "text": "Ich werde euch nun in die Geheimnisse des Dijkstra - Routingalgorithmus einweihen.",
+          "size": 700
+        },
+        "seq_0_dijkstra_tut_3": {
+          "text": "Damit das nicht zu trocken wird, genehmige ich mir aber zunächst mal ein köstliches Bier...",
+          "size": 760
+        },
+        "seq_1_dijkstra_tut_0": {
+          "text": "Ok, legen wir los!",
+          "size": 480
+        },
+        "seq_1_dijkstra_tut_1": {
+          "text": "<PlayerName> befindet sich momentan an Tisch <CurrentRouterName>. Du musst nun zuerst alle seine benachbarten Tische erkunden.",
+          "size": 800
+        },
+        "seq_1_dijkstra_tut_2": {
+          "text": "Als erstes kannst du z. B. den Weg zwischen Tisch A und B erkunden. Dazu musst du entweder bei Tisch A auf die Bierflasche B klicken oder auf die gegenüberliegende Bierflasche A auf Tisch B. Außerdem kannst du die Karte durch draggen verschieben. Versuche es. ",
+          "size": 1200
+        },
+        "seq_2_dijkstra_tut_0": {
+          "text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Nun weiß <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird über den Bierflaschen angezeigt.",
+          "size": 1400
+        },
+        "seq_2_dijkstra_tut_1": {
+          "text": "<PlayerName> hat beim Erkunden etwas Bier verschüttet. Dadurch kannst du erkennen, welche Wege bereits erkundet wurden.",
+          "size": 800
+        },
+        "seq_2_dijkstra_tut_2": {
+          "text": "Du hast bereits einen Weg von Tisch <CurrentRouterName> erkundet. Der Dijkstra-Algorithmus gibt vor, dass du zunächst alle Tische erkunden musst, die vom aktuellen Tisch aus erreichbar sind. Leg los!",
+          "size": 1000
+        },
+        "seq_3_dijkstra_tut_0": {
+          "text": "Du hast für die korrekte Erkundung des Weges +5 Punkte erhalten. Für jede richtige Aktion erhälst du Pluspunke. Bei falschen Aktionen gibt es Minuspunkte.",
+          "size": 900
+        },
+        "seq_3_dijkstra_tut_1": {
+          "text": "Das Bierglas (rechts oben) repräsentiert deinen aktuellen Punktestand in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist das Bier zu 100% gefüllt. Genau das ist dein Ziel!",
+          "size": 1000
+        },
+        "seq_3_dijkstra_tut_2": {
+          "text": "Bei Tisch <CurrentRouterName> ist jetzt nur noch ein Weg übrig. Vervollständige die Erkundung.",
+          "size": 600
+        },
+        "seq_4_dijkstra_tut_0": {
+          "text": "Gut. Du hast den ersten Tisch vollständig abgearbeitet. Der Tisch wurde entsprechend markiert.",
+          "size": 740
+        },
+        "seq_4_dijkstra_tut_1": {
+          "text": "Laut Dijkstra-Algorithmus muss nun der Tisch, der dem Starttisch am nächsten ist, erkundet werden. Der Starttisch ist immer Tisch A.",
+          "size": 850
+        },
+        "seq_4_dijkstra_tut_2": {
+          "text": "Die aktuellen Entfernungen vom Starttisch zu den anderen Tischen sind in der Routingtabelle (blauer Button rechts) dargestellt. Immer wenn du einen Weg erkundest wird die Tabelle aktualisiert.",
+          "size": 1100
+        },
+        "seq_4_dijkstra_tut_3": {
+          "text": "Vom Starttisch zu Tisch <NeighbourRouterName1> sind es <NeighbourRouterCost1> Schritte. Zu Tisch <NeighbourRouterName2> sind es <NeighbourRouterCost2> Schritte und zu Tisch <NeighbourRouterName3> sind es <NeighbourRouterCost3> Schritte. Tisch D und F können momentan noch nicht erreicht werden. Gehe nun zum Tisch mit der geringsten Entfernung.",
+          "size": 1200
+        },
+        "seq_5_dijkstra_tut_0": {
+          "text": "Gut. Du bist nun bei Tisch <CurrentRouterName>. Genau wie bei Tisch A musst du nun auch hier alle Wege erkunden. Erst wenn alle Wege bei Tisch <CurrentRouterName> bearbeitet wurden, geht es zum nächsten Schritt. Los gehts!",
+          "size": 1100
+        },
+        "seq_6_dijkstra_tut_0": {
+          "text": "Okay. Du hast den zweiten Tisch erfolgreich behandelt. Den nächsten Schritt kennst du prinzipiell bereits. Erkunde den Tisch, der dem Starttisch am nächsten ist..",
+          "size": 1000
+        },
+        "seq_6_dijkstra_tut_1": {
+          "text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Tisch D in der Tabelle auftaucht. Tisch D (7, C) bedeutet, dass Tisch D über Tisch C mit 7 Schritten erreicht werden kann.",
+          "size": 1150
+        },
+        "seq_6_dijkstra_tut_2": {
+          "text": "Die Entfernungen zu Tisch D ergibt sich durch Summieren der Wege zwischen den Tischen AC und CD.",
+          "size": 720
+        },
+        "seq_6_dijkstra_tut_3": {
+          "text": "Die Routing-Tabelle zeigt einen weiteren interessanten Punkt. Direkt vom Starttisch aus ist Tisch B mit 5 Schritten zu erreichen. Laut Tabelle gibt es allerdings einen noch schnelleren Weg. Über Tisch C sind es nur 4 Schritte bis zu Tisch B. ",
+          "size": 1300
+        },
+        "seq_6_dijkstra_tut_4": {
+          "text": "Du siehst also, je mehr Tische du erkundest, desto hilfreicher ist die Routingtabelle für eine möglichst schnelle Bierauslieferung. Bearbeite nun die übrigen Tische.",
+          "size": 1000
+        },
+        "seq_7_dijkstra_tut_0": {
+          "text": "Gut. Du hast bestimmt bemerkt, dass die Entfernung zu Tischen D und Tisch F gleich ist. Wenn es mehrere Tische mit minimaler Entfernungen zum Starttisch gibt, ist es egal welchen von ihnen du als nächstes erkundest.. ",
+          "size": 1150
+        },
+        "seq_7_dijkstra_tut_1": {
+          "text": "Jetzt musst du nur noch einen Tisch bedienen. Gehe zu ihm.",
+          "size": 600
+        },
+        "seq_8_dijkstra_tut_0": {
+          "text": "Ausgezeichnet, du hast nun alle Tische erkundet! Damit hast du dein erstes Level erfolgreich beendet.",
+          "size": 650
+        },
+        "seq_8_dijkstra_tut_1": {
+          "text": "<PlayerName> kennt nun die Entfernungen zwischen allen Tischen. Mit diesem Wissen kann er nun immer die schnellste Route zu einem beliebigen Tisch wählen.",
+          "size": 900
+        },
+        "seq_8_dijkstra_tut_2": {
+          "text": "Die Gäste freuen sich sicher, wenn sie nicht lange auf ein neues Bier warten müssen. Aber als Belohnung für die harte Arbeit gönnt sich <PlayerName> zunächst einmal selbst ein kühles Bier. Prost!",
+          "size": 1000
+        },
+        "seq_9_dijkstra_tut_0": {
+          "text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen möglich.",
+          "size": 850
+        },
+        "seq_10_dijkstra_tut_0": {
+          "text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Wege.",
+          "size": 850
+        },
+        "seq_11_dijkstra_tut_0": {
+          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war..",
+          "size": 900
+        },
+        "seq_11_dijkstra_tut_1": {
+          "text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Wege.",
+          "size": 850
+        },
+        "seq_12_dijkstra_tut_0": {
+          "text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> und korrigiere deinen Fehler. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+          "size": 1100
+        },
+        "seq_13_dijkstra_tut_0": {
+          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war...",
+          "size": 900
+        },
+        "seq_13_dijkstra_tut_1": {
+          "text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist..",
+          "size": 850
+        }
+      },
+			"dijkstra_1":{
+				"seq_0_dijkstra_0": {
+					"text": "<LevelName>\r\nFinde die kürzesten Wege zu jedem Tisch. Verwende den Dijkstra- Algorithmus.",
 					"size": 850
 				},
-				"seq_4_dijkstra_tut_2":{
-					"text": "Die aktuellen Entfernungen vom Starttisch zu den anderen Tischen sind in der Routingtabelle (blauer Button rechts) dargestellt. Immer wenn du einen Weg erkundest wird die Tabelle aktualisiert.",
-					"size": 1100
-				},
-				"seq_4_dijkstra_tut_3":{
-					"text": "Vom Starttisch zu Tisch <NeighbourRouterName1> sind es <NeighbourRouterCost1> Schritte. Zu Tisch <NeighbourRouterName2> sind es <NeighbourRouterCost2> Schritte und zu Tisch <NeighbourRouterName3> sind es <NeighbourRouterCost3> Schritte. Tisch D und F können momentan noch nicht erreicht werden. Gehe nun zum Tisch mit der geringsten Entfernung.",
-					"size": 1200
-				},
-
-				"seq_5_dijkstra_tut_0":{
-					"text": "Gut. Du bist nun bei Tisch <CurrentRouterName>. Genau wie bei Tisch A musst du nun auch hier alle Wege erkunden. Erst wenn alle Wege bei Tisch <CurrentRouterName> bearbeitet wurden, geht es zum nächsten Schritt. Los gehts!",
-					"size": 1100
-				},
-
-				"seq_6_dijkstra_tut_0":{
-					"text": "Okay. Du hast den zweiten Tisch erfolgreich behandelt. Den nächsten Schritt kennst du prinzipiell bereits. Erkunde den Tisch, der dem Starttisch am nächsten ist..",
-					"size": 1000
-				},
-				"seq_6_dijkstra_tut_1":{
-					"text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Tisch D in der Tabelle auftaucht. Tisch D (7, C) bedeutet, dass Tisch D über Tisch C mit 7 Schritten erreicht werden kann.",
-					"size": 1150
-				},
-				"seq_6_dijkstra_tut_2":{
-					"text": "Die Entfernungen zu Tisch D ergibt sich durch Summieren der Wege zwischen den Tischen AC und CD.",
-					"size": 720
-				},
-				"seq_6_dijkstra_tut_3":{
-					"text": "Die Routing-Tabelle zeigt einen weiteren interessanten Punkt. Direkt vom Starttisch aus ist Tisch B mit 5 Schritten zu erreichen. Laut Tabelle gibt es allerdings einen noch schnelleren Weg. Über Tisch C sind es nur 4 Schritte bis zu Tisch B. ",
-					"size": 1300
-				},
-				"seq_6_dijkstra_tut_4":{
-					"text": "Du siehst also, je mehr Tische du erkundest, desto hilfreicher ist die Routingtabelle für eine möglichst schnelle Bierauslieferung. Bearbeite nun die übrigen Tische.",
+				"seq_0_dijkstra_1": {
+					"text": "*** Wichtiger Hinweis ***
+Wenn du alle Level mit drei Sternen bestanden hast, dann wird das Bonuslevel freigeschaltet. Es liegt viel Arbeit vor dir, aber es lohnt sich.",
 					"size": 1000
 				},
 
-				"seq_7_dijkstra_tut_0":{
-					"text": "Gut. Du hast bestimmt bemerkt, dass die Entfernung zu Tischen D und Tisch F gleich ist. Wenn es mehrere Tische mit minimaler Entfernungen zum Starttisch gibt, ist es egal welchen von ihnen du als nächstes erkundest.. ",
-					"size": 1150
-				},
-				"seq_7_dijkstra_tut_1":{
-					"text": "Jetzt musst du nur noch einen Tisch bedienen. Gehe zu ihm.",
-					"size": 600
-				},
-
-				"seq_8_dijkstra_tut_0":{
-					"text": "Ausgezeichnet, du hast nun alle Tische erkundet! Damit hast du dein erstes Level erfolgreich beendet.",
-					"size": 650
-				},
-				"seq_8_dijkstra_tut_1":{
-					"text": "<PlayerName> kennt nun die Entfernungen zwischen allen Tischen. Mit diesem Wissen kann er nun immer die schnellste Route zu einem beliebigen Tisch wählen.",
-					"size": 900
-				},
-				"seq_8_dijkstra_tut_2":{
-					"text": "Die Gäste freuen sich sicher, wenn sie nicht lange auf ein neues Bier warten müssen. Aber als Belohnung für die harte Arbeit gönnt sich <PlayerName> zunächst einmal selbst ein kühles Bier. Prost!",
-					"size": 1000
-				},
-
-				"seq_9_dijkstra_tut_0":{
+				"seq_1_dijkstra_0": {
 					"text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen möglich.",
-					"size": 850
+					"size": 1000
 				},
 
-				"seq_10_dijkstra_tut_0":{
+				"seq_2_dijkstra_0": {
 					"text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Wege.",
 					"size": 850
 				},
 
-				"seq_11_dijkstra_tut_0":{
-					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war..",
+				"seq_3_dijkstra_0": {
+					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war...",
 					"size": 900
 				},
-				"seq_11_dijkstra_tut_1":{
+				"seq_3_dijkstra_1": {
 					"text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Wege.",
 					"size": 850
 				},
 
-				"seq_12_dijkstra_tut_0":{
-					"text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> und korrigiere deinen Fehler. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
-					"size": 1100
+				"seq_4_dijkstra_0": {
+					"text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+					"size": 900
 				},
 
-				"seq_13_dijkstra_tut_0":{
+				"seq_5_dijkstra_0": {
 					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war...",
 					"size": 900
 				},
-					"seq_13_dijkstra_tut_1":{
-					"text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist..",
-					"size": 850
+				"seq_5_dijkstra_1": {
+					"text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächsten vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+					"size": 1050
 				},
-
+			},
+      "fun": {
         "seq_0_fun_0": {
           "text": "Willkommen auf der Bierinsel!",
           "size": 450
@@ -376,4 +394,5 @@
         }
       }
     }
+  }
 }
