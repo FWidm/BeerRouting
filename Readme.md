@@ -12,13 +12,20 @@ ___
   + Uniform Cost Search (to show the differences to Dijkstra's algorithm)
   + Policy based routing
 + Provide decent tutorials
+
 ___
+Half a year later, the goal is to create two sub versions of this game, one containing the same comic look and one containing a more simulation style. Additionally instead of having all the levels unlocked we only use dijkstra for our study. Generally this game will then be used in a course at the Ulm University in WS16/17 and evaluated.
 # Todo
 - [x] provide logging options
 - [ ] provide a means to send the log files
 - [ ] provide dual languages at least (German, English, ...)
   - [x] Added the Localization class that reads from the Json file in Resources\localization
 - [ ] Add an option to enter a nickname to eventually link students to their points
+- [ ] Alternate art version for the "simulation" style
+  - [ ] Adapted texts
+  - [ ] New tutorial
+  - [ ] Adapted GUI
+- [ ] New Levels (2 comic, 2 simulation, eventually even 2 more for paper exercises) 
 - ...
 
 ___
