@@ -12,7 +12,9 @@ ___
   + Uniform Cost Search (to show the differences to Dijkstra's algorithm)
   + Policy based routing
 + Provide decent tutorials
-
+___
+# Comparison between both versions
+![differences between both images](img/diff.png)
 ___
 Half a year later, the goal is to create two sub versions of this game, one containing the same comic look and one containing a more simulation style. Additionally instead of having all the levels unlocked we only use dijkstra for our study. Generally this game will then be used in a course at the Ulm University in WS16/17 and evaluated.
 # Todo
@@ -25,7 +27,7 @@ Half a year later, the goal is to create two sub versions of this game, one cont
   - [ ] Adapted texts
   - [ ] New tutorial
   - [ ] Adapted GUI
-- [ ] New Levels (2 comic, 2 simulation, eventually even 2 more for paper exercises) 
+- [ ] New Levels (2 comic, 2 simulation, eventually even 2 more for paper exercises)
 - ...
 
 ___
