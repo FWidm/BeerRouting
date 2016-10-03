@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Dijkstra/2DijkstraLevel2.unity
+- path: Assets/Scenes/Dijkstra/6DijkstraLevel6.unity
   isLoaded: 1
   isActive: 1

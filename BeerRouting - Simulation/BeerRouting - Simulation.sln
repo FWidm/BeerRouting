@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerRouting - Simulation.CSharp", "BeerRouting - Simulation.CSharp.csproj", "{E18E6D3E-ED67-AA4A-CDB3-FDDDBCC8E531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerRouting - Simulation.CSharp.Editor", "BeerRouting - Simulation.CSharp.Editor.csproj", "{58EB9E99-7718-00D5-549B-9367C2762147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E18E6D3E-ED67-AA4A-CDB3-FDDDBCC8E531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18E6D3E-ED67-AA4A-CDB3-FDDDBCC8E531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18E6D3E-ED67-AA4A-CDB3-FDDDBCC8E531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18E6D3E-ED67-AA4A-CDB3-FDDDBCC8E531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EB9E99-7718-00D5-549B-9367C2762147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EB9E99-7718-00D5-549B-9367C2762147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EB9E99-7718-00D5-549B-9367C2762147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EB9E99-7718-00D5-549B-9367C2762147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 06b042422a04bbc4a8c3d05847fbcb12
+timeCreated: 1460043320
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerPartsDrinkingAnimation_0
+    21300002: PlayerPartsDrinkingAnimation_1
+    21300004: PlayerPartsDrinkingAnimation_2
+    21300006: PlayerPartsDrinkingAnimation_4
+    21300008: PlayerPartsDrinkingAnimation_6
+    21300010: PlayerPartsDrinkingAnimation_7
+    21300012: PlayerPartsDrinkingAnimation_8
+    21300014: PlayerPartsDrinkingAnimation_10
+    21300016: PlayerPartsDrinkingAnimation_12
+    21300018: PlayerPartsDrinkingAnimation_13
+    21300020: PlayerPartsDrinkingAnimation_14
+    21300022: PlayerPartsDrinkingAnimation_15
+    21300024: PlayerPartsDrinkingAnimation_3
+    21300026: PlayerPartsDrinkingAnimation_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerPartsDrinkingAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 35}
+        - {x: 28.5, y: 40}
+        - {x: 12.5, y: 49}
+        - {x: -19.5, y: 49}
+        - {x: -30.5, y: 47}
+        - {x: -38.5, y: 44}
+        - {x: -38.5, y: -22}
+        - {x: -36.5, y: -33}
+        - {x: -12.5, y: -49}
+        - {x: 28.5, y: -49}
+        - {x: 38.5, y: -45}
+        - {x: 38.5, y: 13}
+        - {x: 34.5, y: 27}
+    - name: PlayerPartsDrinkingAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 239
+        width: 108
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 62}
+        - {x: -12, y: 62}
+        - {x: -54, y: 36}
+        - {x: -54, y: -31}
+        - {x: -39, y: -62}
+        - {x: 54, y: -62}
+        - {x: 54, y: 53}
+        - {x: 53, y: 54}
+    - name: PlayerPartsDrinkingAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 268
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -6}
+        - {x: 16, y: -7}
+        - {x: -29, y: -31}
+        - {x: -29, y: -40}
+        - {x: -4, y: -40}
+        - {x: 40, y: -29}
+        - {x: 40, y: -6}
+      - - {x: 27, y: 19}
+        - {x: 10, y: 19}
+        - {x: -34, y: 6}
+        - {x: -38, y: -4}
+        - {x: -38, y: -17}
+        - {x: -15, y: -17}
+        - {x: 27, y: -5}
+        - {x: 29, y: 2}
+        - {x: 29, y: 16}
+      - - {x: -2, y: 40}
+        - {x: -32, y: 28}
+        - {x: -40, y: 18}
+        - {x: -40, y: 7}
+        - {x: -23, y: 7}
+        - {x: 18, y: 23}
+        - {x: 18, y: 36}
+        - {x: 16, y: 40}
+    - name: PlayerPartsDrinkingAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 225
+        width: 157
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 68}
+        - {x: 9.5, y: 68}
+        - {x: -78.5, y: 14}
+        - {x: -78.5, y: -19}
+        - {x: -51.5, y: -68}
+        - {x: -25.5, y: -68}
+        - {x: -14.5, y: -67}
+        - {x: 75.5, y: -38}
+        - {x: 78.5, y: -36}
+        - {x: 78.5, y: 2}
+    - name: PlayerPartsDrinkingAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 149
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 31.5}
+        - {x: -22.5, y: 30.5}
+        - {x: -22.5, y: -26.5}
+        - {x: -11.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 29.5}
+        - {x: 21.5, y: 31.5}
+    - name: PlayerPartsDrinkingAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 141
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 37}
+        - {x: -17, y: -5}
+        - {x: -17, y: -37}
+        - {x: -11, y: -37}
+        - {x: -10, y: -35}
+        - {x: 17, y: 12}
+        - {x: 17, y: 37}
+    - name: PlayerPartsDrinkingAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 159
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -8}
+        - {x: -28, y: -29}
+        - {x: -28, y: -38}
+        - {x: -4, y: -38}
+        - {x: 12, y: -36}
+        - {x: 38, y: -26}
+        - {x: 38, y: -11}
+        - {x: 33, y: -8}
+      - - {x: 8, y: 18}
+        - {x: -37, y: 0}
+        - {x: -37, y: -15}
+        - {x: -11, y: -15}
+        - {x: 27, y: -2}
+        - {x: 27, y: 18}
+      - - {x: -6, y: 38}
+        - {x: -38, y: 18}
+        - {x: -38, y: 9}
+        - {x: -24, y: 9}
+        - {x: 15, y: 24}
+        - {x: 15, y: 38}
+    - name: PlayerPartsDrinkingAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 141
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 30}
+        - {x: -27.5, y: -20}
+        - {x: -27.5, y: -30}
+        - {x: -14.5, y: -30}
+        - {x: 5.5, y: -25}
+        - {x: 27.5, y: 21}
+        - {x: 27.5, y: 30}
+    - name: PlayerPartsDrinkingAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 8
+        width: 164
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 86}
+        - {x: -5, y: 75}
+        - {x: -82, y: 21}
+        - {x: -82, y: 7}
+        - {x: -73, y: 9}
+        - {x: -82, y: -19}
+        - {x: -82, y: -73}
+        - {x: -40, y: -86}
+        - {x: 44, y: -86}
+        - {x: 82, y: -45}
+        - {x: 82, y: 50}
+        - {x: 50, y: 86}
+    - name: PlayerPartsDrinkingAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 44.5}
+        - {x: -33, y: -36.5}
+        - {x: -33, y: -44.5}
+        - {x: -22, y: -44.5}
+        - {x: 5, y: -31.5}
+        - {x: 33, y: 30.5}
+        - {x: 33, y: 44.5}
+    - name: PlayerPartsDrinkingAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 85
+        height: 122
+      alignment: 9
+      pivot: {x: 0.10479828, y: 0.10614381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.09215, y: 109.05045}
+        - {x: 53.092148, y: 109.05045}
+        - {x: -8.907852, y: 13.050453}
+        - {x: -8.907852, y: -3.9495468}
+        - {x: -6.907852, y: -12.949547}
+        - {x: 7.092148, y: -12.949547}
+        - {x: 23.092148, y: 6.050453}
+        - {x: 59.092148, y: 4.050453}
+        - {x: 76.09215, y: 60.050453}
+    - name: PlayerPartsDrinkingAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 7
+        width: 157
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 68}
+        - {x: -78.5, y: 12}
+        - {x: -78.5, y: -16}
+        - {x: -55.5, y: -68}
+        - {x: -17.5, y: -68}
+        - {x: 78.5, y: -39}
+        - {x: 78.5, y: 28}
+        - {x: 47.5, y: 68}
+    - name: PlayerPartsDrinkingAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 275
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -8}
+        - {x: -28, y: -32}
+        - {x: -28, y: -38}
+        - {x: 0, y: -38}
+        - {x: 38, y: -28}
+        - {x: 38, y: -8}
+      - - {x: 24, y: 18}
+        - {x: 11, y: 18}
+        - {x: -34, y: -2}
+        - {x: -36, y: -6}
+        - {x: -36, y: -15}
+        - {x: -19, y: -15}
+        - {x: 20, y: -5}
+        - {x: 27, y: 1}
+        - {x: 27, y: 10}
+        - {x: 26, y: 16}
+      - - {x: 16, y: 34}
+        - {x: 15, y: 38}
+        - {x: -6, y: 38}
+        - {x: -38, y: 16}
+        - {x: -38, y: 9}
+        - {x: -27, y: 9}
+        - {x: -3, y: 18}
+        - {x: 16, y: 25}
+    - name: PlayerPartsDrinkingAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 159
+        width: 84
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 26.5}
+        - {x: -42, y: 17.5}
+        - {x: -42, y: -12.5}
+        - {x: -26, y: -26.5}
+        - {x: 38, y: -26.5}
+        - {x: 42, y: -15.5}
+        - {x: 42, y: 19.5}
+        - {x: 36, y: 26.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

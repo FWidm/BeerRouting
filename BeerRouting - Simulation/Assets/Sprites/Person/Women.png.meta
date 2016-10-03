@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 03353cb7c6bbd2f4eb7c31d570ec3592
+timeCreated: 1462526055
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Women_0
+    21300002: Women_1
+    21300004: Women_2
+    21300006: Women_3
+    21300008: Women_4
+    21300010: Women_5
+    21300012: Women_6
+    21300014: Women_7
+    21300016: Women_9
+    21300018: Women_10
+    21300020: Women_11
+    21300022: Women_12
+    21300024: Women_13
+    21300026: Women_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Women_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 984
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 26}
+        - {x: -40, y: 23}
+        - {x: -40, y: -26}
+        - {x: 40, y: -26}
+        - {x: 40, y: 26}
+    - name: Women_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 986
+        width: 139
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 27}
+        - {x: -21.5, y: 27}
+        - {x: -69.5, y: -9}
+        - {x: -69.5, y: -27}
+        - {x: 69.5, y: -27}
+        - {x: 69.5, y: 2}
+        - {x: 60.5, y: 23}
+    - name: Women_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 867
+        width: 78
+        height: 140
+      alignment: 9
+      pivot: {x: 0.7765213, y: 0.065826416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.568665, y: 130.7843}
+        - {x: -60.568665, y: 67.7843}
+        - {x: -32.568665, y: -9.215698}
+        - {x: 7.4313354, y: -9.215698}
+        - {x: 17.431335, y: -1.2156982}
+        - {x: 17.431335, y: 72.7843}
+        - {x: -11.568665, y: 130.7843}
+    - name: Women_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 653
+        width: 319
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5, y: 1.0053002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 159.5, y: -228.89215}
+        - {x: 153.5, y: -189.89215}
+        - {x: 128.5, y: -137.89215}
+        - {x: 115.5, y: -84.89215}
+        - {x: 102.5, y: -60.89215}
+        - {x: 84.5, y: -31.89215}
+        - {x: 48.5, y: -1.8921509}
+        - {x: 26.5, y: -1.8921509}
+        - {x: 25.5, y: -7.892151}
+        - {x: 73.5, y: -76.89215}
+        - {x: 33.5, y: -99.89215}
+        - {x: 14.5, y: -105.89215}
+        - {x: 2.5, y: -110.89215}
+        - {x: -58.5, y: -94.89215}
+        - {x: -72.5, y: -74.89215}
+        - {x: -25.5, y: -2.8921509}
+        - {x: -27.5, y: -1.8921509}
+        - {x: -52.5, y: -1.8921509}
+        - {x: -89.5, y: -32.89215}
+        - {x: -99.5, y: -44.89215}
+        - {x: -122.5, y: -97.89215}
+        - {x: -142.5, y: -169.89215}
+        - {x: -159.5, y: -241.89215}
+        - {x: -159.5, y: -297.89215}
+        - {x: -139.5, y: -330.89215}
+        - {x: -97.5, y: -349.89215}
+        - {x: -53.5, y: -358.89215}
+        - {x: 46.5, y: -358.89215}
+        - {x: 81.5, y: -352.89215}
+        - {x: 134.5, y: -329.89215}
+        - {x: 159.5, y: -296.89215}
+    - name: Women_4
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 652
+        width: 319
+        height: 369
+      alignment: 9
+      pivot: {x: 0.49385324, y: 0.99418133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 161.46082, y: -302.8529}
+        - {x: 161.46082, y: -239.8529}
+        - {x: 151.46082, y: -195.8529}
+        - {x: 126.460815, y: -149.8529}
+        - {x: 105.460815, y: -132.8529}
+        - {x: 105.460815, y: -93.852905}
+        - {x: 117.460815, y: -62.852905}
+        - {x: 114.460815, y: -10.852905}
+        - {x: 72.460815, y: 2.1470947}
+        - {x: 15.460815, y: 2.1470947}
+        - {x: 16.460815, y: -1.8529053}
+        - {x: 33.460815, y: -77.852905}
+        - {x: -3.5391846, y: -83.852905}
+        - {x: -57.539185, y: -70.852905}
+        - {x: -37.539185, y: -25.852905}
+        - {x: -14.539185, y: -3.8529053}
+        - {x: -13.539185, y: 2.1470947}
+        - {x: -37.539185, y: 2.1470947}
+        - {x: -50.539185, y: -0.8529053}
+        - {x: -95.539185, y: -0.8529053}
+        - {x: -128.53918, y: -39.852905}
+        - {x: -106.539185, y: -93.852905}
+        - {x: -120.539185, y: -148.8529}
+        - {x: -130.53918, y: -161.8529}
+        - {x: -151.53918, y: -216.8529}
+        - {x: -157.53918, y: -247.8529}
+        - {x: -157.53918, y: -302.8529}
+        - {x: -151.53918, y: -313.8529}
+        - {x: -139.53918, y: -331.8529}
+        - {x: -98.539185, y: -355.8529}
+        - {x: -63.539185, y: -366.8529}
+        - {x: 59.460815, y: -366.8529}
+        - {x: 106.460815, y: -352.8529}
+        - {x: 132.46082, y: -335.8529}
+        - {x: 160.46082, y: -307.8529}
+    - name: Women_5
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 908
+        width: 153
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 55.5}
+        - {x: -76.5, y: -0.5}
+        - {x: -76.5, y: -48.5}
+        - {x: -30.5, y: -55.5}
+        - {x: 21.5, y: -55.5}
+        - {x: 76.5, y: -40.5}
+        - {x: 76.5, y: 37.5}
+        - {x: 35.5, y: 55.5}
+    - name: Women_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 789
+        width: 198
+        height: 171
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.029870464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.00003, y: 165.89215}
+        - {x: -15.9999695, y: 165.89215}
+        - {x: -28.99997, y: 161.89215}
+        - {x: -83.99997, y: 123.89215}
+        - {x: -98.99997, y: 61.89215}
+        - {x: -98.99997, y: 11.892151}
+        - {x: -81.99997, y: -4.107849}
+        - {x: -64.99997, y: -5.107849}
+        - {x: 72.00003, y: -5.107849}
+        - {x: 99.00003, y: 9.892151}
+        - {x: 99.00003, y: 70.89215}
+        - {x: 73.00003, y: 130.89215}
+    - name: Women_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 747
+        width: 293
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.5, y: 33}
+        - {x: -146.5, y: -8}
+        - {x: -146.5, y: -40}
+        - {x: -123.5, y: -40}
+        - {x: -50.5, y: -4}
+        - {x: -49.5, y: 5}
+        - {x: -49.5, y: 32}
+        - {x: -53.5, y: 33}
+      - - {x: 37.5, y: 35}
+        - {x: 37.5, y: 2}
+        - {x: 45.5, y: -10}
+        - {x: 112.5, y: -40}
+        - {x: 137.5, y: -40}
+        - {x: 137.5, y: -6}
+        - {x: 98.5, y: 35}
+    - name: Women_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 393
+        width: 133
+        height: 222
+      alignment: 9
+      pivot: {x: 0.9570248, y: 0.915121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.284302, y: 18.84314}
+        - {x: -101.2843, y: -32.15686}
+        - {x: -127.2843, y: -139.15686}
+        - {x: -127.2843, y: -203.15686}
+        - {x: -71.2843, y: -203.15686}
+        - {x: 5.7156982, y: -27.15686}
+        - {x: 5.7156982, y: 18.84314}
+    - name: Women_10
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 397
+        width: 133
+        height: 222
+      alignment: 9
+      pivot: {x: 0.013489458, y: 0.915121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.2059, y: -203.15686}
+        - {x: 131.2059, y: -203.15686}
+        - {x: 131.2059, y: -117.15686}
+        - {x: 121.2059, y: -41.15686}
+        - {x: 29.205902, y: 18.84314}
+        - {x: -1.7940979, y: 18.84314}
+        - {x: -1.7940979, y: -72.15686}
+    - name: Women_11
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 426
+        width: 119
+        height: 206
+      alignment: 9
+      pivot: {x: 0.055116285, y: 0.9092899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.558838, y: 18.68628}
+        - {x: -6.558838, y: -30.31372}
+        - {x: 58.441162, y: -187.31372}
+        - {x: 112.44116, y: -187.31372}
+        - {x: 112.44116, y: -99.31372}
+        - {x: 100.44116, y: -37.31372}
+        - {x: 11.441162, y: 18.68628}
+    - name: Women_12
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 383
+        width: 116
+        height: 148
+      alignment: 9
+      pivot: {x: 0.58451635, y: 0.43375728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.803894, y: 83.803925}
+        - {x: -46.803894, y: -64.196075}
+        - {x: 48.196106, y: -64.196075}
+        - {x: 48.196106, y: 83.803925}
+    - name: Women_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 39
+        width: 109
+        height: 286
+      alignment: 9
+      pivot: {x: 0.07552709, y: 0.02497046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.767548, y: 278.85846}
+        - {x: -8.232452, y: 250.85844}
+        - {x: -8.232452, y: -7.141556}
+        - {x: 62.767548, y: -7.141556}
+        - {x: 71.76755, y: 0.8584442}
+        - {x: 100.76755, y: 247.85844}
+        - {x: 100.76755, y: 278.85846}
+    - name: Women_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 44
+        width: 105
+        height: 283
+      alignment: 9
+      pivot: {x: 0.8761422, y: 0.029371552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.994934, y: 274.68787}
+        - {x: -91.994934, y: 221.68785}
+        - {x: -62.994934, y: 14.687851}
+        - {x: -22.994934, y: -8.312149}
+        - {x: 13.005066, y: -8.312149}
+        - {x: 13.005066, y: 97.68785}
+        - {x: -21.994934, y: 274.68787}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

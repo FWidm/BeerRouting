@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: b9a1919a26629004c992fa401cf9a60d
+timeCreated: 1460366713
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IconsWomen_0
+    21300002: IconsWomen_1
+    21300004: IconsWomen_2
+    21300006: IconsWomen_3
+    21300008: IconsWomen_4
+    21300010: IconsWomen_5
+    21300012: IconsWomen_6
+    21300014: IconsWomen_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IconsWomen_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1339
+        width: 160
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 86}
+        - {x: -80, y: 54}
+        - {x: -80, y: -50}
+        - {x: -45, y: -86}
+        - {x: 43, y: -86}
+        - {x: 80, y: -68}
+        - {x: 80, y: 68}
+        - {x: 77, y: 86}
+    - name: IconsWomen_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 80}
+        - {x: -47, y: 80}
+        - {x: -80, y: 36}
+        - {x: -80, y: -62}
+        - {x: -49, y: -80}
+        - {x: 56, y: -80}
+        - {x: 70, y: -55}
+        - {x: 80, y: -45}
+        - {x: 80, y: 40}
+    - name: IconsWomen_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 990
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 80}
+        - {x: -47, y: 80}
+        - {x: -80, y: 36}
+        - {x: -80, y: -62}
+        - {x: -49, y: -80}
+        - {x: 56, y: -80}
+        - {x: 70, y: -55}
+        - {x: 80, y: -45}
+        - {x: 80, y: 40}
+    - name: IconsWomen_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 799
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 80.5}
+        - {x: -80.5, y: 52.5}
+        - {x: -80.5, y: -37.5}
+        - {x: -60.5, y: -74.5}
+        - {x: -37.5, y: -80.5}
+        - {x: 60.5, y: -80.5}
+        - {x: 80.5, y: -70.5}
+        - {x: 80.5, y: 69.5}
+        - {x: 78.5, y: 80.5}
+    - name: IconsWomen_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 625
+        width: 163
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: 80}
+        - {x: -74.5, y: 80}
+        - {x: -81.5, y: 46}
+        - {x: -81.5, y: -72}
+        - {x: -57.5, y: -80}
+        - {x: 62.5, y: -80}
+        - {x: 78.5, y: -66}
+        - {x: 81.5, y: -45}
+        - {x: 81.5, y: 72}
+    - name: IconsWomen_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 446
+        width: 164
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 80}
+        - {x: -47, y: 80}
+        - {x: -76, y: 61}
+        - {x: -82, y: 33}
+        - {x: -82, y: -36}
+        - {x: -46, y: -78}
+        - {x: -39, y: -80}
+        - {x: 52, y: -80}
+        - {x: 82, y: -53}
+        - {x: 82, y: 52}
+        - {x: 76, y: 79}
+    - name: IconsWomen_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 270
+        width: 160
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 82.5}
+        - {x: -80, y: 42.5}
+        - {x: -80, y: -40.5}
+        - {x: -41, y: -82.5}
+        - {x: 66, y: -82.5}
+        - {x: 80, y: -34.5}
+        - {x: 80, y: 66.5}
+        - {x: 73, y: 82.5}
+    - name: IconsWomen_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 78
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: 73}
+        - {x: 49.5, y: 93}
+        - {x: -48.5, y: 93}
+        - {x: -72.5, y: 71}
+        - {x: -93.5, y: 30}
+        - {x: -93.5, y: -51}
+        - {x: -51.5, y: -93}
+        - {x: 43.5, y: -93}
+        - {x: 90.5, y: -52}
+        - {x: 93.5, y: -33}
+        - {x: 93.5, y: 38}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

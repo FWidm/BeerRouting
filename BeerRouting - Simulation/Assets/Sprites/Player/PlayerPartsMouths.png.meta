@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: d1550ed483e6df042ac6e1f40d611fc5
+timeCreated: 1461863657
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerPartsMouths_0
+    21300002: PlayerPartsMouths_3
+    21300004: PlayerPartsMouths_4
+    21300006: PlayerPartsMouths_1
+    21300008: PlayerPartsMouths_5
+    21300010: PlayerPartsMouths_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerPartsMouths_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 139
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+    - name: PlayerPartsMouths_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 276
+        width: 81
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5067544, y: 0.36105096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.047104, y: 24.28006}
+        - {x: -41.047104, y: -3.7199402}
+        - {x: -39.047104, y: -13.71994}
+        - {x: 39.952896, y: -13.71994}
+        - {x: 39.952896, y: 21.28006}
+        - {x: 4.952896, y: 24.28006}
+    - name: PlayerPartsMouths_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 98
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: -22}
+        - {x: -38, y: -32}
+        - {x: 32, y: -32}
+        - {x: 49, y: -26}
+        - {x: 49, y: -2}
+        - {x: 48, y: -1}
+        - {x: -36, y: 32}
+        - {x: -49, y: 32}
+        - {x: -49, y: -15}
+    - name: PlayerPartsMouths_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 15
+        width: 78
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -66}
+        - {x: -35, y: -67}
+        - {x: -39, y: -73}
+        - {x: -39, y: -90}
+        - {x: 3, y: -106}
+        - {x: 17, y: -106}
+        - {x: 17, y: -85}
+        - {x: -2, y: -66}
+      - - {x: -27, y: 106}
+        - {x: -27, y: 95}
+        - {x: -3, y: 83}
+        - {x: 19, y: 83}
+        - {x: 39, y: 93}
+        - {x: 39, y: 106}
+    - name: PlayerPartsMouths_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 95
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+      - - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+      - - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+      - - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+        - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+      - - {x: -43.5, y: 91}
+        - {x: -69.5, y: 28}
+        - {x: -69.5, y: -74}
+        - {x: -58.5, y: -91}
+        - {x: 69.5, y: -91}
+        - {x: 69.5, y: 17}
+        - {x: 25.5, y: 91}
+    - name: PlayerPartsMouths_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 140
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 56.5}
+        - {x: -57, y: -14.5}
+        - {x: -48, y: -47.5}
+        - {x: -27, y: -56.5}
+        - {x: 10, y: -56.5}
+        - {x: 57, y: -18.5}
+        - {x: 57, y: 9.5}
+        - {x: -14, y: 56.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 786b1cfbf0c1f42658b2db0be026e258
+timeCreated: 1460123462
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerPartsHeads_0
+    21300002: PlayerPartsHeads_1
+    21300004: PlayerPartsHeads_2
+    21300006: PlayerPartsHeads_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerPartsHeads_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 353
+        width: 226
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5103308, y: 0.036190253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.66524, y: 192.2515}
+        - {x: 110.66524, y: 194.2515}
+        - {x: 110.66524, y: 256.2515}
+        - {x: 50.665237, y: 286.2515}
+        - {x: -53.334763, y: 286.2515}
+        - {x: -54.334763, y: 280.2515}
+        - {x: -48.334763, y: 272.2515}
+        - {x: -48.334763, y: 265.2515}
+        - {x: -47.334763, y: 263.2515}
+        - {x: -48.334763, y: 266.2515}
+        - {x: -57.334763, y: 286.2515}
+        - {x: -79.33476, y: 286.2515}
+        - {x: -112.33476, y: 273.2515}
+        - {x: -115.33476, y: 260.2515}
+        - {x: -115.33476, y: 44.251495}
+        - {x: -82.33476, y: 7.2514954}
+        - {x: -51.334763, y: 8.251495}
+        - {x: -19.334763, y: -10.748505}
+        - {x: 29.665237, y: -10.748505}
+        - {x: 72.66524, y: 18.251495}
+        - {x: 110.66524, y: 63.251495}
+        - {x: 110.66524, y: 171.2515}
+    - name: PlayerPartsHeads_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 350
+        width: 291
+        height: 296
+      alignment: 9
+      pivot: {x: 0.3849998, y: 0.042510986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.96506, y: 93.41675}
+        - {x: 86.96506, y: 159.41675}
+        - {x: 143.96506, y: 162.41675}
+        - {x: 178.96506, y: 186.41675}
+        - {x: 178.96506, y: 224.41675}
+        - {x: 162.96506, y: 239.41675}
+        - {x: 113.96506, y: 248.41675}
+        - {x: 11.965057, y: 283.41675}
+        - {x: -77.03494, y: 283.41675}
+        - {x: -96.03494, y: 267.41675}
+        - {x: -112.03494, y: 251.41675}
+        - {x: -112.03494, y: 179.41675}
+        - {x: -111.03494, y: 158.41675}
+        - {x: -112.03494, y: 144.41675}
+        - {x: -112.03494, y: 65.41675}
+        - {x: -99.03494, y: 32.416748}
+        - {x: -88.03494, y: 9.416748}
+        - {x: -47.034943, y: 1.416748}
+        - {x: -9.034943, y: -12.583252}
+        - {x: 9.965057, y: -12.583252}
+        - {x: 15.965057, y: -2.583252}
+        - {x: 84.96506, y: 29.416748}
+        - {x: 108.96506, y: 64.41675}
+    - name: PlayerPartsHeads_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 292
+        height: 295
+      alignment: 9
+      pivot: {x: 0.38539368, y: 0.038321853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 179.46504, y: 142.69505}
+        - {x: 179.46504, y: 204.69505}
+        - {x: 164.46504, y: 230.69505}
+        - {x: 141.46504, y: 239.69505}
+        - {x: 86.46504, y: 251.69505}
+        - {x: 38.465042, y: 276.69507}
+        - {x: 2.465042, y: 283.69507}
+        - {x: -78.53496, y: 283.69507}
+        - {x: -93.53496, y: 276.69507}
+        - {x: -88.53496, y: 261.69507}
+        - {x: -85.53496, y: 258.69507}
+        - {x: -104.53496, y: 252.69505}
+        - {x: -112.53496, y: 242.69505}
+        - {x: -112.53496, y: 222.69505}
+        - {x: -107.53496, y: 207.69505}
+        - {x: -105.53496, y: 169.69505}
+        - {x: -112.53496, y: 145.69505}
+        - {x: -112.53496, y: 50.695053}
+        - {x: -84.53496, y: 9.695053}
+        - {x: -72.53496, y: 4.695053}
+        - {x: -21.534958, y: -11.304947}
+        - {x: 10.465042, y: -11.304947}
+        - {x: 12.465042, y: -10.304947}
+        - {x: 57.465042, y: 16.695053}
+        - {x: 99.46504, y: 42.695053}
+        - {x: 105.46504, y: 57.695053}
+    - name: PlayerPartsHeads_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 238
+        height: 296
+      alignment: 9
+      pivot: {x: 0.48692015, y: 0.037252586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.11301, y: 171.97324}
+        - {x: 122.11301, y: 168.97324}
+        - {x: 122.11301, y: 231.97324}
+        - {x: 115.11301, y: 246.97324}
+        - {x: 33.113007, y: 274.97324}
+        - {x: -13.886993, y: 284.97324}
+        - {x: -79.88699, y: 284.97324}
+        - {x: -93.88699, y: 268.97324}
+        - {x: -90.88699, y: 257.97324}
+        - {x: -70.88699, y: 253.97324}
+        - {x: -101.88699, y: 256.97324}
+        - {x: -115.88699, y: 250.97324}
+        - {x: -115.88699, y: 40.973236}
+        - {x: -83.88699, y: 6.973236}
+        - {x: -73.88699, y: 5.973236}
+        - {x: -17.886993, y: -11.026764}
+        - {x: 18.113007, y: -11.026764}
+        - {x: 80.11301, y: 32.973236}
+        - {x: 105.11301, y: 65.973236}
+        - {x: 101.11301, y: 113.973236}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

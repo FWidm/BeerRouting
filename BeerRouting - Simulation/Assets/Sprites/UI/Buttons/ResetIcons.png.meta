@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 0310dac58f5fe1740bd9af825d5773e0
+timeCreated: 1462187585
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ResetIcons_0
+    21300002: ResetIcons_1
+    21300004: ResetIcons_2
+    21300006: ResetIcons_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ResetIcons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 333
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.5, y: -108}
+        - {x: 146.5, y: -85}
+        - {x: 161.5, y: -57}
+        - {x: 166.5, y: -33}
+        - {x: 166.5, y: 29}
+        - {x: 164.5, y: 43}
+        - {x: 157.5, y: 65}
+        - {x: 142.5, y: 93}
+        - {x: 125.5, y: 115}
+        - {x: 107.5, y: 132}
+        - {x: 84.5, y: 147}
+        - {x: 55.5, y: 161}
+        - {x: 36.5, y: 166}
+        - {x: -42.5, y: 166}
+        - {x: -85.5, y: 149}
+        - {x: -107.5, y: 132}
+        - {x: -125.5, y: 114}
+        - {x: -140.5, y: 95}
+        - {x: -154.5, y: 72}
+        - {x: -161.5, y: 54}
+        - {x: -166.5, y: 30}
+        - {x: -166.5, y: -30}
+        - {x: -163.5, y: -43}
+        - {x: -157.5, y: -64}
+        - {x: -146.5, y: -87}
+        - {x: -131.5, y: -108}
+        - {x: -103.5, y: -136}
+        - {x: -68.5, y: -156}
+        - {x: -51.5, y: -162}
+        - {x: -32.5, y: -166}
+        - {x: 34.5, y: -166}
+        - {x: 52.5, y: -163}
+        - {x: 82.5, y: -149}
+        - {x: 107.5, y: -132}
+    - name: ResetIcons_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1149
+        width: 332
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -114.5}
+        - {x: 139, y: -98.5}
+        - {x: 159, y: -63.5}
+        - {x: 166, y: -37.5}
+        - {x: 166, y: 32.5}
+        - {x: 163, y: 44.5}
+        - {x: 157, y: 63.5}
+        - {x: 149, y: 80.5}
+        - {x: 145, y: 87.5}
+        - {x: 130, y: 108.5}
+        - {x: 104, y: 134.5}
+        - {x: 86, y: 148.5}
+        - {x: 40, y: 166.5}
+        - {x: -29, y: 166.5}
+        - {x: -54, y: 161.5}
+        - {x: -85, y: 147.5}
+        - {x: -104, y: 135.5}
+        - {x: -137, y: 103.5}
+        - {x: -158, y: 63.5}
+        - {x: -165, y: 41.5}
+        - {x: -166, y: 33.5}
+        - {x: -166, y: -34.5}
+        - {x: -164, y: -46.5}
+        - {x: -148, y: -84.5}
+        - {x: -139, y: -98.5}
+        - {x: -113, y: -127.5}
+        - {x: -82, y: -149.5}
+        - {x: -54, y: -161.5}
+        - {x: -33, y: -166.5}
+        - {x: 32, y: -166.5}
+        - {x: 60, y: -160.5}
+        - {x: 87, y: -146.5}
+        - {x: 102, y: -136.5}
+    - name: ResetIcons_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 768
+        width: 334
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -114.5}
+        - {x: 136, y: -102.5}
+        - {x: 143, y: -92.5}
+        - {x: 156, y: -70.5}
+        - {x: 165, y: -45.5}
+        - {x: 167, y: -30.5}
+        - {x: 167, y: 33.5}
+        - {x: 160, y: 63.5}
+        - {x: 139, y: 99.5}
+        - {x: 116, y: 125.5}
+        - {x: 84, y: 150.5}
+        - {x: 55, y: 160.5}
+        - {x: 42, y: 164.5}
+        - {x: 33, y: 166.5}
+        - {x: 26, y: 167.5}
+        - {x: -29, y: 167.5}
+        - {x: -34, y: 166.5}
+        - {x: -53, y: 162.5}
+        - {x: -85, y: 148.5}
+        - {x: -103, y: 136.5}
+        - {x: -126, y: 115.5}
+        - {x: -148, y: 85.5}
+        - {x: -163, y: 53.5}
+        - {x: -167, y: 33.5}
+        - {x: -167, y: -39.5}
+        - {x: -160, y: -64.5}
+        - {x: -131, y: -112.5}
+        - {x: -92, y: -145.5}
+        - {x: -64, y: -158.5}
+        - {x: -46, y: -164.5}
+        - {x: -28, y: -167.5}
+        - {x: 31, y: -167.5}
+        - {x: 53, y: -162.5}
+        - {x: 69, y: -157.5}
+        - {x: 109, y: -133.5}
+    - name: ResetIcons_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 333
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.5, y: -108.5}
+        - {x: 151.5, y: -78.5}
+        - {x: 159.5, y: -60.5}
+        - {x: 165.5, y: -35.5}
+        - {x: 166.5, y: -30.5}
+        - {x: 166.5, y: 31.5}
+        - {x: 165.5, y: 40.5}
+        - {x: 156.5, y: 67.5}
+        - {x: 142.5, y: 94.5}
+        - {x: 111.5, y: 129.5}
+        - {x: 83.5, y: 148.5}
+        - {x: 59.5, y: 159.5}
+        - {x: 33.5, y: 166.5}
+        - {x: -34.5, y: 166.5}
+        - {x: -64.5, y: 158.5}
+        - {x: -102.5, y: 137.5}
+        - {x: -127.5, y: 112.5}
+        - {x: -140.5, y: 94.5}
+        - {x: -154.5, y: 70.5}
+        - {x: -162.5, y: 50.5}
+        - {x: -166.5, y: 29.5}
+        - {x: -166.5, y: -30.5}
+        - {x: -162.5, y: -50.5}
+        - {x: -155.5, y: -69.5}
+        - {x: -141.5, y: -94.5}
+        - {x: -133.5, y: -105.5}
+        - {x: -101.5, y: -137.5}
+        - {x: -67.5, y: -157.5}
+        - {x: -35.5, y: -166.5}
+        - {x: 40.5, y: -166.5}
+        - {x: 78.5, y: -151.5}
+        - {x: 99.5, y: -138.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

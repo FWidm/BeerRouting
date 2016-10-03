@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 08ed351e58aa60a4c957b1cde9476984
+timeCreated: 1456250447
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tresen_0
+    21300002: Tresen_1
+    21300004: Tresen_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tresen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 290
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -95.5}
+        - {x: 134, y: -95.5}
+        - {x: 140, y: -89.5}
+        - {x: 144, y: -27.5}
+        - {x: 145, y: -26.5}
+        - {x: 145, y: 95.5}
+        - {x: -145, y: 95.5}
+        - {x: -145, y: -27.5}
+        - {x: -142, y: -28.5}
+        - {x: -141, y: -91.5}
+        - {x: -136, y: -95.5}
+        - {x: -123, y: -95.5}
+        - {x: -115, y: -90.5}
+        - {x: -116, y: -27.5}
+        - {x: 115, y: -90.5}
+    - name: Tresen_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 157
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tresen_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 42
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 40}
+        - {x: -10, y: 40}
+        - {x: -31, y: 17}
+        - {x: -31, y: -28}
+        - {x: -21, y: -40}
+        - {x: 26, y: -40}
+        - {x: 23, y: -13}
+        - {x: 31, y: 13}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

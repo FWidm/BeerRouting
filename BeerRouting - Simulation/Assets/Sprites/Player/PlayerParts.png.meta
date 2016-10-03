@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: a6ce28ee703b4d04f8379b97cb28b8f8
+timeCreated: 1448534852
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BarkeeperParts_0
+    21300002: BarkeeperParts_1
+    21300004: BarkeeperParts_2
+    21300006: BarkeeperParts_3
+    21300008: BarkeeperParts_4
+    21300010: BarkeeperParts_5
+    21300012: BarkeeperParts_6
+    21300014: BarkeeperParts_7
+    21300016: BarkeeperParts_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BarkeeperParts_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 402
+        width: 239
+        height: 296
+      alignment: 9
+      pivot: {x: .440901011, y: .0330420844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 533
+        width: 107
+        height: 156
+      alignment: 9
+      pivot: {x: .493202001, y: .029083252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 379
+        width: 78
+        height: 70
+      alignment: 9
+      pivot: {x: .179286852, y: .448947579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 323
+        width: 22
+        height: 55
+      alignment: 9
+      pivot: {x: .591718495, y: .885217309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 226
+        width: 105
+        height: 128
+      alignment: 9
+      pivot: {x: .180072755, y: .94112277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 287
+        width: 67
+        height: 43
+      alignment: 9
+      pivot: {x: .0318753831, y: .0947201774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 98
+        height: 78
+      alignment: 9
+      pivot: {x: .499999911, y: .921508014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 37
+        width: 102
+        height: 131
+      alignment: 9
+      pivot: {x: .264678836, y: .944186985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarkeeperParts_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 157
+        height: 200
+      alignment: 9
+      pivot: {x: .0691455454, y: .430901021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
