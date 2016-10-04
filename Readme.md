@@ -20,7 +20,7 @@ ___
 Half a year later, the goal is to create two sub versions of this game, one containing the same comic look and one containing a more simulation style. Additionally instead of having all the levels unlocked we only use dijkstra for our study. Generally this game will then be used in a course at the Ulm University in WS16/17 and evaluated.
 # Todo
 - [x] provide logging options
-  -[ ] Log Level finished instead of stopping then.
+    - [ ] Log Level finished instead of stopping then.
 - [ ] provide a means to send the log files
     - [ ] Uni email?
     - [ ] ftp?
@@ -32,6 +32,7 @@ Half a year later, the goal is to create two sub versions of this game, one cont
   - [ ] New tutorial
     - [ ] New texts, different level?
   - [ ] Adapted GUI
+  - [ ] Adapt Sequences for the Tutorial
 - [ ] New Levels (2 comic, 2 simulation, eventually even 2 more for paper exercises)
 - ...
 

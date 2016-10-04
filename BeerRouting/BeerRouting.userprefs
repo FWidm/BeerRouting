@@ -1,11 +1,10 @@
-﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="BeerRouting.CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlatformerLevel/Platformer_Movement.cs">
     <Files>
       <File FileName="Assets/Scripts/PlatformerLevel/Platform_CameraFollowPlayer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlatformerLevel/Platformer_Collectibles.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlatformerLevel/Platformer_Movement.cs" Line="11" Column="33" />
-      <File FileName="Assets/Scripts/DisplayPathHovers.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlatformerLevel/Platformer_Movement.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Main/LevelProperties.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Dijkstra/PathScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Game Modes/GameMovementManager.cs" Line="1" Column="1" />

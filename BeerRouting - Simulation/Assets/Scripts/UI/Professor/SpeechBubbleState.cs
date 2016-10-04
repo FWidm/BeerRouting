@@ -14,6 +14,10 @@ public class SpeechBubbleState : MonoBehaviour
     private TutorialControllerDijkstra tutorialController;
     private LevelController levelController;
 
+    public string ToString()
+    {
+        return "SpeechBubbleState[id=" + id + ", width=" + width + ", text=" + text + "]";
+    }
     // Use this for initialization
     void Start()
     {
@@ -91,4 +95,5 @@ public class SpeechBubbleState : MonoBehaviour
             text = text.Replace("<LevelName>", name);
         }
     }
+
 }

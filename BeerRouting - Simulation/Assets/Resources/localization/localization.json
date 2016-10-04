@@ -183,123 +183,119 @@
     "prof": {
       "dijkstra_tutorial": {
         "seq_0_dijkstra_tut_0": {
-          "text": "Hallo Bierfreunde!",
+          "text": "Willkommen zum Dijkstra Tutorial!",
           "size": 480
         },
         "seq_0_dijkstra_tut_1": {
-          "text": "Ich bin <ProfessorName> und ich mag Informatik fast so sehr wie Bier.",
-          "size": 600
+          "text": "1",
+          "size": 480
         },
         "seq_0_dijkstra_tut_2": {
-          "text": "Ich werde euch nun in die Geheimnisse des Dijkstra - Routingalgorithmus einweihen.",
-          "size": 700
+          "text": "2",
+          "size": 480
         },
         "seq_0_dijkstra_tut_3": {
-          "text": "Damit das nicht zu trocken wird, genehmige ich mir aber zunächst mal ein köstliches Bier...",
-          "size": 760
+          "text": "3",
+          "size": 480
         },
         "seq_1_dijkstra_tut_0": {
           "text": "Ok, legen wir los!",
           "size": 480
         },
         "seq_1_dijkstra_tut_1": {
-          "text": "<PlayerName> befindet sich momentan an Tisch <CurrentRouterName>. Du musst nun zuerst alle seine benachbarten Tische erkunden.",
+          "text": "Du befindest dich momentan an Router <CurrentRouterName>. Erkunde alle Nachbarn des aktuellen Routers.",
           "size": 800
         },
         "seq_1_dijkstra_tut_2": {
-          "text": "Als erstes kannst du z. B. den Weg zwischen Tisch A und B erkunden. Dazu musst du entweder bei Tisch A auf die Bierflasche B klicken oder auf die gegenüberliegende Bierflasche A auf Tisch B. Außerdem kannst du die Karte durch draggen verschieben. Versuche es. ",
+          "text": "Als erstes kannst du z. B. den Pfad zwischen Router A und B ablaufen um die Pfadlänge zu bestehen. Klicke hierzu auf die Ports an den Routern - um von A nach B zu kommen kannst du An Router B auf Port A oder an Router A auf Port B klicken.",
           "size": 1200
         },
         "seq_2_dijkstra_tut_0": {
-          "text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Nun weiß <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird über den Bierflaschen angezeigt.",
-          "size": 1400
+          "text": "Gut. Durch die Path Disvovery kennst du nun die Länge des Pfads zwischen den Routern <SourceRouterName> und <DestinationRouterName>. Die Entfernung zwischen den Routern wird über den Ports angezeigt.",
+          "size": 1200
         },
         "seq_2_dijkstra_tut_1": {
-          "text": "<PlayerName> hat beim Erkunden etwas Bier verschüttet. Dadurch kannst du erkennen, welche Wege bereits erkundet wurden.",
+          "text": "Bereits erkundete Pfade werden für dich durch eine gepunktete Linie markiert.",
           "size": 800
         },
         "seq_2_dijkstra_tut_2": {
-          "text": "Du hast bereits einen Weg von Tisch <CurrentRouterName> erkundet. Der Dijkstra-Algorithmus gibt vor, dass du zunächst alle Tische erkunden musst, die vom aktuellen Tisch aus erreichbar sind. Leg los!",
+          "text": "Erkunde nun alle Pfade die von Router <SourceRouterName> aus erreichbar sind.",
           "size": 1000
         },
         "seq_3_dijkstra_tut_0": {
-          "text": "Du hast für die korrekte Erkundung des Weges +5 Punkte erhalten. Für jede richtige Aktion erhälst du Pluspunke. Bei falschen Aktionen gibt es Minuspunkte.",
+          "text": "Du hast für die korrekte Erkundung des Pfades +5 Punkte erhalten. Für jede richtige Aktion erhälst du Pluspunke. Bei falschen Aktionen gibt es Minuspunkte.",
           "size": 900
         },
         "seq_3_dijkstra_tut_1": {
-          "text": "Das Bierglas (rechts oben) repräsentiert deinen aktuellen Punktestand in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist das Bier zu 100% gefüllt. Genau das ist dein Ziel!",
+          "text": "Rechts oben siehst du deinen aktuellen Score in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist die Anzeige zu 100% gefüllt.",
           "size": 1000
         },
         "seq_3_dijkstra_tut_2": {
-          "text": "Bei Tisch <CurrentRouterName> ist jetzt nur noch ein Weg übrig. Vervollständige die Erkundung.",
+          "text": "Bei Router <CurrentRouterName> ist jetzt nur noch ein Pfad zu erkunden. Vervollständige die Erkundung.",
           "size": 600
         },
         "seq_4_dijkstra_tut_0": {
-          "text": "Gut. Du hast den ersten Tisch vollständig abgearbeitet. Der Tisch wurde entsprechend markiert.",
+          "text": "Dieser Router wurde jetzt komplett abgearbeitet, der Router wird für dich dementsprechend markiert.",
           "size": 740
         },
         "seq_4_dijkstra_tut_1": {
-          "text": "Laut Dijkstra-Algorithmus muss nun der Tisch, der dem Starttisch am nächsten ist, erkundet werden. Der Starttisch ist immer Tisch A.",
+          "text": "Wähle nun als nächsten aktiven Router den aus, der mit den geringsten Pfadkosten erreicht werden kann.",
           "size": 850
         },
         "seq_4_dijkstra_tut_2": {
-          "text": "Die aktuellen Entfernungen vom Starttisch zu den anderen Tischen sind in der Routingtabelle (blauer Button rechts) dargestellt. Immer wenn du einen Weg erkundest wird die Tabelle aktualisiert.",
+          "text": "Die aktuellen Entfernungen vom Startrouter zu den anderen Routern sind in der Routingtabelle (Button mit Tabelle als Icon) zu finden. Immer wenn du einen Pfad erkundest wird die Tabelle aktualisiert.",
           "size": 1100
         },
         "seq_4_dijkstra_tut_3": {
-          "text": "Vom Starttisch zu Tisch <NeighbourRouterName1> sind es <NeighbourRouterCost1> Schritte. Zu Tisch <NeighbourRouterName2> sind es <NeighbourRouterCost2> Schritte und zu Tisch <NeighbourRouterName3> sind es <NeighbourRouterCost3> Schritte. Tisch D und F können momentan noch nicht erreicht werden. Gehe nun zum Tisch mit der geringsten Entfernung.",
+          "text": "Der Pfad vom Startrouter zu Router <NeighbourRouterName1> hat die Länge <NeighbourRouterCost1>. Der Pfad zu <NeighbourRouterName2> hat die Länge <NeighbourRouterCost2> und zu <NeighbourRouterName3> hat der Pfad die Länge <NeighbourRouterCost3>. Nur verbundene Router können erreicht werden. Gehe nun zum Router mit der geringsten Entfernung.",
           "size": 1200
         },
         "seq_5_dijkstra_tut_0": {
-          "text": "Gut. Du bist nun bei Tisch <CurrentRouterName>. Genau wie bei Tisch A musst du nun auch hier alle Wege erkunden. Erst wenn alle Wege bei Tisch <CurrentRouterName> bearbeitet wurden, geht es zum nächsten Schritt. Los gehts!",
+          "text": "Der Aktuelle Router ist jetzt Router <CurrentRouterName>. Genau wie bei Router A musst du nun auch hier alle Pfade zu den Nachbarn erkunden. Erkunde jetzt die Pfade zu allen Nachbarn.",
           "size": 1100
         },
         "seq_6_dijkstra_tut_0": {
-          "text": "Okay. Du hast den zweiten Tisch erfolgreich behandelt. Den nächsten Schritt kennst du prinzipiell bereits. Erkunde den Tisch, der dem Starttisch am nächsten ist..",
+          "text": "Okay. Du hast den zweiten Router erfolgreich behandelt. Führe auch hier die Discovery durch und gehe zum Router mit den kleinsten Pfadkosten.",
           "size": 1000
         },
         "seq_6_dijkstra_tut_1": {
-          "text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Tisch D in der Tabelle auftaucht. Tisch D (7, C) bedeutet, dass Tisch D über Tisch C mit 7 Schritten erreicht werden kann.",
+          "text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Router D in der Tabelle auftaucht. Router D (7, C) bedeutet, dass Router D über Router C mit 7 Schritten erreicht werden kann.",
           "size": 1150
         },
         "seq_6_dijkstra_tut_2": {
-          "text": "Die Entfernungen zu Tisch D ergibt sich durch Summieren der Wege zwischen den Tischen AC und CD.",
+          "text": "Die Entfernungen zu Router D ergibt sich durch Summieren der Pfade A-C und C-D.",
           "size": 720
         },
         "seq_6_dijkstra_tut_3": {
-          "text": "Die Routing-Tabelle zeigt einen weiteren interessanten Punkt. Direkt vom Starttisch aus ist Tisch B mit 5 Schritten zu erreichen. Laut Tabelle gibt es allerdings einen noch schnelleren Weg. Über Tisch C sind es nur 4 Schritte bis zu Tisch B. ",
+          "text": "Die Routing-Tabelle zeigt immer an, welcher Pfad zu einem Router am kürzesten war. Der Pfad vom Startrouter zu Router B hat die Länge 5. Es gibt aber einen kürzeren Pfad über Router C, der die Länge 4 hat.",
           "size": 1300
         },
         "seq_6_dijkstra_tut_4": {
-          "text": "Du siehst also, je mehr Tische du erkundest, desto hilfreicher ist die Routingtabelle für eine möglichst schnelle Bierauslieferung. Bearbeite nun die übrigen Tische.",
+          "text": "Durch die Discovery finden sich also immer wieder Pfade zu Routern die kürzer sein können als der bisherige.",
           "size": 1000
         },
         "seq_7_dijkstra_tut_0": {
-          "text": "Gut. Du hast bestimmt bemerkt, dass die Entfernung zu Tischen D und Tisch F gleich ist. Wenn es mehrere Tische mit minimaler Entfernungen zum Starttisch gibt, ist es egal welchen von ihnen du als nächstes erkundest.. ",
+          "text": "Du hast bestimmt bemerkt, dass die Entfernung zu Rpiter D und Router F gleich ist. Wenn es mehrere Router mit gleicher kürzester Entfernung zum Router gibt, kannst du einen beliebigen Pfad wählen.",
           "size": 1150
         },
         "seq_7_dijkstra_tut_1": {
-          "text": "Jetzt musst du nur noch einen Tisch bedienen. Gehe zu ihm.",
+          "text": "Ein Router muss noch erkundet werden.",
           "size": 600
         },
         "seq_8_dijkstra_tut_0": {
-          "text": "Ausgezeichnet, du hast nun alle Tische erkundet! Damit hast du dein erstes Level erfolgreich beendet.",
+          "text": "Alle Router wurden jetzt abgearbeitet, damit ist das Level abgeschlossen.",
           "size": 650
         },
         "seq_8_dijkstra_tut_1": {
-          "text": "<PlayerName> kennt nun die Entfernungen zwischen allen Tischen. Mit diesem Wissen kann er nun immer die schnellste Route zu einem beliebigen Tisch wählen.",
+          "text": "Jetzt sind alle kürzesten Routen zu jedem Router bekannt, somit können folgende Pakete optimal verschickt werden.",
           "size": 900
         },
-        "seq_8_dijkstra_tut_2": {
-          "text": "Die Gäste freuen sich sicher, wenn sie nicht lange auf ein neues Bier warten müssen. Aber als Belohnung für die harte Arbeit gönnt sich <PlayerName> zunächst einmal selbst ein kühles Bier. Prost!",
-          "size": 1000
-        },
         "seq_9_dijkstra_tut_0": {
-          "text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen möglich.",
+          "text": "Das geht nicht. Du kannst nicht zu Router <ClickedPathName> gehen weil du dich gerade an Router <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Routern möglich.",
           "size": 850
         },
         "seq_10_dijkstra_tut_0": {
-          "text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Wege.",
+          "text": "Bevor du zum nächsten Router gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Pfade.",
           "size": 850
         },
         "seq_11_dijkstra_tut_0": {
@@ -307,7 +303,7 @@
           "size": 900
         },
         "seq_11_dijkstra_tut_1": {
-          "text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Wege.",
+          "text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Pfade.",
           "size": 850
         },
         "seq_12_dijkstra_tut_0": {
@@ -325,7 +321,7 @@
       },
 			"dijkstra_1":{
 				"seq_0_dijkstra_0": {
-					"text": "<LevelName>\r\nFinde die kürzesten Wege zu jedem Tisch. Verwende den Dijkstra- Algorithmus.",
+					"text": "<LevelName>\r\nFinde die kürzesten Pfade zu jedem Tisch. Verwende den Dijkstra- Algorithmus.",
 					"size": 850
 				},
 				"seq_0_dijkstra_1": {
@@ -335,12 +331,12 @@ Wenn du alle Level mit drei Sternen bestanden hast, dann wird das Bonuslevel fre
 				},
 
 				"seq_1_dijkstra_0": {
-					"text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen möglich.",
+					"text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Routern möglich.",
 					"size": 1000
 				},
 
 				"seq_2_dijkstra_0": {
-					"text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Wege.",
+					"text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Pfade.",
 					"size": 850
 				},
 
@@ -349,7 +345,7 @@ Wenn du alle Level mit drei Sternen bestanden hast, dann wird das Bonuslevel fre
 					"size": 900
 				},
 				"seq_3_dijkstra_1": {
-					"text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Wege.",
+					"text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Pfade.",
 					"size": 850
 				},
 

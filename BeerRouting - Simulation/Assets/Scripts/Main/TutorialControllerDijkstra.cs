@@ -41,7 +41,7 @@ public class TutorialControllerDijkstra : LevelController
     public override void OnStopProfessorDisappear()
     {
         // Get a beer at the end of the first sequence.
-        if (professorController.GetCurrentSequenceId() == 0 && professorController.GetCurrentStateId() == 3)
+        if (professorController.GetCurrentSequenceId() == 0 && professorController.GetCurrentStateId() == 0)
         {
             gameInputEnabled = false;
             professorController.ShowBeer(true, 0);

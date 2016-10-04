@@ -212,7 +212,7 @@ public class ProfessorController : MonoBehaviour
             {
                 case 0:
                     // Play long get beer sound.
-                    audioGetBeer[version].Play();
+                    //audioGetBeer[version].Play();
                     // Show professor with beer after audio is finished.
                     StartCoroutine(ShowBeerAfterTime(version));
                     break;
@@ -264,7 +264,7 @@ public class ProfessorController : MonoBehaviour
     IEnumerator ShowBeerAfterTime(int version)
     {
         // Wait until get beer sound is over.
-        yield return new WaitForSeconds(audioGetBeer[version].clip.length - 0.5f);
+        yield return new WaitForSeconds(0);
         if (version != 3)
         {
             // Show professor with beer.

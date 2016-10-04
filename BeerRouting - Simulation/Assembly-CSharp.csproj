@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{157C79D7-0559-4A0D-2177-8E783FDFBEF9}</ProjectGuid>
+    <ProjectGuid>{EF819F1A-15B5-794D-E75F-28D2DF67523F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -38,13 +38,14 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AstarPathfindingProject\Core\AI\AILerp.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\AI\AIPath.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\AI\Seeker.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\BinaryHeap.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphUpdateProcessor.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\Int3.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ListPool.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink.cs" />
@@ -66,9 +68,12 @@
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink3.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ObjectPool.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathPool.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathProcessor.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathReturnQueue.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\StackPool.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WorkItemProcessor.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Nodes\GraphNode.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\Path.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\PathHandler.cs" />
@@ -98,6 +103,7 @@
      <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\EuclideanEmbedding.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs" />
+     <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\RecastMeshGatherer.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Modifiers\AlternativePath.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Modifiers\Modifiers.cs" />
@@ -117,6 +123,7 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\Localization.cs" />
      <Compile Include="Assets\Scripts\CheatSheet\ClickOnObjectsButton.cs" />
      <Compile Include="Assets\Scripts\CheatSheet\DisableButton.cs" />
      <Compile Include="Assets\Scripts\Dijkstra\Destroyer.cs" />
@@ -130,8 +137,6 @@
      <Compile Include="Assets\Scripts\Dijkstra\TextOutline.cs" />
      <Compile Include="Assets\Scripts\Dijkstra\TextScript.cs" />
      <Compile Include="Assets\Scripts\Dijkstra\UITextScriptPathInfo.cs" />
-     <Compile Include="Assets\Scripts\DisableMobileButton.cs" />
-     <Compile Include="Assets\Scripts\DisplayPathHovers.cs" />
      <Compile Include="Assets\Scripts\EditorRelatedScript\DrawGizmosOnCollider.cs" />
      <Compile Include="Assets\Scripts\EditorScripts\FindMissingScriptsRecursively.cs" />
      <Compile Include="Assets\Scripts\EditorScripts\PathDisplayScript.cs" />
@@ -144,7 +149,6 @@
      <Compile Include="Assets\Scripts\Game Modes\HopBasedHotPotatoManager.cs" />
      <Compile Include="Assets\Scripts\Game Modes\HotPotatoTimer.cs" />
      <Compile Include="Assets\Scripts\Game Modes\UniformCostManager.cs" />
-     <Compile Include="Assets\Scripts\GlassShardTriggerQTE.cs" />
      <Compile Include="Assets\Scripts\Logging\LevelLogging.cs" />
      <Compile Include="Assets\Scripts\Main\AudioFadeOut.cs" />
      <Compile Include="Assets\Scripts\Main\BackgroundDimensions.cs" />
@@ -152,6 +156,8 @@
      <Compile Include="Assets\Scripts\Main\CameraFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Main\CameraPan.cs" />
      <Compile Include="Assets\Scripts\Main\Constants.cs" />
+     <Compile Include="Assets\Scripts\Main\DisableMobileButton.cs" />
+     <Compile Include="Assets\Scripts\Main\DisplayPathHovers.cs" />
      <Compile Include="Assets\Scripts\Main\GameState.cs" />
      <Compile Include="Assets\Scripts\Main\LevelController.cs" />
      <Compile Include="Assets\Scripts\Main\LevelControllerDijkstra.cs" />
@@ -206,10 +212,12 @@
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerTransparencyScript.cs" />
      <Compile Include="Assets\Scripts\Player\SpawnPuddles.cs" />
-     <Compile Include="Assets\Scripts\QuickTimeScript.cs" />
+     <Compile Include="Assets\Scripts\QTE\GlassShardTriggerQTE.cs" />
+     <Compile Include="Assets\Scripts\QTE\QuickTimeScript.cs" />
      <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperColor.cs" />
      <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperController.cs" />
      <Compile Include="Assets\Scripts\SideMenu\SideMenu.cs" />
+     <Compile Include="Assets\Scripts\SimpleJson.cs.cs" />
      <Compile Include="Assets\Scripts\UI\AudioMenu\AudioMenu.cs" />
      <Compile Include="Assets\Scripts\UI\AudioMenu\AudioMenuMain.cs" />
      <Compile Include="Assets\Scripts\UI\AudioMenu\OnClickRoutingTable.cs" />
@@ -226,6 +234,7 @@
      <Compile Include="Assets\Scripts\UI\Professor\SpeechBubbleState.cs" />
      <Compile Include="Assets\Scripts\UI\RoutingTable\RoutingTableUI.cs" />
      <Compile Include="Assets\Scripts\UI\Score\ScoreBeer.cs" />
+     <Compile Include="Assets\Scripts\_Localization\Language.cs" />
      <Compile Include="Assets\StateMachines\PlayerStates.cs" />
      <Compile Include="Assets\StateMachines\ProfessorStates.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
@@ -242,18 +251,19 @@
      <None Include="Assets\AstarPathfindingProject\Readme.txt" />
      <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\JsonFxLicense.txt" />
      <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
+     <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Philipp/Documents/UnityProjects/BeerRouting/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Philipp/Documents/UnityProjects/BeerRouting/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
