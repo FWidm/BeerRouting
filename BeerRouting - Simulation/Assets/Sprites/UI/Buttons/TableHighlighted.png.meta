@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 62f7b9da3c48e6f43945f3e6bd94599e
+timeCreated: 1475754415
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TableHighlighted_0
+    21300002: TableHighlighted_1
+    21300004: TableHighlighted_2
+    21300006: TableHighlighted_3
+    21300008: TableHighlighted_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TableHighlighted_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1541
+        width: 338
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137, y: -105.5}
+        - {x: 149, y: -86.5}
+        - {x: 162, y: -61.5}
+        - {x: 169, y: -37.5}
+        - {x: 169, y: 34.5}
+        - {x: 166, y: 50.5}
+        - {x: 150, y: 87.5}
+        - {x: 137, y: 106.5}
+        - {x: 132, y: 111.5}
+        - {x: 106, y: 136.5}
+        - {x: 95, y: 144.5}
+        - {x: 68, y: 158.5}
+        - {x: 52, y: 165.5}
+        - {x: 36, y: 169.5}
+        - {x: -40, y: 169.5}
+        - {x: -53, y: 165.5}
+        - {x: -90, y: 148.5}
+        - {x: -112, y: 131.5}
+        - {x: -140, y: 102.5}
+        - {x: -148, y: 90.5}
+        - {x: -163, y: 58.5}
+        - {x: -169, y: 40.5}
+        - {x: -169, y: -36.5}
+        - {x: -168, y: -41.5}
+        - {x: -159, y: -68.5}
+        - {x: -143, y: -98.5}
+        - {x: -111, y: -132.5}
+        - {x: -92, y: -145.5}
+        - {x: -66, y: -159.5}
+        - {x: -49, y: -165.5}
+        - {x: -29, y: -169.5}
+        - {x: 33, y: -169.5}
+        - {x: 62, y: -161.5}
+        - {x: 92, y: -145.5}
+        - {x: 111, y: -132.5}
+    - name: TableHighlighted_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1179
+        width: 338
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -119.5}
+        - {x: 147, y: -91.5}
+        - {x: 162, y: -61.5}
+        - {x: 168, y: -36.5}
+        - {x: 169, y: -33.5}
+        - {x: 169, y: 33.5}
+        - {x: 166, y: 50.5}
+        - {x: 158, y: 68.5}
+        - {x: 144, y: 95.5}
+        - {x: 131, y: 112.5}
+        - {x: 112, y: 132.5}
+        - {x: 85, y: 151.5}
+        - {x: 56, y: 164.5}
+        - {x: 33, y: 169.5}
+        - {x: -37, y: 169.5}
+        - {x: -64, y: 161.5}
+        - {x: -90, y: 148.5}
+        - {x: -112, y: 131.5}
+        - {x: -131, y: 112.5}
+        - {x: -142, y: 99.5}
+        - {x: -159, y: 69.5}
+        - {x: -169, y: 40.5}
+        - {x: -169, y: -36.5}
+        - {x: -167, y: -49.5}
+        - {x: -147, y: -91.5}
+        - {x: -136, y: -105.5}
+        - {x: -124, y: -120.5}
+        - {x: -101, y: -140.5}
+        - {x: -76, y: -155.5}
+        - {x: -56, y: -164.5}
+        - {x: -29, y: -169.5}
+        - {x: 27, y: -169.5}
+        - {x: 47, y: -166.5}
+        - {x: 74, y: -156.5}
+        - {x: 102, y: -140.5}
+    - name: TableHighlighted_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 805
+        width: 339
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118.5, y: -127.5}
+        - {x: 142.5, y: -101.5}
+        - {x: 161.5, y: -63.5}
+        - {x: 165.5, y: -52.5}
+        - {x: 169.5, y: -32.5}
+        - {x: 169.5, y: 33.5}
+        - {x: 165.5, y: 52.5}
+        - {x: 150.5, y: 86.5}
+        - {x: 134.5, y: 109.5}
+        - {x: 109.5, y: 134.5}
+        - {x: 84.5, y: 151.5}
+        - {x: 54.5, y: 164.5}
+        - {x: 33.5, y: 169.5}
+        - {x: -30.5, y: 169.5}
+        - {x: -35.5, y: 168.5}
+        - {x: -47.5, y: 166.5}
+        - {x: -78.5, y: 154.5}
+        - {x: -106.5, y: 135.5}
+        - {x: -130.5, y: 112.5}
+        - {x: -147.5, y: 90.5}
+        - {x: -164.5, y: 56.5}
+        - {x: -169.5, y: 30.5}
+        - {x: -169.5, y: -27.5}
+        - {x: -166.5, y: -42.5}
+        - {x: -161.5, y: -62.5}
+        - {x: -147.5, y: -90.5}
+        - {x: -130.5, y: -112.5}
+        - {x: -106.5, y: -135.5}
+        - {x: -92.5, y: -145.5}
+        - {x: -73.5, y: -155.5}
+        - {x: -50.5, y: -165.5}
+        - {x: -33.5, y: -169.5}
+        - {x: 31.5, y: -169.5}
+        - {x: 48.5, y: -165.5}
+        - {x: 63.5, y: -160.5}
+        - {x: 86.5, y: -150.5}
+    - name: TableHighlighted_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 416
+        width: 339
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.5, y: -125.5}
+        - {x: 149.5, y: -90.5}
+        - {x: 164.5, y: -57.5}
+        - {x: 169.5, y: -31.5}
+        - {x: 169.5, y: 36.5}
+        - {x: 160.5, y: 64.5}
+        - {x: 151.5, y: 83.5}
+        - {x: 135.5, y: 109.5}
+        - {x: 103.5, y: 138.5}
+        - {x: 83.5, y: 151.5}
+        - {x: 64.5, y: 160.5}
+        - {x: 37.5, y: 167.5}
+        - {x: 26.5, y: 169.5}
+        - {x: -28.5, y: 169.5}
+        - {x: -42.5, y: 167.5}
+        - {x: -66.5, y: 158.5}
+        - {x: -87.5, y: 148.5}
+        - {x: -112.5, y: 131.5}
+        - {x: -140.5, y: 101.5}
+        - {x: -148.5, y: 89.5}
+        - {x: -162.5, y: 60.5}
+        - {x: -169.5, y: 34.5}
+        - {x: -169.5, y: -37.5}
+        - {x: -160.5, y: -66.5}
+        - {x: -152.5, y: -81.5}
+        - {x: -139.5, y: -103.5}
+        - {x: -114.5, y: -129.5}
+        - {x: -93.5, y: -146.5}
+        - {x: -61.5, y: -162.5}
+        - {x: -45.5, y: -167.5}
+        - {x: -32.5, y: -169.5}
+        - {x: 33.5, y: -169.5}
+        - {x: 58.5, y: -163.5}
+        - {x: 86.5, y: -149.5}
+        - {x: 97.5, y: -142.5}
+    - name: TableHighlighted_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 393
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.5, y: -184.5}
+        - {x: 98.5, y: -173.5}
+        - {x: 114.5, y: -163.5}
+        - {x: 133.5, y: -148.5}
+        - {x: 154.5, y: -127.5}
+        - {x: 170.5, y: -103.5}
+        - {x: 181.5, y: -81.5}
+        - {x: 190.5, y: -61.5}
+        - {x: 196.5, y: -32.5}
+        - {x: 196.5, y: 29.5}
+        - {x: 193.5, y: 50.5}
+        - {x: 187.5, y: 70.5}
+        - {x: 170.5, y: 105.5}
+        - {x: 155.5, y: 125.5}
+        - {x: 130.5, y: 151.5}
+        - {x: 107.5, y: 168.5}
+        - {x: 83.5, y: 182.5}
+        - {x: 58.5, y: 191.5}
+        - {x: 37.5, y: 195.5}
+        - {x: 31.5, y: 196.5}
+        - {x: -35.5, y: 196.5}
+        - {x: -52.5, y: 193.5}
+        - {x: -71.5, y: 187.5}
+        - {x: -99.5, y: 173.5}
+        - {x: -112.5, y: 165.5}
+        - {x: -128.5, y: 154.5}
+        - {x: -153.5, y: 128.5}
+        - {x: -167.5, y: 109.5}
+        - {x: -183.5, y: 81.5}
+        - {x: -194.5, y: 48.5}
+        - {x: -196.5, y: 32.5}
+        - {x: -196.5, y: -31.5}
+        - {x: -194.5, y: -47.5}
+        - {x: -185.5, y: -76.5}
+        - {x: -174.5, y: -97.5}
+        - {x: -162.5, y: -116.5}
+        - {x: -155.5, y: -125.5}
+        - {x: -131.5, y: -150.5}
+        - {x: -125.5, y: -155.5}
+        - {x: -105.5, y: -169.5}
+        - {x: -88.5, y: -178.5}
+        - {x: -70.5, y: -187.5}
+        - {x: -42.5, y: -195.5}
+        - {x: -34.5, y: -196.5}
+        - {x: 30.5, y: -196.5}
+        - {x: 45.5, y: -193.5}
+        - {x: 54.5, y: -191.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
