@@ -188,14 +188,14 @@ public class PathScript : MonoBehaviour
         // TODO create game object.
         pathCostDisplay = new GameObject("PathCostSpriteText", typeof(SpriteFontRenderer));
         SpriteFontRenderer sfr = pathCostDisplay.GetComponent<SpriteFontRenderer>();
-        sfr.resName = "Numbers2";
+        sfr.resName = "font_sprites";
         sfr.displayText = "" + pathCosts;
         sfr.sortingLayerName = "Paths";
         sfr.scaleAxis = 0.4f;
         if (debugging)
             Debug.Log("Displaying for: " + name + " - costs=" + pathCosts);
         pathCostDisplay.transform.parent = gameObject.transform;
-        pathCostDisplay.transform.position = new Vector3(transform.GetChild(0).position.x - .10f, transform.GetChild(0).position.y + yOffsetPathCostDisplay, transform.GetChild(0).position.z);
+        pathCostDisplay.transform.position = new Vector3(transform.GetChild(0).position.x + .30f, transform.GetChild(0).position.y + yOffsetPathCostDisplay, transform.GetChild(0).position.z);
     }
 
     public void ResetPathcost()
