@@ -1,15 +1,20 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class ProfessorButton : MonoBehaviour {
 
     private ProfessorController professorController;
     private AudioSource audioBtnClick;
+    private int buttonClickCount;
 
 	// Use this for initialization
 	void Start () {
         audioBtnClick = GetComponent<AudioSource>();
         professorController = FindObjectOfType<ProfessorController>();
+        buttonClickCount = 0;
+    }
+    public int GetClickCount() {
+        return buttonClickCount;
     }
 
     public void OnClick()
@@ -18,7 +23,8 @@ public class ProfessorButton : MonoBehaviour {
         audioBtnClick.Play();
         // Show professor.
         LevelController.GetCurrentLevelController().OnProfessorButtonClick();
-    }	
+        buttonClickCount++;
+    }
 
     public void SetVisible(bool visible)
     {

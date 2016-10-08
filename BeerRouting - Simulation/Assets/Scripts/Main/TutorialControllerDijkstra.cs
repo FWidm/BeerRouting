@@ -48,7 +48,7 @@ public class TutorialControllerDijkstra : LevelController
             professorController.NextSequence();
         }
         // Check if level is finished and professor is gone.
-        if (professorController.GetCurrentSequenceId() == 8 && professorController.GetCurrentStateId() == 2)
+        if (professorController.GetCurrentSequenceId() == 8 && professorController.GetCurrentStateId() == 1)
         {
             FinishLevel();
         }

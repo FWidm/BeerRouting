@@ -191,7 +191,7 @@ public class PathScript : MonoBehaviour
         sfr.resName = "font_sprites";
         sfr.displayText = "" + pathCosts;
         sfr.sortingLayerName = "Paths";
-        sfr.scaleAxis = 0.4f;
+        sfr.scaleAxis = 0.8f;
         if (debugging)
             Debug.Log("Displaying for: " + name + " - costs=" + pathCosts);
         pathCostDisplay.transform.parent = gameObject.transform;

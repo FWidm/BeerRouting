@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class OnClickRoutingTable : MonoBehaviour
@@ -7,27 +7,31 @@ public class OnClickRoutingTable : MonoBehaviour
     public GameObject panel;
     public GameObject table;
     private AudioSource buttonClick;
+    private int buttonClickCount;
 
     // Use this for initialization
     void Start()
     {
         buttonClick = GetComponent<AudioSource>();
+        buttonClickCount = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public int GetClickCount()
     {
-
+        return buttonClickCount;
     }
 
     public void ToggleMenu()
     {
+
+
         if (buttonClick != null)
             buttonClick.Play();
         if (!panel.activeSelf)
         {
             panel.SetActive(true);
             table.SetActive(true);
+            buttonClickCount++;
         }
         else
             StartCoroutine(CloseAfterTime());

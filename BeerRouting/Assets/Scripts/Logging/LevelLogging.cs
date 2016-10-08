@@ -15,7 +15,7 @@ public class LevelLogging
     {
         string appDataFolder = Application.persistentDataPath;
 
-        String fileName = getTimeStamp().Replace(":",".") + " " + levelName + ".txt";
+        String fileName = getTimeStamp().Replace(":",".") + " comic " + levelName + ".txt";
         fileName = fileName.Replace(" ", "_");
         Debug.Log("[Levellogging] directory is: "+directoryName);
         filePath = appDataFolder + "/" + directoryName + "/" + fileName;
@@ -38,8 +38,7 @@ public class LevelLogging
     {
         string appDataFolder = Application.persistentDataPath;
 
-        String fileName = getTimeStamp().Replace(":", ".") + " " + levelName + ".txt";
-        fileName = fileName.Replace(" ", "_");
+        String fileName = UserName + "_comic_" + levelName + ".txt";
         Debug.Log("[Levellogging] directory is: " + directoryName);
         filePath = appDataFolder + "/" + directoryName + "/" + fileName;
         stringBuilder = new StringBuilder();
