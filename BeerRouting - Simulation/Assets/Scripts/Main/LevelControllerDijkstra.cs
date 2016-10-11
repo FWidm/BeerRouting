@@ -48,14 +48,6 @@ public class LevelControllerDijkstra : LevelController
         // If all routers are handled completely, show professor with star speech bubble.
         if (dijkstraManager.GetAmountOfUndiscoveredRouters() == 0)
         {
-            //Write the end of the log
-            DijkstraMovementManager DMM= FindObjectOfType<DijkstraMovementManager>();
-            DMM.WriteToLog("Level Finished; Player has finished the level");
-            ProfessorButton pButton = FindObjectOfType<ProfessorButton>();
-            OnClickRoutingTable rButton = FindObjectOfType<OnClickRoutingTable>();
-
-            DMM.WriteToLog("ButtonClicks; Professor Button clicks= " + pButton.GetClickCount() + ", Routing Table Button clicks=" + rButton.GetClickCount());
-
             FinishLevel();
             return;
         }

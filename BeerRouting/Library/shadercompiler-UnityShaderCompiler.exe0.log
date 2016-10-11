@@ -1,21 +1,2 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=683 outsize=683 ok=1
-Cmd: preprocess
-  insize=838 outsize=838 ok=1
-Cmd: preprocess
-  insize=1416 outsize=453 ok=1
-Cmd: preprocess
-  insize=2228 outsize=863 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (57): undeclared identifier 'unity_ObjectToWorld'\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
-  api=4 type=0 insize=970 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=0
-Cmd: preprocess
-  insize=763 outsize=763 ok=1
-Cmd: preprocess
-  error: 1 plat 18 at (106): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
-  insize=2929 outsize=2230 ok=1
-Cmd: preprocess
-  insize=1388 outsize=585 ok=1

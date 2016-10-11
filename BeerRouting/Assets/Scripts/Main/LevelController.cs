@@ -73,7 +73,16 @@ public abstract class LevelController : MonoBehaviour
         if (debugging)
             Debug.Log("Level finished.");
 
-        // TODO Move and zoom camera to player!?
+        //Write the end of the log
+        DijkstraMovementManager DMM = FindObjectOfType<DijkstraMovementManager>();
+        if (DMM != null)
+        {
+            DMM.WriteToLog("Level Finished; Player has finished the level");
+            ProfessorButton pButton = FindObjectOfType<ProfessorButton>();
+            OnClickRoutingTable rButton = FindObjectOfType<OnClickRoutingTable>();
+
+            DMM.WriteToLog("ButtonClicks; Professor Button clicks= " + pButton.GetClickCount() + ", Routing Table Button clicks=" + rButton.GetClickCount());
+        }
 
         // Play beer drink animation after a short time.
         StartCoroutine(DrinkBeerAfterTime());
@@ -88,7 +97,7 @@ public abstract class LevelController : MonoBehaviour
         SaveLevelState();
 
         // Go to main menu.
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     private void SaveLevelState()

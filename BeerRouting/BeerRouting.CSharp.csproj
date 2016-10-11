@@ -147,9 +147,9 @@
     <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
     <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
-    <Compile Include="Assets\Localization.cs" />
     <Compile Include="Assets\Scripts\CheatSheet\ClickOnObjectsButton.cs" />
     <Compile Include="Assets\Scripts\CheatSheet\DisableButton.cs" />
+    <Compile Include="Assets\Scripts\CheckName.cs" />
     <Compile Include="Assets\Scripts\Dijkstra\Destroyer.cs" />
     <Compile Include="Assets\Scripts\Dijkstra\DijkstraManager.cs" />
     <Compile Include="Assets\Scripts\Dijkstra\DijkstraMove.cs" />
@@ -174,6 +174,8 @@
     <Compile Include="Assets\Scripts\Game Modes\HotPotatoTimer.cs" />
     <Compile Include="Assets\Scripts\Game Modes\UniformCostManager.cs" />
     <Compile Include="Assets\Scripts\GmailScript.cs" />
+    <Compile Include="Assets\Scripts\InputNameScript.cs" />
+    <Compile Include="Assets\Scripts\Localization.cs" />
     <Compile Include="Assets\Scripts\Logging\LevelLogging.cs" />
     <Compile Include="Assets\Scripts\Main\AudioFadeOut.cs" />
     <Compile Include="Assets\Scripts\Main\BackgroundDimensions.cs" />
@@ -243,6 +245,7 @@
     <Compile Include="Assets\Scripts\RoomBarkeeper\RoomBarkeeperController.cs" />
     <Compile Include="Assets\Scripts\SideMenu\SideMenu.cs" />
     <Compile Include="Assets\Scripts\SimpleJson.cs.cs" />
+    <Compile Include="Assets\Scripts\ToMainMenu.cs" />
     <Compile Include="Assets\Scripts\UI\AudioMenu\AudioMenu.cs" />
     <Compile Include="Assets\Scripts\UI\AudioMenu\AudioMenuMain.cs" />
     <Compile Include="Assets\Scripts\UI\AudioMenu\OnClickRoutingTable.cs" />

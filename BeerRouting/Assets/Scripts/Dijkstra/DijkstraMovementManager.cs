@@ -82,7 +82,7 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
             LevelProperties levelProperties = FindObjectOfType<LevelProperties>();
 
             Debug.Log("Logging to file!");
-            levelLogging = new LevelLogging(levelProperties.levelName, " MaxScore=" + levelProperties.levelMaxScore + ", Type=" + levelProperties.gameType);
+            levelLogging = new LevelLogging(levelProperties.levelName, " MaxScore=" + levelProperties.levelMaxScore + ", Type=" + levelProperties.gameType, PlayerPrefs.GetString("name"));
         }
     }
     /// <summary>

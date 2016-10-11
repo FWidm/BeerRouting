@@ -38,7 +38,7 @@ public class LevelLogging
     {
         string appDataFolder = Application.persistentDataPath;
 
-        String fileName = UserName+"_sim_"+levelName;
+        String fileName = UserName+"_sim_"+levelName+"_"+getTimeStamp().Replace(":","-")+".txt";
         Debug.Log("[Levellogging] directory is: " + directoryName);
         filePath = appDataFolder + "/" + directoryName + "/" + fileName;
         stringBuilder = new StringBuilder();
