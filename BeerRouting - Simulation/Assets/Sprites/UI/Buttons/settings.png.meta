@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: e2b3c50acc31cd647a3fbe6de2a30c75
-timeCreated: 1476219891
+guid: 6990d3d1c81a1c140b5c1c9f3b66d607
+timeCreated: 1476219822
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Home_0
-    21300002: Home_1
-    21300004: Home_2
-    21300006: Home_3
-    21300008: Home_4
+    21300000: settings_0
+    21300002: settings_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,49 +52,51 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Home_0
+    - name: settings_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 282
-        width: 201
-        height: 201
+        x: 6
+        y: 292
+        width: 217
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 100.5, y: -25.5}
-        - {x: 100.5, y: 11.5}
-        - {x: 61.5, y: 97.5}
-        - {x: 35.5, y: 94.5}
-        - {x: 8.5, y: 100.5}
-        - {x: -6.5, y: 100.5}
-        - {x: -100.5, y: 18.5}
-        - {x: -100.5, y: -1.5}
-        - {x: -88.5, y: -10.5}
-        - {x: -79.5, y: -100.5}
-        - {x: 79.5, y: -100.5}
-    - name: Home_1
+      - - {x: 108.5, y: 70}
+        - {x: 82.5, y: 99}
+        - {x: 66.5, y: 109}
+        - {x: -35.5, y: 109}
+        - {x: -108.5, y: -63}
+        - {x: -108.5, y: -90}
+        - {x: -81.5, y: -109}
+        - {x: -55.5, y: -109}
+        - {x: 76.5, y: -13}
+        - {x: 107.5, y: 11}
+        - {x: 108.5, y: 24}
+    - name: settings_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 201
-        height: 201
+        width: 218
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 100.5, y: -42.5}
-        - {x: 100.5, y: 14.5}
-        - {x: 75.5, y: 48.5}
-        - {x: 60.5, y: 94.5}
-        - {x: 15.5, y: 100.5}
-        - {x: -4.5, y: 100.5}
-        - {x: -100.5, y: 4.5}
-        - {x: -100.5, y: -5.5}
-        - {x: -79.5, y: -100.5}
-        - {x: 79.5, y: -100.5}
+      - - {x: 106, y: 62.5}
+        - {x: 65, y: 108.5}
+        - {x: 28, y: 108.5}
+        - {x: 13, y: 99.5}
+        - {x: 0, y: 86.5}
+        - {x: -109, y: -54.5}
+        - {x: -109, y: -82.5}
+        - {x: -90, y: -108.5}
+        - {x: -68, y: -108.5}
+        - {x: 79, y: -16.5}
+        - {x: 109, y: 19.5}
+        - {x: 109, y: 62.5}
     outline: []
   spritePackingTag: 
   userData: 

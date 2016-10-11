@@ -23,7 +23,7 @@ public class ScoreBeer : MonoBehaviour
         status = minStatus;
         nextStatus = status;
         imageBeerFull.fillAmount = status;
-        textBeerScore.text = score + "\n%";
+        textBeerScore.text = score + "%";
     }
 
     // Update is called once per frame
@@ -90,7 +90,7 @@ public class ScoreBeer : MonoBehaviour
         {
             textScore = 0;
         }
-        textBeerScore.text = textScore + "\n%";
+        textBeerScore.text = textScore + "%";
     }
 
     public void SetMaxScore(int maxScore)
