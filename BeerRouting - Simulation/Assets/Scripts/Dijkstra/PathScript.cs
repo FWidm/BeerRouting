@@ -191,11 +191,11 @@ public class PathScript : MonoBehaviour
         sfr.resName = "font_sprites";
         sfr.displayText = "" + pathCosts;
         sfr.sortingLayerName = "Paths";
-        sfr.scaleAxis = 0.8f;
+        sfr.scaleAxis = 0.5f;
         if (debugging)
             Debug.Log("Displaying for: " + name + " - costs=" + pathCosts);
         pathCostDisplay.transform.parent = gameObject.transform;
-        pathCostDisplay.transform.position = new Vector3(transform.GetChild(0).position.x + .30f, transform.GetChild(0).position.y + yOffsetPathCostDisplay, transform.GetChild(0).position.z);
+        pathCostDisplay.transform.position = new Vector3(transform.GetChild(0).position.x, transform.GetChild(0).position.y+yOffsetPathCostDisplay, transform.GetChild(0).position.z);
     }
 
     public void ResetPathcost()
