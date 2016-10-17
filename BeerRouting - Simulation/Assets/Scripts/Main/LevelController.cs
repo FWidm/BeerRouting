@@ -78,11 +78,21 @@ public abstract class LevelController : MonoBehaviour
         DijkstraMovementManager DMM = FindObjectOfType<DijkstraMovementManager>();
         if (DMM != null)
         {
-            DMM.WriteToLog("Level Finished; Player has finished the level");
+            DMM.WriteToLogAppendScore("Level Finished; Player has finished the level");
             ProfessorButton pButton = FindObjectOfType<ProfessorButton>();
             OnClickRoutingTable rButton = FindObjectOfType<OnClickRoutingTable>();
+            DMM.WriteToLog("Summary; Printing the Summary of stats for this run:");
+            DMM.WriteToLog("");
+            DMM.WriteToLog("Buttons; Professor Button clicks= " + pButton.GetClickCount());
+            DMM.WriteToLog("Buttons; Routing Table Button clicks=" + rButton.GetClickCount());
+            DMM.WriteToLog("Count; #Error Recovery= " + DMM.countErrorRecovery);
+            DMM.WriteToLog("Count; #NOPs = " + DMM.countNoOp);
+            DMM.WriteToLog("Count; #Wrong Hops= " + DMM.countWrongHop);
+            DMM.WriteToLog("Count; #UndiscoveredPaths= " + DMM.countUndiscoveredPaths);
 
-            DMM.WriteToLog("ButtonClicks; Professor Button clicks= " + pButton.GetClickCount() + ", Routing Table Button clicks=" + rButton.GetClickCount());
+
+
+
         }
         // TODO Move and zoom camera to player!?
 

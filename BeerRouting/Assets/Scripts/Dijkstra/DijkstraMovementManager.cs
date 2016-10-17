@@ -40,8 +40,11 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
     private SoundManager soundManager;
 
     //Log the GameMovement of one level
-    private bool logToFile=true;
+    private bool logToFile = true;
     private LevelLogging levelLogging;
+
+    // count things to log
+    public int countErrorRecovery, countWrongHop, countNoOp, countUndiscoveredPaths;
 
     // Use this for initialization
     void Start()
@@ -89,13 +92,28 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
     /// Appends a string to the internal levelLogging object if it is not null and logging is enabled.
     /// </summary>
     /// <param name="logLine"></param>
+    public void WriteToLogAppendScore(String logLine)
+    {
+        if (logToFile)
+        {
+            if (levelLogging != null)
+            {
+                levelLogging.AppendLine(logLine + ";\tScore% = " + scoreBeer.GetScore());
+            }
+        }
+    }
+
+    /// <summary>
+    /// Appends a string to the internal levelLogging object if it is not null and logging is enabled.
+    /// </summary>
+    /// <param name="logLine"></param>
     public void WriteToLog(String logLine)
     {
         if (logToFile)
         {
             if (levelLogging != null)
             {
-                levelLogging.AppendLine(logLine+ ";\tScore% = " + scoreBeer.GetScore());
+                levelLogging.AppendLine(logLine);
             }
         }
     }
@@ -159,7 +177,7 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
 
             // Move player back to origin router.
             movementScript.MovePlayer(originRouter);
- 
+
             originRouter = null;
         }
         else
@@ -175,7 +193,7 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
                 // Display path costs also for the way back.
                 dijkstraManager.GetInversePath(currentPath).DisplayPathCosts();
                 //writeFileLog
- 
+
             }
 
             // If it is a valid discovery move, check if the current working router is completely handled now.
@@ -222,12 +240,13 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
                     // Display -5 score points on screen and update the score.
                     scoreTexts.DisplayScoreText(ScoreText.Minus5);
                     scoreBeer.UpdateScore(-5);
-                    WriteToLog("Error Recovery;\tDid not recover from Error, ErrorRecoveryStatus=" + erStatus );
+                    countErrorRecovery++;
+                    WriteToLogAppendScore("Error Recovery;\tDid not recover from Error, ErrorRecoveryStatus=" + erStatus);
 
                 }
                 else
                 {
-                    WriteToLog("Error Recovery;\tRecovered from Error, ErrorRecoveryStatus=" + erStatus );
+                    WriteToLogAppendScore("Error Recovery;\tRecovered from Error, ErrorRecoveryStatus=" + erStatus);
                 }
 
                 break;
@@ -243,7 +262,8 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
                 // Show -10 score points on screen and update the score.
                 scoreTexts.DisplayScoreText(ScoreText.Minus10);
                 scoreBeer.UpdateScore(-10);
-                WriteToLog("Undiscovered Paths;\tPlayer did not perform the complete discovery, destination=" + destination);
+                countUndiscoveredPaths++;
+                WriteToLogAppendScore("Undiscovered Paths;\tPlayer did not perform the complete discovery, destination=" + destination);
 
                 // Change players mouth to angry.
                 playerController.SetMouth(2);
@@ -260,7 +280,8 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
                 // Show -20 score points on screen and update the score.
                 scoreTexts.DisplayScoreText(ScoreText.Minus20);
                 scoreBeer.UpdateScore(-20);
-                WriteToLog("Wrong Hop;\tPlayer did perform a wrong hop. destination=" + destination);
+                countWrongHop++;
+                WriteToLogAppendScore("Wrong Hop;\tPlayer did perform a wrong hop. destination=" + destination);
 
                 // Change players mouth to angry.
                 playerController.SetMouth(2);
@@ -269,11 +290,12 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
 
                 if (isLogEnabled)
                     Debug.Log("DijkstraMovementManager: It is an invalid hop.");
-                WriteToLog("Wrong Hop;\tPlayer did perform a wrong hop. destination=" + destination);
+                WriteToLogAppendScore("Wrong Hop;\tPlayer did perform a wrong hop. destination=" + destination);
 
                 break;
             case DijkstraStatus.NOP:
-                WriteToLog("No Operation;\tPlayer travels through completely handled destination=" + destination );
+                countNoOp++;
+                WriteToLogAppendScore("No Operation;\tPlayer travels through completely handled destination=" + destination);
 
                 // Start moving the player object.
                 movePlayerAlongPath(destination);
@@ -300,7 +322,7 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
                 // Change players mouth to happy.
                 playerController.SetMouth(0);
 
-                WriteToLog("Valid Hop;\tPlayer did perform a valid hop. destination=" + destination);
+                WriteToLogAppendScore("Valid Hop;\tPlayer did perform a valid hop. destination=" + destination);
 
                 break;
             case DijkstraStatus.VALID_HOP_DISCOVERY:
@@ -322,7 +344,7 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
                 // Perform a path discovery step in the dijkstra algorithm.
                 dijkstraManager.PerformPathDiscovery(destination);
 
-                WriteToLog("Valid Hop Discovery;\tPlayer did perform a valid hop. destination=" + destination);
+                WriteToLogAppendScore("Valid Hop Discovery;\tPlayer did perform a valid hop. destination=" + destination);
 
                 break;
         }
