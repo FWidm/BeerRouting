@@ -94,6 +94,9 @@
     <Reference Include="Pathfinding.JsonFx">
       <HintPath>Assets\AstarPathfindingProject\Plugins\JsonFx\Pathfinding.JsonFx.dll</HintPath>
     </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>Assets\Plugins\Renci.SshNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="BeerRouting - Simulation.CSharp.csproj">

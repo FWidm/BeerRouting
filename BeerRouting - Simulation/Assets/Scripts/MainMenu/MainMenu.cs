@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour {
+public class MainMenu : MonoBehaviour
+{
 
     public Texture backgroundTexture;
 
@@ -46,11 +47,11 @@ public class MainMenu : MonoBehaviour {
     {
         GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), backgroundTexture);
 
-        levelButtonSize = ((Screen.height / numberOfIconsInRow)/5)*4;
-        marginHeight = ((Screen.height / numberOfIconsInRow) / 5)*1;
-        offsetY = (Screen.height / numberOfIconsInRow)*4;
+        levelButtonSize = ((Screen.height / numberOfIconsInRow) / 5) * 4;
+        marginHeight = ((Screen.height / numberOfIconsInRow) / 5) * 1;
+        offsetY = (Screen.height / numberOfIconsInRow) * 4;
         guiButtonSize = levelButtonSize;
-        marginWidth = (Screen.width  - numberOfIconsInRow * levelButtonSize) / (numberOfIconsInRow-1)+marginHeight;
+        marginWidth = (Screen.width - numberOfIconsInRow * levelButtonSize) / (numberOfIconsInRow - 1) + marginHeight;
 
         //SectionTutorials
 
@@ -164,21 +165,22 @@ public class MainMenu : MonoBehaviour {
             }
             print("mute1: " + soundUI);
         }
-        if (GUI.Toggle(new Rect(Screen.width * sectionSettings + (marginWidth * 1) + (levelButtonSize * 0), offsetY + (marginHeight * 7), guiButtonSize, guiButtonSize),soundGameplay, "Gameplay Sound"))
+        if (GUI.Toggle(new Rect(Screen.width * sectionSettings + (marginWidth * 1) + (levelButtonSize * 0), offsetY + (marginHeight * 7), guiButtonSize, guiButtonSize), soundGameplay, "Gameplay Sound"))
         {
             soundGameplay = !soundGameplay;
             if (!soundGameplay)
             {
                 AudioListener.volume = 0;
-            } else
+            }
+            else
             {
                 AudioListener.volume = 1;
             }
             print("mute2: " + soundGameplay);
 
         }
-         GUI.HorizontalSlider(new Rect(Screen.width * sectionSettings + (marginWidth * 1) + (levelButtonSize * 0), offsetY + (marginHeight * 8), guiButtonSize, guiButtonSize), 0.5f, 0.0f, 1.0f);
-        
+        GUI.HorizontalSlider(new Rect(Screen.width * sectionSettings + (marginWidth * 1) + (levelButtonSize * 0), offsetY + (marginHeight * 8), guiButtonSize, guiButtonSize), 0.5f, 0.0f, 1.0f);
+
 
         if (GUI.Button(new Rect(Screen.width * sectionSettings + (marginWidth * 1) + (levelButtonSize * 0), offsetY + (marginHeight * 16), guiButtonSize, guiButtonSize), "", buttonExit))
         {
