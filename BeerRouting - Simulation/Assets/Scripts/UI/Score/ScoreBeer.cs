@@ -8,8 +8,8 @@ public class ScoreBeer : MonoBehaviour
     public Image imageBeerFull;
     public Text textBeerScore;
 
-    private float minStatus = 0.14f;
-    private float maxStatus = 0.89f;
+    private float minStatus = 0.0f;
+    private float maxStatus = 1f;
     private float status;
     private float nextStatus;
     private float score = 0f;
