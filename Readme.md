@@ -51,25 +51,26 @@ Half a year later, the goal is to create two sub versions of this game, one cont
     2016-10-17T11:09:49: Count; #UndiscoveredPaths= 0
     ```
 - [ ] Provide a means to send the log files
-    - [ ] Uni email?
-    - [ ] FTP?
+    - SFTP
+      - Decide the upload dir: either /$username/ or /$username/$gametype and adapt upload.
 - [x] Add an option to enter a nickname to eventually link students to their points
 - [x] Alternate art version for the "simulation" style
   - [x] Adapted texts
   - [x] Adapted GUI
   - [x] Adapt Sequences for the Tutorial
-  - [ ] Fix a bug in the level, where the wrong font is displayed in the *level finished* dialogue
-  - [ ] Check the position of the scoretexts
-- [ ] What needs to be logged?
+  - [x] Fix a bug in the level, where the wrong font is displayed in the *level finished* dialogue
+  - [x] Check the position of the scoretexts
+- [x] What needs to be logged?
   - [x] Logging for routingtable and professor buttons
   - [x] Logging for NOPs, errors, undiscovered neighbours etc.
   - ... ?
 - [ ] Find questions for the survey
 - [ ] Limesurvey version of the questionnaire
-- [ ] Homepage
-  - [ ] Generate code for students that completed the study
-  - [ ] Check status of individuals
-  - [ ] Display informations for Studends
+- [x] Homepage
+  - [x] Generate code for students that completed the study
+  - [x] Check status of individuals
+  - [x] Display informations for Students
+  - [ ] Hints on the breadcrumbs
 
 - [ ] New Levels (2 comic, 2 simulation, eventually even 2 more for paper exercises)
 - ...
