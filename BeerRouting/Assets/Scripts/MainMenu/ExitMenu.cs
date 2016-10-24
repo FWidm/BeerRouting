@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ExitMenu : MonoBehaviour {
+public class ExitMenu : MonoBehaviour
+{
     public GameObject panel;
-    private AudioSource buttonClick;
+    public AudioSource buttonClick;
+    public AudioSource successSound;
 
     void Start()
     {
-        buttonClick = GetComponent<AudioSource>();
     }
 
     /// <summary>
@@ -15,16 +16,24 @@ public class ExitMenu : MonoBehaviour {
     /// </summary>
     public void OnSend()
     {
-        ToggleMenu();
+        buttonClick.Play();
+       
+//        ToggleMenu();
         SFTPAccess sftp = FindObjectOfType<SFTPAccess>();
-        sftp.UploadSurveyLogs();
-        Application.Quit();
+        bool sftpSuccess = sftp.UploadSurveyLogs();
+        Debug.Log("SuccessClip=" + successSound.clip);
+        if (sftpSuccess && !successSound.isPlaying)
+        {
+            successSound.Play();
+        }
+        //Application.Quit();
 
         //sftp do et nao
     }
 
     public void OnExit()
     {
+        buttonClick.Play();
         ToggleMenu();
         Application.Quit();
 

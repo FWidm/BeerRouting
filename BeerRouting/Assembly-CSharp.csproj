@@ -123,6 +123,7 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\SFTPAccess.cs" />
      <Compile Include="Assets\Scripts\CheatSheet\ClickOnObjectsButton.cs" />
      <Compile Include="Assets\Scripts\CheatSheet\DisableButton.cs" />
      <Compile Include="Assets\Scripts\CheckName.cs" />
@@ -188,6 +189,7 @@
      <Compile Include="Assets\Scripts\MainMenu\Bubble\RandomizeBubblePosition.cs" />
      <Compile Include="Assets\Scripts\MainMenu\BubblesGenerator.cs" />
      <Compile Include="Assets\Scripts\MainMenu\ExitApplication.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\ExitMenu.cs" />
      <Compile Include="Assets\Scripts\MainMenu\LoadOnClick.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Person\MirrorPerson.cs" />
@@ -268,6 +270,9 @@
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
  <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+ <Reference Include="Renci.SshNet">
+ <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting/Assets/Plugins/Renci.SshNet.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

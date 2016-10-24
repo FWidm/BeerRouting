@@ -108,6 +108,9 @@
  <Reference Include="Pathfinding.JsonFx">
  <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
+ <Reference Include="Renci.SshNet">
+ <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting/Assets/Plugins/Renci.SshNet.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>

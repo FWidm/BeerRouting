@@ -1,0 +1,64 @@
+[2016-10-18 09:03:30.123Z] [0001] Executing Assembly: WinSCPnet, Version=1.3.5.6958, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf; Path: /Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/WinSCPnet.dll; Location: /Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/WinSCPnet.dll; Product: 5.9.2.0
+[2016-10-18 09:03:30.127Z] [0001] Entry Assembly: 
+[2016-10-18 09:03:30.128Z] [0001] Operating system: Unix 15.4.0.0
+[2016-10-18 09:03:30.128Z] [0001] User: fabianwidmann@Fabians-Air.fritz.box@Fabians-Air.fritz.box; Interactive: False
+[2016-10-18 09:03:30.128Z] [0001] Runtime: 2.0.50727.1433
+[2016-10-18 09:03:30.128Z] [0001] Console encoding: Input: US-ASCII (20127); Output: US-ASCII (20127)
+[2016-10-18 09:03:30.129Z] [0001] Working directory: /Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation
+[2016-10-18 09:03:30.130Z] [0001] Session.Open entering
+[2016-10-18 09:03:30.131Z] [0001]   Session.SetupTempPath entering
+[2016-10-18 09:03:30.131Z] [0001]     Temporary folder: /var/folders/yd/m_8fdz3568l8nskcgz63sgbh0000gn/T/
+[2016-10-18 09:03:30.132Z] [0001]     Temporary file [/var/folders/yd/m_8fdz3568l8nskcgz63sgbh0000gn/T/wscpB769.115C4000.tmp] - Exists [False]
+[2016-10-18 09:03:30.133Z] [0001]   Session.SetupTempPath leaving
+[2016-10-18 09:03:30.133Z] [0001]   ExeSessionProcess..ctor entering
+[2016-10-18 09:03:30.134Z] [0001]     ExeSessionProcess.GetExecutablePath entering
+[2016-10-18 09:03:30.134Z] [0001]       Executable found in /Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/winscp.exe
+[2016-10-18 09:03:30.134Z] [0001]     ExeSessionProcess.GetExecutablePath leaving
+[2016-10-18 09:03:30.134Z] [0001]     EXE executable path resolved to /Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/winscp.exe
+[2016-10-18 09:03:30.135Z] [0001]     ExeSessionProcess.CheckVersion entering
+[2016-10-18 09:03:30.139Z] [0001]       Version of /Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/winscp.exe is , product  version is 
+[2016-10-18 09:03:30.139Z] [0001]       Version check disabled (not recommended)
+[2016-10-18 09:03:30.139Z] [0001]     ExeSessionProcess.CheckVersion leaving
+[2016-10-18 09:03:30.142Z] [0001]   ExeSessionProcess..ctor leaving
+[2016-10-18 09:03:30.142Z] [0001]   ExeSessionProcess.Start entering
+[2016-10-18 09:03:30.143Z] [0001]     ExeSessionProcess.InitializeConsole entering
+[2016-10-18 09:03:30.144Z] [0001]       Trying event _46953_2137599744_416
+[2016-10-18 09:03:30.144Z] [0001]       Creating event WinSCPConsoleEventRequest_46953_2137599744_416
+[2016-10-18 09:03:30.145Z] [0001]       Created event WinSCPConsoleEventRequest_46953_2137599744_416 with handle 10380 with security none, new True
+[2016-10-18 09:03:30.145Z] [0001]       Event _46953_2137599744_416 is unique
+[2016-10-18 09:03:30.146Z] [0001]       Creating event WinSCPConsoleEventResponse_46953_2137599744_416
+[2016-10-18 09:03:30.146Z] [0001]       Created event WinSCPConsoleEventResponse_46953_2137599744_416 with handle 10381 with security none, new True
+[2016-10-18 09:03:30.146Z] [0001]       Creating event WinSCPConsoleEventCancel_46953_2137599744_416
+[2016-10-18 09:03:30.146Z] [0001]       Created event WinSCPConsoleEventCancel_46953_2137599744_416 with handle 10382 with security none, new True
+[2016-10-18 09:03:30.155Z] [0001]     ExeSessionProcess.InitializeConsole leaving
+[2016-10-18 09:03:30.155Z] [0001]   ExeSessionProcess.Start leaving
+[2016-10-18 09:03:30.157Z] [0001]   Exception: System.DllNotFoundException: kernel32
+  at (wrapper managed-to-native) WinSCP.UnsafeNativeMethods:CreateFileMapping (Microsoft.Win32.SafeHandles.SafeFileHandle,intptr,WinSCP.FileMapProtection,int,int,string)
+  at WinSCP.ExeSessionProcess.CreateFileMapping (System.String fileMappingName) [0x00000] in <filename unknown>:0 
+  at WinSCP.ExeSessionProcess.InitializeConsole () [0x00000] in <filename unknown>:0 
+  at WinSCP.ExeSessionProcess.Start () [0x00000] in <filename unknown>:0 
+  at WinSCP.Session.Open (WinSCP.SessionOptions sessionOptions) [0x00000] in <filename unknown>:0 
+[2016-10-18 09:03:30.157Z] [0001]   Session.Cleanup entering
+[2016-10-18 09:03:30.158Z] [0001]     Terminating process
+[2016-10-18 09:03:30.158Z] [0001]     Command: [exit]
+[2016-10-18 09:03:30.158Z] [0001]     ExeSessionProcess.ExecuteCommand entering
+[2016-10-18 09:03:30.160Z] [0001]     ExeSessionProcess.ExecuteCommand leaving
+[2016-10-18 09:03:30.160Z] [0001]     ExeSessionProcess.Close entering
+[2016-10-18 09:03:30.160Z] [0001]       Waiting for process to exit (2000 ms)
+[2016-10-18 09:03:30.161Z] [0001]       Killing process
+[2016-10-18 09:03:30.161Z] [0001]     ExeSessionProcess.Close leaving
+[2016-10-18 09:03:30.162Z] [0001]     ExeSessionProcess.Dispose entering
+[2016-10-18 09:03:30.164Z] [0001]     ExeSessionProcess.Dispose leaving
+[2016-10-18 09:03:30.164Z] [0001]     Process cleanup Exception: System.SystemException: No process to kill.
+  at System.Diagnostics.Process.Close (Int32 signo) [0x00000] in <filename unknown>:0 
+  at System.Diagnostics.Process.Kill () [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process:Kill ()
+  at WinSCP.ExeSessionProcess.Close () [0x00000] in <filename unknown>:0 
+  at WinSCP.Session.Cleanup () [0x00000] in <filename unknown>:0 
+[2016-10-18 09:03:30.164Z] [0001]     Disposing log readers
+[2016-10-18 09:03:30.164Z] [0001]   Session.Cleanup leaving
+[2016-10-18 09:03:30.164Z] [0001] Session.Open leaving
+[2016-10-18 09:03:30.164Z] [0001] Session.Dispose entering
+[2016-10-18 09:03:30.164Z] [0001]   Session.Cleanup entering
+[2016-10-18 09:03:30.164Z] [0001]     Disposing log readers
+[2016-10-18 09:03:30.164Z] [0001]   Session.Cleanup leaving
