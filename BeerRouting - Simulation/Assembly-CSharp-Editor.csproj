@@ -111,9 +111,6 @@
  <Reference Include="Renci.SshNet">
  <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/Renci.SshNet.dll</HintPath>
  </Reference>
- <Reference Include="WinSCPnet">
- <HintPath>/Users/fabianwidmann/Unity/BeerRouting/BeerRouting - Simulation/Assets/Plugins/WinSCPnet.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
