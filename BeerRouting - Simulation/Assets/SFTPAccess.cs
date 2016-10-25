@@ -12,7 +12,7 @@ using Renci.SshNet.Common;
 
 public class SFTPAccess : MonoBehaviour
 {
-    private string gameTypeString = "comic";
+    private string gameTypeString = "sim";
     public Boolean debug = true;
     public string name = "beerrouting";
     public string password;
@@ -87,6 +87,45 @@ public class SFTPAccess : MonoBehaviour
 
     }
 
+    public string GetDirectoryContent()
+    {
+        if (password == null || password.Length < 1)
+        {
+            Debug.LogError("sftpaccess >> No Password specified!");
+            return null;
+        }
+        using (var client = new SftpClient("chernobog.dd-dns.de", name, password))
+        {
+            client.Connect();
+            Debug.Log("Is connected? " + client.IsConnected);
 
+            string baseReadWriteDir = "/surveylog/";
+            string playerName = PlayerPrefs.GetString("name");
+
+            //check if /$name exists, if not create it, then switch the workdir
+            client.ChangeDirectory(baseReadWriteDir);
+            if (!client.Exists(playerName))
+                client.CreateDirectory(playerName);
+            client.ChangeDirectory(playerName);
+            //check if /$name/$type exists, if not create it, then switch the workdir
+            if (!client.Exists(gameTypeString))
+                client.CreateDirectory(gameTypeString);
+            client.ChangeDirectory(gameTypeString);
+
+            Console.WriteLine("Changed directory to {0}", baseReadWriteDir);
+            // no. of files currently
+            List<SftpFile> files = client.ListDirectory(client.WorkingDirectory).ToList();
+            client.Disconnect();
+            String ret = "";
+            foreach (var item in files)
+            {
+                Debug.Log(">>"+item);
+                if(!item.Name.StartsWith("."))
+                    ret += "> "+item.Name + "\r\n";
+            }
+            return ret;
+        }
+
+    }
 }
 

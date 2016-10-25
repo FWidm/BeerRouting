@@ -58,6 +58,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -177,7 +183,6 @@
     <Compile Include="Assets\Scripts\Game Modes\HopBasedHotPotatoManager.cs" />
     <Compile Include="Assets\Scripts\Game Modes\HotPotatoTimer.cs" />
     <Compile Include="Assets\Scripts\Game Modes\UniformCostManager.cs" />
-    <Compile Include="Assets\Scripts\GmailScript.cs" />
     <Compile Include="Assets\Scripts\InputNameScript.cs" />
     <Compile Include="Assets\Scripts\Localization.cs" />
     <Compile Include="Assets\Scripts\Logging\LevelLogging.cs" />

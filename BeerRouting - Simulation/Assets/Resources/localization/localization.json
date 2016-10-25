@@ -67,7 +67,7 @@
           "size": 850
         },
         "seq_4_dijkstra_tut_2": {
-          "text": "All currently known distances to other tables are now in the routing table (click on the blue button on the side menu). The table will be updated as you play.",
+          "text": "All currently known distances to other tables are now in the routing table (click on the button on the side menu). The table will be updated as you play.",
           "size": 1100
         },
         "seq_4_dijkstra_tut_3": {
@@ -325,8 +325,7 @@
 					"size": 850
 				},
 				"seq_0_dijkstra_1": {
-					"text": "*** Wichtiger Hinweis ***
-Wenn du alle Level mit drei Sternen bestanden hast, dann wird das Bonuslevel freigeschaltet. Es liegt viel Arbeit vor dir, aber es lohnt sich.",
+					"text": "*** Wichtiger Hinweis *** Wenn du alle Level mit drei Sternen bestanden hast, dann wird das Bonuslevel freigeschaltet. Es liegt viel Arbeit vor dir, aber es lohnt sich.",
 					"size": 1000
 				},
 

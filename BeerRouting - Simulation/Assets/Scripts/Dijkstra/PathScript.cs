@@ -126,15 +126,7 @@ public class PathScript : MonoBehaviour
                     }
 
                 }
-                else if (Input.GetKeyUp(KeyCode.LeftAlt))
-                {
-                    HideLines();
-                    foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
-                    {
-                        if (renderer.name.Equals("PathHighlight"))
-                            renderer.enabled = false;
-                    }
-                }
+
         }
 
 

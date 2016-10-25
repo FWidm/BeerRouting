@@ -13,10 +13,16 @@ public class SpeechBubbleSequence : MonoBehaviour
     {
         states = new System.Collections.Generic.Dictionary<int, SpeechBubbleState>();
         // Add each child object (SpeechBubbleState) to the states.
+        Debug.Log(">> No of Childs="+transform.GetChildCount());
         foreach (Transform child in transform)
         {
             SpeechBubbleState s = child.gameObject.GetComponent<SpeechBubbleState>();
-            states.Add(s.id, s);
+            try { states.Add(s.id, s); }
+            catch ( ArgumentException e){
+                Debug.Log("Error while adding child (id=" + s.id + ") | text="+s.text+"; collection contains value for that id: "+states[id].text);
+                
+                Debug.LogError(e.StackTrace);
+                }
         }
     }
 
