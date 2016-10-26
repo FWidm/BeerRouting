@@ -207,11 +207,11 @@
           "size": 800
         },
         "seq_1_dijkstra_tut_2": {
-          "text": "Als erstes kannst du z. B. den Pfad zwischen Router A und B ablaufen um die Pfadlänge zu bestehen. Klicke hierzu auf die Ports an den Routern - um von A nach B zu kommen kannst du An Router B auf Port A oder an Router A auf Port B klicken.",
+          "text": "Als erstes kannst du z. B. den Pfad zwischen Router A und B ablaufen, um die Pfadlänge zu bestimmen. Klicke hierzu auf die Ports an den Routern - um von A nach B zu kommen kannst du An Router B auf Port A oder an Router A auf Port B klicken.",
           "size": 1200
         },
         "seq_2_dijkstra_tut_0": {
-          "text": "Gut. Durch die Path Disvovery kennst du nun die Länge des Pfads zwischen den Routern <SourceRouterName> und <DestinationRouterName>. Die Entfernung zwischen den Routern wird über den Ports angezeigt.",
+          "text": "Gut. Durch die Path Discovery kennst du nun die Länge des Pfads zwischen den Routern <SourceRouterName> und <DestinationRouterName>. Die Entfernung zwischen den Routern wird über den Ports angezeigt.",
           "size": 1200
         },
         "seq_2_dijkstra_tut_1": {
@@ -219,7 +219,7 @@
           "size": 800
         },
         "seq_2_dijkstra_tut_2": {
-          "text": "Erkunde nun alle Pfade die von Router <SourceRouterName> aus erreichbar sind.",
+          "text": "Erkunde nun alle Pfade, die von Router <SourceRouterName> aus erreichbar sind.",
           "size": 1000
         },
         "seq_3_dijkstra_tut_0": {
@@ -251,11 +251,11 @@
           "size": 1200
         },
         "seq_5_dijkstra_tut_0": {
-          "text": "Der Aktuelle Router ist jetzt Router <CurrentRouterName>. Genau wie bei Router A musst du nun auch hier alle Pfade zu den Nachbarn erkunden. Erkunde jetzt die Pfade zu allen Nachbarn.",
+          "text": "Der aktuelle Router ist jetzt Router <CurrentRouterName>. Genau wie bei Router A musst du nun auch hier alle Pfade zu den Nachbarn erkunden. Erkunde jetzt die Pfade zu allen Nachbarn.",
           "size": 1100
         },
         "seq_6_dijkstra_tut_0": {
-          "text": "Okay. Du hast den zweiten Router erfolgreich behandelt. Führe auch hier die Discovery durch und gehe zum Router mit den kleinsten Pfadkosten.",
+          "text": "Okay. Du hast den zweiten Router erfolgreich behandelt. Führe auch hier die Discovery durch und gehe zum Router mit den geringsten Pfadkosten.",
           "size": 1000
         },
         "seq_6_dijkstra_tut_1": {
@@ -275,7 +275,7 @@
           "size": 1000
         },
         "seq_7_dijkstra_tut_0": {
-          "text": "Du hast bestimmt bemerkt, dass die Entfernung zu Rpiter D und Router F gleich ist. Wenn es mehrere Router mit gleicher kürzester Entfernung zum Router gibt, kannst du einen beliebigen Pfad wählen.",
+          "text": "Du hast bestimmt bemerkt, dass die Entfernung zu Router D und Router F gleich ist. Wenn es mehrere Router mit gleicher kürzester Entfernung zum Router gibt, kannst du einen beliebigen Pfad wählen.",
           "size": 1150
         },
         "seq_7_dijkstra_tut_1": {
@@ -295,70 +295,66 @@
           "size": 850
         },
         "seq_10_dijkstra_tut_0": {
-          "text": "Bevor du zum nächsten Router gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Pfade.",
+          "text": "Bevor du zum nächsten Router gehen darfst, musst du alle Pfade des aktuellen Routers erkunden. Gehe zurück zu Router <SourceRouterName> und bearbeite die übrigen Pfade.",
           "size": 850
         },
         "seq_11_dijkstra_tut_0": {
-          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war..",
+          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war..",
           "size": 900
         },
         "seq_11_dijkstra_tut_1": {
-          "text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Pfade.",
+          "text": "Bevor du zum nächsten Router gehen darfst, musst du alle Pfade des aktuellen Routers erkunden. Gehe zurück zu Router <PreviousSourceRouterName> und bearbeite die übrigen Pfade.",
           "size": 850
         },
         "seq_12_dijkstra_tut_0": {
-          "text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> und korrigiere deinen Fehler. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+          "text": "Das war nicht richtig. Router <ClickedPathName> ist nicht der Router den der Algorithmus als Nächsten vorschreibt. Gehe zurück zu Router <SourceRouterName> und korrigiere deinen Fehler. Gehe dann von Router <SourceRouterName> zu dem Router, der dem Startrouter am nächsten ist.",
           "size": 1100
         },
         "seq_13_dijkstra_tut_0": {
-          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war...",
+          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war...",
           "size": 900
         },
         "seq_13_dijkstra_tut_1": {
-          "text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist..",
+          "text": "Router <ClickedPathName> ist nicht der Router den der Algorithmus als Nächsten vorschreibt. Gehe zurück zu Router <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Router <PreviousSourceRouterName> zu dem Router, der dem StartRouter am nächsten ist..",
           "size": 850
         }
       },
 			"dijkstra_1":{
 				"seq_0_dijkstra_0": {
-					"text": "<LevelName>\r\nFinde die kürzesten Pfade zu jedem Tisch. Verwende den Dijkstra- Algorithmus.",
+					"text": "<LevelName>\r\nFinde die kürzesten Pfade zu jedem Router. Verwende den Dijkstra-Algorithmus.",
 					"size": 850
-				},
-				"seq_0_dijkstra_1": {
-					"text": "*** Wichtiger Hinweis *** Wenn du alle Level mit drei Sternen bestanden hast, dann wird das Bonuslevel freigeschaltet. Es liegt viel Arbeit vor dir, aber es lohnt sich.",
-					"size": 1000
 				},
 
 				"seq_1_dijkstra_0": {
-					"text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Routern möglich.",
+					"text": "Das geht nicht. Du kannst nicht zu Router <ClickedPathName> gehen weil du dich gerade an Router <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Routern möglich.",
 					"size": 1000
 				},
 
 				"seq_2_dijkstra_0": {
-					"text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Pfade.",
+					"text": "Das war falsch. Bevor du zum nächsten Router gehen darfst, musst du alle Pfade des aktuellen Routers erkunden. Gehe zurück zu Router <SourceRouterName> und bearbeite die übrigen Pfade.",
 					"size": 850
 				},
 
 				"seq_3_dijkstra_0": {
-					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war...",
+					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war...",
 					"size": 900
 				},
 				"seq_3_dijkstra_1": {
-					"text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Pfade des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Pfade.",
+					"text": "Bevor du zum nächsten Router gehen darfst, musst du alle Pfade des aktuellen Routers erkunden. Gehe zurück zu Router <PreviousSourceRouterName> und bearbeite die übrigen Pfade.",
 					"size": 850
 				},
 
 				"seq_4_dijkstra_0": {
-					"text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+					"text": "Das war nicht richtig. Router <ClickedPathName> ist nicht der Router den der Algorithmus als nächste vorschreibt. Gehe zurück zu Router <SourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Router <SourceRouterName> zu dem Router, der dem Startrouter am nächsten ist.",
 					"size": 900
 				},
 
 				"seq_5_dijkstra_0": {
-					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprünglichen Fehler war...",
+					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war...",
 					"size": 900
 				},
 				"seq_5_dijkstra_1": {
-					"text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächsten vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+					"text": "Router <ClickedPathName> ist nicht der Router den der Algorithmus als nächsten vorschreibt. Gehe zurück zu Router <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Router <PreviousSourceRouterName> zu dem Router, der dem StartRouter am nächsten ist.",
 					"size": 1050
 				},
 			},
