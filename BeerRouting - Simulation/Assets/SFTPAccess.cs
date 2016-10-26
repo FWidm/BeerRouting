@@ -26,6 +26,7 @@ public class SFTPAccess : MonoBehaviour
         }
         using (var client = new SftpClient("chernobog.dd-dns.de", name, password))
         {
+            Debug.Log("OperationTimeout=" + client.OperationTimeout);
             client.Connect();
             Debug.Log("Is connected? " + client.IsConnected);
 
@@ -62,7 +63,6 @@ public class SFTPAccess : MonoBehaviour
                         client.UploadFile(fileStream, Path.GetFileName(uploadFile), true);
                     }
                 }
-                Debug.Log("Removing the file from the local system");
             }
 
 //            if (debug)
