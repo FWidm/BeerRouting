@@ -14,7 +14,7 @@ public class SFTPAccess : MonoBehaviour
 {
     private string gameTypeString = "comic";
     public Boolean debug = true;
-    public string name = "beerrouting";
+    public string username = "beerrouting";
     public string password;
 
     public bool UploadSurveyLogs()
@@ -24,8 +24,9 @@ public class SFTPAccess : MonoBehaviour
             Debug.LogError("sftpaccess >> No Password specified!");
             return false;
         }
-        using (var client = new SftpClient("chernobog.dd-dns.de", name, password))
+        using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
         {
+            Debug.Log("OperationTimeout=" + client.OperationTimeout);
             client.Connect();
             Debug.Log("Is connected? " + client.IsConnected);
 
@@ -62,7 +63,6 @@ public class SFTPAccess : MonoBehaviour
                         client.UploadFile(fileStream, Path.GetFileName(uploadFile), true);
                     }
                 }
-                Debug.Log("Removing the file from the local system");
             }
 
 //            if (debug)
@@ -94,7 +94,7 @@ public class SFTPAccess : MonoBehaviour
             Debug.LogError("sftpaccess >> No Password specified!");
             return null;
         }
-        using (var client = new SftpClient("chernobog.dd-dns.de", name, password))
+        using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
         {
             client.Connect();
             Debug.Log("Is connected? " + client.IsConnected);

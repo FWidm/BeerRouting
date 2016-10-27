@@ -12,9 +12,10 @@ public class ExitMenu : MonoBehaviour
     public AudioSource buttonClick;
     public AudioSource successSound;
     public GameObject changeMessage;
-
+    private string defaultText = "";
     void Start()
     {
+        defaultText = changeMessage.GetComponent<Text>().text;
     }
 
     /// <summary>
@@ -23,15 +24,28 @@ public class ExitMenu : MonoBehaviour
     public void OnSend()
     {
         buttonClick.Play();
-       
-//        ToggleMenu();
-        SFTPAccess sftp = FindObjectOfType<SFTPAccess>();
         Text guiText = changeMessage.GetComponent<Text>();
+        guiText.text = "Sende Daten...";
+        StartCoroutine(ExecuteAfterTime(.5f));
+
+    }
+
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        Send();
+    }
+
+    private void Send()
+    {
+        Text guiText = changeMessage.GetComponent<Text>();
+        SFTPAccess sftp = FindObjectOfType<SFTPAccess>();
         try
         {
             bool sftpSuccess = sftp.UploadSurveyLogs();
             Debug.Log("SuccessClip=" + successSound.clip);
-            
+
             if (sftpSuccess && !successSound.isPlaying)
             {
                 successSound.Play();
@@ -41,16 +55,8 @@ public class ExitMenu : MonoBehaviour
                 Debug.Log("Size after=" + guiText.preferredWidth);
                 RectTransform rTransform = changeMessage.GetComponent<RectTransform>();
                 rTransform.sizeDelta = new Vector2(rTransform.sizeDelta.x, guiText.preferredHeight);
-                //RectTransform rectTransform= transform.GetChild(0).GetComponent<RectTransform>();
-                //float height = rectTransform.sizeDelta.y;
-                //int lines = GetLines(guiText.text);
-                //height += 20 * lines;
-                //rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, height);
             }
 
-            //Application.Quit();
-
-            //sftp do et nao
         }
         catch (Exception e)
         {
@@ -59,7 +65,6 @@ public class ExitMenu : MonoBehaviour
             RectTransform rTransform = changeMessage.GetComponent<RectTransform>();
             rTransform.sizeDelta = new Vector2(rTransform.sizeDelta.x, guiText.preferredHeight);
         }
-       
     }
 
     private int GetLines(string text)
@@ -87,6 +92,8 @@ public class ExitMenu : MonoBehaviour
             panel.SetActive(true);
         else
             StartCoroutine(CloseAfterTime());
+        changeMessage.GetComponent<Text>().text=defaultText;
+
 
     }
 
@@ -98,4 +105,6 @@ public class ExitMenu : MonoBehaviour
         // Then close panel.
         panel.SetActive(false);
     }
+
+
 }
