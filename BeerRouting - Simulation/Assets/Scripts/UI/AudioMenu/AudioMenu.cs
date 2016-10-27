@@ -16,7 +16,7 @@ public class AudioMenu : MonoBehaviour
 
     private float ppProfessorSprites = 1, ppSpeechBubble = 1, ppStatusBar = 1;
     private bool ppToggleAll = false, ppToggleProf = false, ppToggleStatusBar = false;
-    private readonly string PROFESSOR = "Vol_ProfessorSprites", STATUS_BAR = "Vol_StatusBar", TOGGLE_ALL = "TOGGLE_All", TOGGLE_PROF = "TOGGLE_Professsor", TOGGLE_BUTTONS = "TOGGLE_StatusBar";
+    private readonly string PROFESSOR = "Vol_ProfessorSprites_sim", STATUS_BAR = "Vol_StatusBar_sim", TOGGLE_ALL = "TOGGLE_All_sim", TOGGLE_PROF = "TOGGLE_Professsor_sim", TOGGLE_BUTTONS = "TOGGLE_StatusBar_sim";
     private CameraFollowPlayer cam;
 
     void Awake()

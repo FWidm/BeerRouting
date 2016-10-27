@@ -6,7 +6,7 @@ public class PlayerPrefAudio : MonoBehaviour {
     public GameObject canvas;
     private AudioSource asButtons;
     private float ppButtons = 1;
-    private readonly string TOGGLE_ALL = "TOGGLE_All", TOGGLE_BUTTONS = "TOGGLE_StatusBar", STATUS_BAR = "Vol_StatusBar";
+    private readonly string TOGGLE_ALL = "TOGGLE_All_sim", TOGGLE_BUTTONS = "TOGGLE_StatusBar_sim", STATUS_BAR = "Vol_StatusBar_sim";
     private bool ppToggleAll = false, ppToggleButtons = true; 
 
     // Use this for initialization
