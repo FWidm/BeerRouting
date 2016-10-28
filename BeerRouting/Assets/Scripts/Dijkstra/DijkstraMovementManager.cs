@@ -46,6 +46,8 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
     // count things to log
     public int countErrorRecovery, countWrongHop, countNoOp, countUndiscoveredPaths;
 
+    private GameObject player;
+
     // Use this for initialization
     void Start()
     {
@@ -79,6 +81,8 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
         // UI text fields for dijkstra routing table information.
         routingTableUI = GameObject.FindGameObjectWithTag("RoutingTableUI").GetComponent<RoutingTableUI>();
         routingTableUI.UpdateRoutingTableUI();
+
+        player = FindObjectOfType<MovementScript>().gameObject;
 
         if (logToFile)
         {
@@ -143,6 +147,8 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
     /// <param name="path">The path on which the path discovery should be performed.</param>
     private void performPathDiscoveryMove(PathScript path)
     {
+        ToggleBeer tb=FindObjectOfType<ToggleBeer>();
+        tb.DisplayBeer(false);
         if (isLogEnabled)
             Debug.Log("DijkstraMovementManager: Perform path discovery on path " + path.name);
 
@@ -182,6 +188,8 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
         }
         else
         {
+            ToggleBeer tb = FindObjectOfType<ToggleBeer>();
+            tb.DisplayBeer(true);
             // Update the routing table.
             routingTableUI.UpdateRoutingTableUI();
 

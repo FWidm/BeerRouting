@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private GameObject[] mouths;
     private Animator animator;
     private int mouthId;
-    private bool drinking;
+    private bool drinking, throwDisabled;
     private AudioSource jumpSound;
     private SpriteRenderer spriteRendererHead;
 
@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
         levelController = LevelController.GetCurrentLevelController();
         animator = GetComponent<Animator>();
         drinking = false;
+        throwDisabled = false;
         jumpSound = GetComponent<AudioSource>();
 
         // Find "Head" element.
@@ -157,6 +158,11 @@ public class PlayerController : MonoBehaviour
         this.drinking = drinking;
     }
 
+    public void SetThrowDisabled(bool throwDisabled)
+    {
+        this.throwDisabled = throwDisabled;
+    }
+
     IEnumerator ThrowBeerAfterTime()
     {
         // Wait a random time.
@@ -164,7 +170,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(time);
 
         // Do nothing after drink animation was played.
-        if (!drinking)
+        if (!drinking && !throwDisabled)
         {
             // Throw beer and restart this corutine.
             ThrowBeer();
