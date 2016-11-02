@@ -267,6 +267,7 @@
     <Compile Include="Assets\Scripts\UI\RoutingTable\RoutingTableUI.cs" />
     <Compile Include="Assets\Scripts\UI\Score\ScoreBeer.cs" />
     <Compile Include="Assets\Scripts\_Localization\Language.cs" />
+    <Compile Include="Assets\Scripts\website\UpdateSite.cs" />
     <Compile Include="Assets\StateMachines\PlayerStates.cs" />
     <Compile Include="Assets\StateMachines\ProfessorStates.cs" />
   </ItemGroup>
