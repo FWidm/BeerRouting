@@ -211,8 +211,8 @@
           "size": 1200
         },
         "seq_2_dijkstra_tut_0": {
-          "text": "Gut. Durch die Path Discovery kennst du nun die Länge des Pfads zwischen den Routern <SourceRouterName> und <DestinationRouterName>. Die Entfernung zwischen den Routern wird über den Ports angezeigt.",
-          "size": 1200
+          "text": "Gut. Durch die Path Discovery kennst du nun die Länge des Pfads zwischen den Routern <SourceRouterName> und <DestinationRouterName>. Die Entfernung zwischen den Routern wird über den Ports angezeigt. Zur Discovery wird eine andere Nachricht verschickt als die ursprüngliche Nachricht. Diese wird in blau dargestellt.",
+          "size": 1500
         },
         "seq_2_dijkstra_tut_1": {
           "text": "Bereits erkundete Pfade werden für dich durch eine gepunktete Linie markiert.",

@@ -21,14 +21,17 @@ public class SFTPAccess : MonoBehaviour
     {
         if (password == null || password.Length < 1)
         {
-            Debug.LogError("sftpaccess >> No Password specified!");
+            if (debug)
+                Debug.LogError("sftpaccess >> No Password specified!");
             return false;
         }
         using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
         {
-            Debug.Log("OperationTimeout=" + client.OperationTimeout);
+            if (debug)
+                Debug.Log("OperationTimeout=" + client.OperationTimeout);
             client.Connect();
-            Debug.Log("Is connected? " + client.IsConnected);
+            if (debug)
+                Debug.Log("Is connected? " + client.IsConnected);
 
             string baseReadWriteDir = "/surveylog/";
             string playerName = PlayerPrefs.GetString("name");
@@ -43,7 +46,8 @@ public class SFTPAccess : MonoBehaviour
                 client.CreateDirectory(gameTypeString);
             client.ChangeDirectory(gameTypeString);
             
-            Console.WriteLine("Changed directory to {0}", baseReadWriteDir);
+            if (debug)
+                Debug.Log("Changed directory to " + baseReadWriteDir);
             // no. of files currently
             int inherentNoOfFiles = client.ListDirectory(client.WorkingDirectory).Count();
 
@@ -54,7 +58,8 @@ public class SFTPAccess : MonoBehaviour
             string[] files = Directory.GetFiles(logDir);
             foreach (var uploadFile in files)
             {
-                Debug.Log("Filename=" + uploadFile + " | contains typeString=" + gameTypeString + "? " + uploadFile.ToUpper().Contains(gameTypeString.ToUpper()));
+                if (debug)
+                    Debug.Log("Filename=" + uploadFile + " | contains typeString=" + gameTypeString + "? " + uploadFile.ToUpper().Contains(gameTypeString.ToUpper()));
                 if (uploadFile.ToUpper().Contains(gameTypeString.ToUpper()))
                 {
                     using (var fileStream = new FileStream(uploadFile, FileMode.Open))
@@ -65,16 +70,11 @@ public class SFTPAccess : MonoBehaviour
                 }
             }
 
-//            if (debug)
-//            {
-//                Debug.Log("No. of uploaded files in the dir: " + files.Length);
-//                Debug.Log("Initial No. of files in the dir: " + inherentNoOfFiles);
-//                Debug.Log("Current No. of files in the dir: " + client.ListDirectory(client.WorkingDirectory).Count());
-//
-//            }
-            Debug.Log(client.GetStatus(client.WorkingDirectory));
+            if (debug)
+                Debug.Log(client.GetStatus(client.WorkingDirectory));
             int differenceOfFileNumbers = client.ListDirectory(client.WorkingDirectory).Count() - inherentNoOfFiles;
-            Debug.Log("Successful? diffInFiles=" + differenceOfFileNumbers);
+            if (debug)
+                Debug.Log("Successful? diffInFiles=" + differenceOfFileNumbers);
             if (differenceOfFileNumbers >= 0)
             {
                 client.Disconnect();
@@ -91,13 +91,15 @@ public class SFTPAccess : MonoBehaviour
     {
         if (password == null || password.Length < 1)
         {
-            Debug.LogError("sftpaccess >> No Password specified!");
+            if (debug)
+                Debug.LogError("sftpaccess >> No Password specified!");
             return null;
         }
         using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
         {
             client.Connect();
-            Debug.Log("Is connected? " + client.IsConnected);
+            if (debug)
+                Debug.Log("Is connected? " + client.IsConnected);
 
             string baseReadWriteDir = "/surveylog/";
             string playerName = PlayerPrefs.GetString("name");
@@ -119,9 +121,10 @@ public class SFTPAccess : MonoBehaviour
             String ret = "";
             foreach (var item in files)
             {
-                Debug.Log(">>"+item);
-                if(!item.Name.StartsWith("."))
-                    ret += "> "+item.Name + "\r\n";
+                if (debug)
+                    Debug.Log(">>" + item);
+                if (!item.Name.StartsWith("."))
+                    ret += "> " + item.Name + "\r\n";
             }
             return ret;
         }
