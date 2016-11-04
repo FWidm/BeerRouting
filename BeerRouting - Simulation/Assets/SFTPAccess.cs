@@ -26,9 +26,7 @@ public class SFTPAccess : MonoBehaviour
             return false;
         }
         using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
-        {
-            if (debug)
-                Debug.Log("OperationTimeout=" + client.OperationTimeout);
+        {   
             client.Connect();
             if (debug)
                 Debug.Log("Is connected? " + client.IsConnected);

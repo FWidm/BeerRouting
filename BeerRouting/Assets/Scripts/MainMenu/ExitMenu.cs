@@ -13,9 +13,21 @@ public class ExitMenu : MonoBehaviour
     public AudioSource successSound;
     public GameObject changeMessage;
     private string defaultText = "";
+    UpdateSite.PostRequestCallback callback;
+
     void Start()
     {
         defaultText = changeMessage.GetComponent<Text>().text;
+        callback = UpdateGuiText;
+    }
+
+    void UpdateGuiText(string data)
+    {
+        Text guiText = changeMessage.GetComponent<Text>();
+        guiText.text += "\r\n" + data;
+        RectTransform rTransform = changeMessage.GetComponent<RectTransform>();
+        rTransform.sizeDelta = new Vector2(rTransform.sizeDelta.x, guiText.preferredHeight);
+
     }
 
     /// <summary>
@@ -35,6 +47,7 @@ public class ExitMenu : MonoBehaviour
         yield return new WaitForSeconds(time);
 
         Send();
+
     }
 
     private void Send()
@@ -49,12 +62,15 @@ public class ExitMenu : MonoBehaviour
             if (sftpSuccess && !successSound.isPlaying)
             {
                 successSound.Play();
-                guiText.text = "Upload finished. Files uploaded are:\r\n";
-                Debug.Log("Size b4=" + guiText.preferredWidth);
+                guiText.text = "Daten sind hochgeladen:\r\n";
                 guiText.text += sftp.GetDirectoryContent();
-                Debug.Log("Size after=" + guiText.preferredWidth);
                 RectTransform rTransform = changeMessage.GetComponent<RectTransform>();
                 rTransform.sizeDelta = new Vector2(rTransform.sizeDelta.x, guiText.preferredHeight);
+                //TODO: check if it is called.
+                UpdateSite updateSite = GetComponent<UpdateSite>();
+                updateSite.UpdateWebsite(callback);
+                Debug.Log("Setting guitext after website call");
+                guiText.text += updateSite.information;
             }
 
         }
@@ -62,6 +78,7 @@ public class ExitMenu : MonoBehaviour
         {
             guiText.text = "SFTP Verbindung abgebrochen, bitte nochmal versuchen.\r\nSollte die Verbindung nicht hergestellt werden können, gibt es weitere Informationen auf der Webseite im Hilfebereich.";
             Debug.Log("Size after=" + guiText.preferredWidth);
+            Debug.Log("Exitmenu >> got exception e=" + e); 
             RectTransform rTransform = changeMessage.GetComponent<RectTransform>();
             rTransform.sizeDelta = new Vector2(rTransform.sizeDelta.x, guiText.preferredHeight);
         }
@@ -92,7 +109,7 @@ public class ExitMenu : MonoBehaviour
             panel.SetActive(true);
         else
             StartCoroutine(CloseAfterTime());
-        changeMessage.GetComponent<Text>().text=defaultText;
+        changeMessage.GetComponent<Text>().text = defaultText;
 
 
     }
