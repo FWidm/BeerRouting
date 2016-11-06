@@ -17,7 +17,7 @@ public class PathDisplayScript : MonoBehaviour
     private PathScript pathScript;
 
     // Use this for initialization
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
     void Start()
     {
         if (EditorApplication.isPlaying)
@@ -28,8 +28,8 @@ public class PathDisplayScript : MonoBehaviour
         DeleteAllRenderers();
     }
 
-    #endif
-    #if UNITY_EDITOR
+#endif
+#if UNITY_EDITOR
     // Update is called once per frame
     void Update()
     {
@@ -44,6 +44,7 @@ public class PathDisplayScript : MonoBehaviour
             //        HideLines();
             if (this.transform.GetComponentsInChildren<LineRenderer>(true).Length == 0)
             {
+                //create the linerenderer
                 GameObject displayPathInEditor = new GameObject("LineRenderer " + name, typeof(LineRenderer));
                 displayPathInEditor.transform.parent = this.transform;
 
@@ -51,7 +52,7 @@ public class PathDisplayScript : MonoBehaviour
                 Vector3[] pos = { pathScript.to.transform.position, pathScript.from.transform.position };
                 lr.SetPositions(pos);
                 lr.SetColors(colorFrom, colorTo);
-                lr.SetWidth(0, .5f);
+                lr.SetWidth(.5f, .5f);
                 lr.enabled = false;
 
                 lr.material = editorDisplayMaterial;
@@ -64,29 +65,21 @@ public class PathDisplayScript : MonoBehaviour
 
                 if (lr != null)
                 {
-//                    if (Time.time % 60 == 0)
-//                    {
-//                        Debug.Log("Time=" + Time.time);
-//                        DestroyImmediate(lr.gameObject);
-//                        return;
-//                    }
-                        
-                    
                     lr.enabled = true;
                     if (debugging)
                         Debug.Log(lr.transform.name + " | " + lr.enabled);
-                    lr.SetWidth(0, .5f);
+                    lr.SetWidth(.5f, .5f);
 
                     lr.SetColors(colorFrom, colorTo);
                 }
             }
         }
     }
-    #endif
+#endif
 
     void DeleteAllRenderers()
     {
-//        Debug.Log("Delete all Linerenderes called!");
+        //        Debug.Log("Delete all Linerenderes called!");
         LineRenderer[] lrs = GetComponentsInChildren<LineRenderer>(true);
         foreach (LineRenderer lr in lrs)
         {
