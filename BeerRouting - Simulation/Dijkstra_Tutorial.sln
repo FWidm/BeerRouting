@@ -1,6 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
-
 Project("{90420960-DD62-B9B4-435A-68CA17DE0715}") = "Dijkstra_Tutorial", "Assembly-CSharp.csproj", "{07A377BB-DC71-2241-9CB7-814A8FC18679}"
 EndProject
 Project("{90420960-DD62-B9B4-435A-68CA17DE0715}") = "Dijkstra_Tutorial", "Assembly-CSharp-Editor.csproj", "{B4511CC8-460F-1F23-9F37-9ECAA94EA4A5}"
@@ -19,9 +18,6 @@ Global
 		{B4511CC8-460F-1F23-9F37-9ECAA94EA4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4511CC8-460F-1F23-9F37-9ECAA94EA4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4511CC8-460F-1F23-9F37-9ECAA94EA4A5}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj

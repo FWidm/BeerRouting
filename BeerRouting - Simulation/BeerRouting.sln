@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerRouting.CSharp", "BeerRouting.CSharp.csproj", "{02C6ACEE-C5A4-C89A-639E-D0BD2EB85561}"
@@ -19,8 +18,5 @@ Global
 		{A516A7C4-AE9D-4B64-37D9-CBB4E5EB1D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A516A7C4-AE9D-4B64-37D9-CBB4E5EB1D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A516A7C4-AE9D-4B64-37D9-CBB4E5EB1D7C}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

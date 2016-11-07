@@ -41,6 +41,8 @@ public class SpeechBubble : MonoBehaviour
     private int currentScore;
     private Vector2 buttonOkPos;
 
+    private int maxScore =-1;
+
     void Awake()
     {
         buttonOkPos = buttonOk.transform.localPosition;
@@ -107,7 +109,8 @@ public class SpeechBubble : MonoBehaviour
             {
                 animateScore = false;
             }
-            textScore.text = currentScore.ToString() + " %";
+            Debug.Log("levelProp score = "+maxScore);
+            textScore.text = "Du hast "+currentScore.ToString() + " % von möglichen "+maxScore+" Punkten erreicht!";
         }
     }
 
@@ -309,7 +312,7 @@ public class SpeechBubble : MonoBehaviour
 
         // Set level name.
         textLevel.text = FindObjectOfType<LevelProperties>().levelName;
-
+        maxScore=FindObjectOfType<LevelProperties>().levelMaxScore;
         // Set level score as stars.
         score = FindObjectOfType<ScoreBeer>().GetScore();
         if (score >= 100)
