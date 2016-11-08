@@ -16,6 +16,7 @@ public class SFTPAccess : MonoBehaviour
     public Boolean debug = true;
     public string username = "beerrouting";
     public string password;
+    public string host= "134.60.51.204";
 
     public bool UploadSurveyLogs()
     {
@@ -25,7 +26,7 @@ public class SFTPAccess : MonoBehaviour
                 Debug.LogError("sftpaccess >> No Password specified!");
             return false;
         }
-        using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
+        using (var client = new SftpClient(host, username, password))
         {
             if (debug)
                 Debug.Log("OperationTimeout=" + client.OperationTimeout);

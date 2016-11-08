@@ -45,7 +45,6 @@ public class UpdateSite : MonoBehaviour
         }
         else
         {
-            Debug.Log(www.downloadHandler.text);
             if (www.responseCode == 200)
             {
                 information = "Seite wurde aktualisiert";
