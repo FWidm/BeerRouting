@@ -8,7 +8,7 @@ using System.Net.Sockets;
 public class UpdateSite : MonoBehaviour
 {
     public const string gameType = "sim";
-    public const string URI = "http://chernobog.dd-dns.de/scripts/getProgressUpdate.php";
+    public const string URI = "http://134.60.51.204/scripts/getProgressUpdate.php";
     //    public const string URI = "http://requestb.in/1nkiima1";
     public string information
     {

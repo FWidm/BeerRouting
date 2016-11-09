@@ -96,7 +96,7 @@ public class SFTPAccess : MonoBehaviour
                 Debug.LogError("sftpaccess >> No Password specified!");
             return null;
         }
-        using (var client = new SftpClient("chernobog.dd-dns.de", username, password))
+        using (var client = new SftpClient(host, username, password))
         {
             client.Connect();
             if (debug)
