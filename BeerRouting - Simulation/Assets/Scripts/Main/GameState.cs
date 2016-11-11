@@ -26,7 +26,7 @@ public class GameState : MonoBehaviour
     /// <summary>
     /// The name of the file that keeps the game state in a persistent manner.
     /// </summary>
-    private const string FileName = "BeerRoutingGameData.bin";
+    private const string FileName = "BeerRoutingGameData_Sim.bin";
     private const string DebugFile = "JSONDebug.txt";
     private const string ErrorLogFile = "ErrorLog.txt";
 

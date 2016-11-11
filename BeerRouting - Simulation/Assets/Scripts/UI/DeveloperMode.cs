@@ -24,7 +24,7 @@ public class DeveloperMode : MonoBehaviour
             {
                 //unlock all
                 GameState gs = FindObjectOfType<GameState>();
-                gs.UnlockAllLevelsCompletely();
+                //TODO: unlock all levels if needed: gs.UnlockAllLevelsCompletely();
                 // Go to main menu.
                 SceneManager.LoadScene(0);
             }

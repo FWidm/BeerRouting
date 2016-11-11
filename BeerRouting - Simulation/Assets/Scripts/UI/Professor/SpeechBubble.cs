@@ -109,7 +109,7 @@ public class SpeechBubble : MonoBehaviour
             {
                 animateScore = false;
             }
-            Debug.Log("levelProp score = "+maxScore);
+            //Debug.Log("levelProp score = "+maxScore);
             textScore.text = "Du hast "+currentScore.ToString() + " % von möglichen "+maxScore+" Punkten erreicht!";
         }
     }

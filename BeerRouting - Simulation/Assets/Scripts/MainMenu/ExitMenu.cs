@@ -94,8 +94,20 @@ public class ExitMenu : MonoBehaviour
     {
         buttonClick.Play();
         ToggleMenu();
+        //TODO Delete progress?
+        //DeleteProgess();
         Application.Quit();
 
+    }
+
+    public void DeleteProgess(){
+        string FileName = "BeerRoutingGameData.bin";
+        string appDataFolder = Application.persistentDataPath;
+        string saveGameStateFilePath = appDataFolder + "/BeerRoutingData/" + FileName;
+        if (File.Exists(saveGameStateFilePath))
+            {
+                File.Delete(saveGameStateFilePath);
+            }
     }
 
     /// <summary>
