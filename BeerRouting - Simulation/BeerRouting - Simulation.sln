@@ -1,6 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{DB23D126-28BB-8F06-FFB0-E0D42E6369E0}") = "BeerRouting - Simulation", "Assembly-CSharp.csproj", "{EF819F1A-15B5-794D-E75F-28D2DF67523F}"
 EndProject
 Project("{DB23D126-28BB-8F06-FFB0-E0D42E6369E0}") = "BeerRouting - Simulation", "Assembly-CSharp-Editor-firstpass.csproj", "{E6A7BE9E-4003-896B-6B91-47367BCF7D6E}"
@@ -25,9 +24,6 @@ Global
 		{B110D9F4-0851-FA3F-8ABB-FA27D04A0463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B110D9F4-0851-FA3F-8ABB-FA27D04A0463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B110D9F4-0851-FA3F-8ABB-FA27D04A0463}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj

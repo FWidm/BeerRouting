@@ -53,7 +53,7 @@ public class UpdateSite : MonoBehaviour
             else
             {
                 information = "Verbindung zur Seite konnte nicht hergestellt werden. " +
-                "Falls es nach erneutem Versuchen nicht funktioniert, nehmt Kontakt mit uns auf.";
+                "Falls es nach erneutem Versuchen nicht funktioniert, meldet euch bei uns (beercraterouting@lists.uni-ulm.de).";
                 Debug.Log("UpdateSite >> request failed code=" + www.responseCode);
             }
             callback(information);

@@ -61,7 +61,8 @@ public class SFTPAccess : MonoBehaviour
             {
                 if (debug)
                     Debug.Log("Filename=" + uploadFile + " | contains typeString=" + gameTypeString + "? " + uploadFile.ToUpper().Contains(gameTypeString.ToUpper()));
-                if (uploadFile.ToUpper().Contains(gameTypeString.ToUpper()))
+                if (uploadFile.ToUpper().Contains(gameTypeString.ToUpper()) 
+                    && uploadFile.ToUpper().Contains(PlayerPrefs.GetString("name").ToUpper()))
                 {
                     using (var fileStream = new FileStream(uploadFile, FileMode.Open))
                     {

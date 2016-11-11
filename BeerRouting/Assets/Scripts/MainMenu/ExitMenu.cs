@@ -37,7 +37,7 @@ public class ExitMenu : MonoBehaviour
     {
         buttonClick.Play();
         Text guiText = changeMessage.GetComponent<Text>();
-        guiText.text = "Sende Daten...";
+        guiText.text = "Sende Daten... (Das kann etwas dauern)";
         StartCoroutine(ExecuteAfterTime(.5f));
 
     }
@@ -76,7 +76,7 @@ public class ExitMenu : MonoBehaviour
         }
         catch (Exception e)
         {
-            guiText.text = "SFTP Verbindung abgebrochen, bitte nochmal versuchen.\r\nSollte die Verbindung nicht hergestellt werden können, gibt es weitere Informationen auf der Webseite im Hilfebereich.";
+            guiText.text = "Verbindung konnte nicht hergestellt werden, bitte nochmal versuchen.\r\nSollte die Verbindung nicht hergestellt werden können, nimm Kontakt mit uns auf: beercraterouting@lists.uni-ulm.de.";
             Debug.Log("Size after=" + guiText.preferredWidth);
             Debug.Log("Exitmenu >> got exception e=" + e); 
             RectTransform rTransform = changeMessage.GetComponent<RectTransform>();
