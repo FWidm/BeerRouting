@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: a785dca0856019d4193cb895d6ffdc69
+timeCreated: 1479045128
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: maus_0
+    21300002: maus_1
+    21300004: maus_2
+    21300006: maus_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: maus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1135
+        width: 332
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112, y: -128}
+        - {x: 137, y: -101}
+        - {x: 157, y: -66}
+        - {x: 161, y: -55}
+        - {x: 166, y: -32}
+        - {x: 166, y: 34}
+        - {x: 162, y: 52}
+        - {x: 150, y: 79}
+        - {x: 134, y: 105}
+        - {x: 105, y: 134}
+        - {x: 86, y: 147}
+        - {x: 61, y: 159}
+        - {x: 38, y: 166}
+        - {x: -35, y: 166}
+        - {x: -53, y: 163}
+        - {x: -95, y: 143}
+        - {x: -110, y: 129}
+        - {x: -134, y: 104}
+        - {x: -150, y: 81}
+        - {x: -165, y: 46}
+        - {x: -166, y: 36}
+        - {x: -166, y: -38}
+        - {x: -155, y: -73}
+        - {x: -144, y: -91}
+        - {x: -128, y: -111}
+        - {x: -110, y: -128}
+        - {x: -97, y: -139}
+        - {x: -79, y: -150}
+        - {x: -58, y: -161}
+        - {x: -33, y: -166}
+        - {x: 33, y: -166}
+        - {x: 41, y: -165}
+        - {x: 65, y: -157}
+        - {x: 86, y: -147}
+    - name: maus_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 767
+        width: 333
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104.5, y: -134.5}
+        - {x: 141.5, y: -97.5}
+        - {x: 160.5, y: -60.5}
+        - {x: 166.5, y: -32.5}
+        - {x: 166.5, y: 31.5}
+        - {x: 164.5, y: 44.5}
+        - {x: 156.5, y: 67.5}
+        - {x: 145.5, y: 89.5}
+        - {x: 126.5, y: 114.5}
+        - {x: 102.5, y: 136.5}
+        - {x: 70.5, y: 155.5}
+        - {x: 45.5, y: 164.5}
+        - {x: 30.5, y: 166.5}
+        - {x: -36.5, y: 166.5}
+        - {x: -62.5, y: 158.5}
+        - {x: -88.5, y: 145.5}
+        - {x: -111.5, y: 128.5}
+        - {x: -139.5, y: 97.5}
+        - {x: -153.5, y: 73.5}
+        - {x: -161.5, y: 53.5}
+        - {x: -166.5, y: 29.5}
+        - {x: -166.5, y: -26.5}
+        - {x: -165.5, y: -32.5}
+        - {x: -161.5, y: -49.5}
+        - {x: -157.5, y: -61.5}
+        - {x: -146.5, y: -84.5}
+        - {x: -131.5, y: -108.5}
+        - {x: -99.5, y: -139.5}
+        - {x: -58.5, y: -160.5}
+        - {x: -31.5, y: -166.5}
+        - {x: 29.5, y: -166.5}
+        - {x: 42.5, y: -164.5}
+        - {x: 59.5, y: -159.5}
+        - {x: 88.5, y: -145.5}
+    - name: maus_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 386
+        width: 333
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5, y: -136}
+        - {x: 140.5, y: -98}
+        - {x: 148.5, y: -84}
+        - {x: 162.5, y: -54}
+        - {x: 166.5, y: -37}
+        - {x: 166.5, y: 34}
+        - {x: 164.5, y: 47}
+        - {x: 156.5, y: 69}
+        - {x: 142.5, y: 93}
+        - {x: 130.5, y: 109}
+        - {x: 104.5, y: 134}
+        - {x: 81.5, y: 149}
+        - {x: 64.5, y: 159}
+        - {x: 30.5, y: 167}
+        - {x: -29.5, y: 167}
+        - {x: -48.5, y: 162}
+        - {x: -62.5, y: 157}
+        - {x: -82.5, y: 148}
+        - {x: -107.5, y: 132}
+        - {x: -141.5, y: 97}
+        - {x: -160.5, y: 60}
+        - {x: -166.5, y: 32}
+        - {x: -166.5, y: -35}
+        - {x: -162.5, y: -52}
+        - {x: -151.5, y: -79}
+        - {x: -138.5, y: -100}
+        - {x: -117.5, y: -124}
+        - {x: -96.5, y: -141}
+        - {x: -70.5, y: -156}
+        - {x: -52.5, y: -163}
+        - {x: -32.5, y: -167}
+        - {x: 32.5, y: -167}
+        - {x: 46.5, y: -165}
+        - {x: 65.5, y: -157}
+        - {x: 79.5, y: -152}
+    - name: maus_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 333
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.5, y: -107.5}
+        - {x: 139.5, y: -98.5}
+        - {x: 159.5, y: -63.5}
+        - {x: 166.5, y: -34.5}
+        - {x: 166.5, y: 35.5}
+        - {x: 165.5, y: 40.5}
+        - {x: 152.5, y: 76.5}
+        - {x: 140.5, y: 96.5}
+        - {x: 111.5, y: 130.5}
+        - {x: 82.5, y: 149.5}
+        - {x: 46.5, y: 163.5}
+        - {x: 29.5, y: 166.5}
+        - {x: -33.5, y: 166.5}
+        - {x: -63.5, y: 157.5}
+        - {x: -82.5, y: 147.5}
+        - {x: -103.5, y: 134.5}
+        - {x: -130.5, y: 108.5}
+        - {x: -148.5, y: 82.5}
+        - {x: -157.5, y: 63.5}
+        - {x: -163.5, y: 41.5}
+        - {x: -166.5, y: 26.5}
+        - {x: -166.5, y: -28.5}
+        - {x: -165.5, y: -38.5}
+        - {x: -157.5, y: -64.5}
+        - {x: -148.5, y: -81.5}
+        - {x: -133.5, y: -105.5}
+        - {x: -104.5, y: -134.5}
+        - {x: -90.5, y: -143.5}
+        - {x: -60.5, y: -159.5}
+        - {x: -35.5, y: -166.5}
+        - {x: 40.5, y: -166.5}
+        - {x: 68.5, y: -156.5}
+        - {x: 89.5, y: -145.5}
+        - {x: 113.5, y: -127.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

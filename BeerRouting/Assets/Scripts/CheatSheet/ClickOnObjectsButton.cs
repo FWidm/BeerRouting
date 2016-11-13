@@ -3,7 +3,7 @@
 public class ClickOnObjectsButton : MonoBehaviour
 {
 
-    public GameObject table, barkeeper, prof, scoreBeer, beerBottle, guest, arrow, alt, navi, routing;
+    public GameObject table, barkeeper, prof, scoreBeer, beerBottle, guest, arrow, alt, navi, routing, mouse;
 
 
     void Start()
@@ -49,6 +49,9 @@ public class ClickOnObjectsButton : MonoBehaviour
             case "ObjectRouting":
                 routing.SetActive(true);
                 break;
+            case "ObjectMouse":
+                mouse.SetActive(true);
+                break;
         }
     }
 
@@ -64,5 +67,6 @@ public class ClickOnObjectsButton : MonoBehaviour
         arrow.SetActive(false);
         navi.SetActive(false);
         routing.SetActive(false);
+        mouse.SetActive(false);
     }
 }
