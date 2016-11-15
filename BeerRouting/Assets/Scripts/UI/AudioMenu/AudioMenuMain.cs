@@ -13,7 +13,7 @@ public class AudioMenuMain : MonoBehaviour
      * Audio Mixer
      * */
     public AudioMixer masterMixer;
-    public static  readonly string MASTER_VOL = "MasterVol", GAME_VOL = "GameVol", UI_VOL = "UiVol", PROF_VOL = "ProfVol", BACKGROUND_VOL = "BackgroundVol";
+    public static  readonly string MASTER_VOL = "MasterVol", GAME_VOL = "GameVol", UI_VOL = "UiVol", PROF_VOL = "ProfVol", BACKGROUND_VOL = "BackgroundVol", FIRST_START = "FirstStart";
 
     public Toggle toggleMaster, toggleGame, toggleUi, toggleProf, toggleBackground;
     public Slider sliderMaster, sliderGame, sliderUi, sliderProf, sliderBackground;
@@ -24,23 +24,31 @@ public class AudioMenuMain : MonoBehaviour
 
     void Start()
     {
-        //Uncomment when playerprefs contains unknown vals. Should be 1 as default.
-        //PlayerPrefs.SetFloat(MASTER_VOL, 1);
-        //PlayerPrefs.SetFloat(GAME_VOL, 1);
-        //PlayerPrefs.SetFloat(UI_VOL, 1);
-        //PlayerPrefs.SetFloat(PROF_VOL, 1);
-        //PlayerPrefs.SetFloat(BACKGROUND_VOL, 1);
-        SetBackgroundSoundLevel(PlayerPrefs.GetFloat(BACKGROUND_VOL));
-        sliderBackground.value = PlayerPrefs.GetFloat(BACKGROUND_VOL);
-        SetGameSoundLevel(PlayerPrefs.GetFloat(GAME_VOL));
-        sliderGame.value = PlayerPrefs.GetFloat(GAME_VOL);
-        SetMasterSoundLevel(PlayerPrefs.GetFloat(MASTER_VOL));
-        sliderMaster.value = PlayerPrefs.GetFloat(MASTER_VOL);
-        SetProfSoundLevel(PlayerPrefs.GetFloat(PROF_VOL));
-        sliderProf.value = PlayerPrefs.GetFloat(PROF_VOL);
-        SetUiSoundLevel(PlayerPrefs.GetFloat(UI_VOL));
-        sliderProf.value = PlayerPrefs.GetFloat(UI_VOL);
-        
+
+        if (PlayerPrefs.GetFloat(FIRST_START) == 0)
+        {
+            PlayerPrefs.SetFloat(MASTER_VOL, 1);
+            PlayerPrefs.SetFloat(GAME_VOL, 1);
+            PlayerPrefs.SetFloat(UI_VOL, 1);
+            PlayerPrefs.SetFloat(PROF_VOL, 1);
+            PlayerPrefs.SetFloat(BACKGROUND_VOL, 1);
+            PlayerPrefs.SetFloat(FIRST_START, 1);
+
+        } else
+        {
+            SetBackgroundSoundLevel(PlayerPrefs.GetFloat(BACKGROUND_VOL));
+            sliderBackground.value = PlayerPrefs.GetFloat(BACKGROUND_VOL);
+            SetGameSoundLevel(PlayerPrefs.GetFloat(GAME_VOL));
+            sliderGame.value = PlayerPrefs.GetFloat(GAME_VOL);
+            SetMasterSoundLevel(PlayerPrefs.GetFloat(MASTER_VOL));
+            sliderMaster.value = PlayerPrefs.GetFloat(MASTER_VOL);
+            SetProfSoundLevel(PlayerPrefs.GetFloat(PROF_VOL));
+            sliderProf.value = PlayerPrefs.GetFloat(PROF_VOL);
+            SetUiSoundLevel(PlayerPrefs.GetFloat(UI_VOL));
+            sliderProf.value = PlayerPrefs.GetFloat(UI_VOL);
+
+        }
+
 
         cam = FindObjectOfType<CameraFollowPlayer>();
     }
