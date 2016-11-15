@@ -244,6 +244,7 @@
      <Compile Include="Assets\StateMachines\PlayerStates.cs" />
      <Compile Include="Assets\StateMachines\ProfessorStates.cs" />
      <Compile Include="Assets\ToggleBeer.cs" />
+     <Compile Include="Assets\routerclicked.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
      <None Include="Assets\Fonts\!pizzadude.txt" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
