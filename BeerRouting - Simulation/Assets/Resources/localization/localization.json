@@ -227,7 +227,7 @@
           "size": 900
         },
         "seq_3_dijkstra_tut_1": {
-          "text": "Rechts oben siehst du deinen aktuellen Score in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist die Anzeige zu 100% gefüllt.",
+          "text": "Rechts unten siehst du deinen aktuellen Score in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist die Anzeige zu 100% gefüllt.",
           "size": 1000
         },
         "seq_3_dijkstra_tut_2": {

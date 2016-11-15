@@ -12,6 +12,8 @@ public class ExitMenu : MonoBehaviour
     public AudioSource buttonClick;
     public AudioSource successSound;
     public GameObject changeMessage;
+    public GameObject sendButton;
+
     private string defaultText = "";
     UpdateSite.PostRequestCallback callback;
 
@@ -71,6 +73,7 @@ public class ExitMenu : MonoBehaviour
                 updateSite.UpdateWebsite(callback);
                 Debug.Log("Setting guitext after website call");
                 guiText.text += updateSite.information;
+                sendButton.SetActive(false);
             }
 
         }
@@ -94,8 +97,20 @@ public class ExitMenu : MonoBehaviour
     {
         buttonClick.Play();
         ToggleMenu();
+        //TODO Delete progress?
+        //DeleteProgess();
         Application.Quit();
 
+    }
+
+    public void DeleteProgess(){
+        string FileName = "BeerRoutingGameData.bin";
+        string appDataFolder = Application.persistentDataPath;
+        string saveGameStateFilePath = appDataFolder + "/BeerRoutingData/" + FileName;
+        if (File.Exists(saveGameStateFilePath))
+            {
+                File.Delete(saveGameStateFilePath);
+            }
     }
 
     /// <summary>

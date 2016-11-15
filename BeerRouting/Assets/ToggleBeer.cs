@@ -32,7 +32,7 @@ public class ToggleBeer : MonoBehaviour {
                 GameObject handLeft = child.transform.GetChild(0).gameObject;
                 foreach (Transform _child in handLeft.transform)
                 {
-                    Debug.Log(child.name);
+                    //Debug.Log(child.name);
                     if (_child.name.StartsWith("CanvasBeer"))
                     {
                         _child.gameObject.SetActive(beerActive);
@@ -40,7 +40,7 @@ public class ToggleBeer : MonoBehaviour {
                     if (_child.name.StartsWith("Other"))
                     {
                         _child.gameObject.SetActive(otherActive);
-                        Debug.Log("set placeholder to " + otherActive);
+                        //Debug.Log("set placeholder to " + otherActive);
 
                     }
                 }

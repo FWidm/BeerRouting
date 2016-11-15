@@ -16,7 +16,7 @@ public class SFTPAccess : MonoBehaviour
     public Boolean debug = true;
     public string username = "beerrouting";
     public string password;
-    public string host= "134.60.51.204";
+    public string host = "134.60.51.204";
 
     public bool UploadSurveyLogs()
     {
@@ -27,9 +27,7 @@ public class SFTPAccess : MonoBehaviour
             return false;
         }
         using (var client = new SftpClient(host, username, password))
-        {
-            if (debug)
-                Debug.Log("OperationTimeout=" + client.OperationTimeout);
+        {   
             client.Connect();
             if (debug)
                 Debug.Log("Is connected? " + client.IsConnected);

@@ -9,8 +9,11 @@ using UnityEngine;
 namespace Pathfinding {
 	public class AstarProfiler {
 		public class ProfilePoint {
-			//public DateTime lastRecorded;
-			//public TimeSpan totalTime;
+            //public DateTime lastRecorded;
+            //public TimeSpan tot
+
+
+            ime;
 			public System.Diagnostics.Stopwatch watch = new System.Diagnostics.Stopwatch();
 			public int totalCalls;
 			public long tmpBytes;

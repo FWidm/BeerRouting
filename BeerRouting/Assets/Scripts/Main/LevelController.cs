@@ -84,10 +84,18 @@ public abstract class LevelController : MonoBehaviour
             DMM.WriteToLog("");
             DMM.WriteToLog("Buttons; Professor Button clicks= " + pButton.GetClickCount());
             DMM.WriteToLog("Buttons; Routing Table Button clicks=" + rButton.GetClickCount());
-            DMM.WriteToLog("Count; #Error Recovery= " + DMM.countErrorRecovery);
-            DMM.WriteToLog("Count; #NOPs = " + DMM.countNoOp);
-            DMM.WriteToLog("Count; #Wrong Hops= " + DMM.countWrongHop);
-            DMM.WriteToLog("Count; #UndiscoveredPaths= " + DMM.countUndiscoveredPaths);
+            //errors
+            DMM.WriteToLog("Errors; #Error Recovery= " + DMM.countErrorRecovery);
+            DMM.WriteToLog("Errors; #NOPs = " + DMM.countNoOp);
+            DMM.WriteToLog("Errors; #Wrong Hops= " + DMM.countWrongHop);
+            DMM.WriteToLog("Errors; #UndiscoveredPaths= " + DMM.countUndiscoveredPaths);
+            //sound -> AudioMenuMain     private readonly string MASTER_VOL = "MasterVol", GAME_VOL = "GameVol", UI_VOL = "UiVol", PROF_VOL = "ProfVol", BACKGROUND_VOL = "BackgroundVol";
+            DMM.WriteToLog("Sound; Master: " + PlayerPrefs.GetFloat(AudioMenuMain.MASTER_VOL));
+            DMM.WriteToLog("Sound; Game: " + PlayerPrefs.GetFloat(AudioMenuMain.GAME_VOL));
+            DMM.WriteToLog("Sound; UI: " + PlayerPrefs.GetFloat(AudioMenuMain.UI_VOL));
+            DMM.WriteToLog("Sound; Professor: " + PlayerPrefs.GetFloat(AudioMenuMain.PROF_VOL));
+            DMM.WriteToLog("Sound; Background: " + PlayerPrefs.GetFloat(AudioMenuMain.BACKGROUND_VOL));
+
         }
 
         // Play beer drink animation after a short time.

@@ -23,7 +23,8 @@ namespace Pathfinding {
 	 * \shadowimage{smooth_simple.png}
 	 * - <b>Bezier</b> Smooths the path using Bezier curves. This results a smooth path which will always pass through all points in the path, but make sure it doesn't turn too quickly.
 	 * \shadowimage{smooth_bezier.png}
-	 * - <b>OffsetSimple</b> An alternative to Simple smooth which will offset the path outwards in each step to minimize the corner-cutting.
+	 * - <b>OffsetSimple</b> An 
+     * ernative to Simple smooth which will offset the path outwards in each step to minimize the corner-cutting.
 	 * But be careful, if too high values are used, it will turn into loops and look really ugly.
 	 * - <b>Curved Non Uniform</b> \shadowimage{smooth_curved_nonuniform.png}
 	 *

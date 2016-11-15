@@ -95,7 +95,10 @@ namespace Pathfinding {
 		private ushort pathID;
 
 		public readonly int threadID;
-		public readonly int totalThreadCount;
+		public readonly int tot
+            
+            
+            hreadCount;
 
 		/**
 		 * Binary heap to keep track of nodes on the "Open list".

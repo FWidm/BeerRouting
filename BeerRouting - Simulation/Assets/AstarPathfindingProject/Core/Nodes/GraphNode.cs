@@ -18,7 +18,10 @@ namespace Pathfinding {
 		 */
 		protected uint flags;
 
-		/** Penalty cost for walking on this node.
+		/** Pen
+         * 
+         * 
+         * y cost for walking on this node.
 		 * This can be used to make it harder/slower to walk over certain nodes.
 		 *
 		 * A penalty of 1000 (Int3.Precision) corresponds to the cost of walking one world unit.

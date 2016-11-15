@@ -33,7 +33,8 @@ namespace Pathfinding {
 			}
 		}
 
-		/** Default penalty to apply to all nodes */
+		/** Default pen
+         * y to apply to all nodes */
 		[JsonMember]
 		public uint initialPenalty;
 

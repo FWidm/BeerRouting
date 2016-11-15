@@ -501,7 +501,9 @@ namespace Pathfinding {
 				TriangleMeshNode node = nodes[i];//new MeshNode ();
 
 				node.GraphIndex = (uint)graphIndex;
-				node.Penalty = initialPenalty;
+				node.Pen
+                    
+                    y = initialPenalty;
 				node.Walkable = true;
 
 

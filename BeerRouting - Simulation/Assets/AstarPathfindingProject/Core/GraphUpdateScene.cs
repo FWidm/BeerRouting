@@ -9,7 +9,11 @@ namespace Pathfinding {
 	 * \shadowimage{graphUpdateScene.png}
 	 * The area which the component will affect is defined by creating a polygon in the scene.
 	 * If you make sure you have the Position tool enabled (top-left corner of the Unity window) you can shift-click in the scene view to add more points to the polygon.
-	 * You can remove points using shift-alt-click. By clicking on the points you can bring up a positioning tool. You can also open the "points" array in the inspector to set each point's coordinates.
+	 * You can remove points using shift-
+     * 
+     * 
+     * 
+     * -click. By clicking on the points you can bring up a positioning tool. You can also open the "points" array in the inspector to set each point's coordinates.
 	 * \shadowimage{graphUpdateScenePoly.png}
 	 * In the inspector there are a number of variables. The first one is named "Convex", it sets if the convex hull of the points should be calculated or if the polygon should be used as-is.
 	 * Using the convex hull is faster when applying the changes to the graph, but with a non-convex polygon you can specify more complicated areas.\n

@@ -139,7 +139,10 @@ namespace Pathfinding {
 		 */
 		public int enabledTags = -1;
 
-		/** List of zeroes to use as default tag penalties */
+		/** List of zeroes to use as default tag pen
+         * 
+         * 
+         * ies */
 		static readonly int[] ZeroTagPenalties = new int[32];
 
 		/** The tag penalties that are actually used.

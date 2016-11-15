@@ -89,7 +89,9 @@ namespace Pathfinding {
 		 *
 		 * The returned list is sorted by node distance from the seed node
 		 * i.e distance is measured in the number of nodes the shortest path from \a seed to that node would pass through.
-		 * Note that the distance measurement does not take heuristics, penalties or tag penalties.
+		 * Note that the distance measurement does not take heuristics, pen
+         * 
+         * ies or tag penalties.
 		 *
 		 * Depending on the number of reachable nodes, this function can take quite some time to calculate
 		 * so don't use it too often or it might affect the framerate of your game.

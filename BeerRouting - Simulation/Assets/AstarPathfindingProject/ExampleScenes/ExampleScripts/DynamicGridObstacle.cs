@@ -62,7 +62,10 @@ public class DynamicGridObstacle : MonoBehaviour {
 		}
 
 		while (AstarPath.active == null || AstarPath.active.isScanning) {
-			lastCheckTime = Time.realtimeSinceStartup;
+			lastCheckTime = Time.re
+                
+                
+                imeSinceStartup;
 		}
 
 		if (Time.realtimeSinceStartup - lastCheckTime < checkTime) {

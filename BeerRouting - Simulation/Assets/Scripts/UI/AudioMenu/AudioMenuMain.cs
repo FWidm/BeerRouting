@@ -13,10 +13,10 @@ public class AudioMenuMain : MonoBehaviour
      * Audio Mixer
      * */
     public AudioMixer masterMixer;
-    private readonly string MASTER_VOL = "MasterVol", GAME_VOL = "GameVol", UI_VOL = "UiVol", PROF_VOL = "ProfVol", BACKGROUND_VOL = "BackgroundVol";
+    public static readonly string MASTER_VOL = "MasterVol", GAME_VOL = "GameVol", UI_VOL = "UiVol", PROF_VOL = "ProfVol", BACKGROUND_VOL = "BackgroundVol";
     public Toggle toggleMaster, toggleGame, toggleUi, toggleProf, toggleBackground;
     public Slider sliderMaster, sliderGame, sliderUi, sliderProf, sliderBackground;
-    private readonly float MIN_VAL = 0f, MAX_VAL = 1f;
+    public static readonly float MIN_VAL = 0f, MAX_VAL = 1f;
     public GameObject panel;
     private CameraFollowPlayer cam;
     private AudioSource buttonClick;

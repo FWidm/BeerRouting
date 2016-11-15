@@ -90,6 +90,13 @@ public class DijkstraMovementManager : MonoBehaviour, MovementManagerInterface
 
             Debug.Log("Logging to file!");
             levelLogging = new LevelLogging(levelProperties.levelName, " MaxScore=" + levelProperties.levelMaxScore + ", Type=" + levelProperties.gameType, PlayerPrefs.GetString("name"));
+            //audio
+            WriteToLog("Sound; Master: " + PlayerPrefs.GetFloat(AudioMenuMain.MASTER_VOL));
+            WriteToLog("Sound; Game: " + PlayerPrefs.GetFloat(AudioMenuMain.GAME_VOL));
+            WriteToLog("Sound; UI: " + PlayerPrefs.GetFloat(AudioMenuMain.UI_VOL));
+            WriteToLog("Sound; Professor: " + PlayerPrefs.GetFloat(AudioMenuMain.PROF_VOL));
+            WriteToLog("Sound; Background: " + PlayerPrefs.GetFloat(AudioMenuMain.BACKGROUND_VOL));
+            WriteToLogAppendScore("Start; Starting Game");
         }
     }
     /// <summary>

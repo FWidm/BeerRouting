@@ -12,7 +12,8 @@ namespace Pathfinding {
 		/** Precision for the integer coordinates.
 		 * One world unit is divided into [value] pieces. A value of 1000 would mean millimeter precision, a value of 1 would mean meter precision (assuming 1 world unit = 1 meter).
 		 * This value affects the maximum coordinates for nodes as well as how large the cost values are for moving between two nodes.
-		 * A higher value means that you also have to set all penalty values to a higher value to compensate since the normal cost of moving will be higher.
+		 * A higher value means that you also have to set all pen
+         * y values to a higher value to compensate since the normal cost of moving will be higher.
 		 */
 		public const int Precision = 1000;
 

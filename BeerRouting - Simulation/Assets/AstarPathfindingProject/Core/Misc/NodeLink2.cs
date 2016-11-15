@@ -23,7 +23,10 @@ namespace Pathfinding {
 
 		/** The connection will be this times harder/slower to traverse.
 		 * Note that values lower than one will not always make the pathfinder choose this path instead of another path even though this one should
-		 * lead to a lower total cost unless you also adjust the Heuristic Scale in A* Inspector -> Settings -> Pathfinding or disable the heuristic altogether.
+		 * lead to a lower total cost unless you also adjust the Heuristic Scale in A* Inspector -> Settings -> Pathfinding or disable the heuristic 
+         * 
+         * 
+         * ogether.
 		 */
 		public float costFactor = 1.0f;
 

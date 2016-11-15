@@ -120,7 +120,7 @@ public class PathScript : MonoBehaviour
                     {
                         if (renderer.name.Equals("PathHighlight"))
                         {
-                            renderer.enabled = true;
+                            renderer.enabled = !renderer.enabled;
                             sb.Append(renderer.transform.parent.transform.parent.name + ", ");
                         }
                     }

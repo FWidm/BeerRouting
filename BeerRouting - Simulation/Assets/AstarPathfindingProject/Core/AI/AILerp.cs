@@ -221,7 +221,8 @@ public class AILerp : MonoBehaviour {
 
 		canSearchAgain = false;
 
-		//Alternative way of requesting the path
+        //
+        ernative way of requesting the path
 		//ABPath p = ABPath.Construct (currentPosition,targetPoint,null);
 		//seeker.StartPath (p);
 

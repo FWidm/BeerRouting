@@ -140,7 +140,10 @@ public class AstarDebugger : MonoBehaviour {
 
 		if (lastCollectNum != collCount) {
 			lastCollectNum = collCount;
-			delta = Time.realtimeSinceStartup-lastCollect;
+			delta = Time.re
+                
+                
+                imeSinceStartup-lastCollect;
 			lastCollect = Time.realtimeSinceStartup;
 			lastDeltaTime = Time.deltaTime;
 			collectAlloc = allocMem;

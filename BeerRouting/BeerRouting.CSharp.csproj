@@ -271,6 +271,7 @@
     <Compile Include="Assets\StateMachines\PlayerStates.cs" />
     <Compile Include="Assets\StateMachines\ProfessorStates.cs" />
     <Compile Include="Assets\ToggleBeer.cs" />
+    <Compile Include="Assets\routerclicked.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />

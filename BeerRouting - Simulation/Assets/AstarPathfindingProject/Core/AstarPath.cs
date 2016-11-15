@@ -117,7 +117,10 @@ public class AstarPath : MonoBehaviour {
 	/** High value to use for certain #debugMode modes.
 	 * For example if #debugMode is set to G, this value will determine when the node will be totally green.
 	 *
-	 * For the penalty debug mode, the nodes will be colored green when they have a penalty of zero and red
+	 * For the pen
+    * 
+    * 
+    * y debug mode, the nodes will be colored green when they have a penalty of zero and red
 	 * when their penalty is greater or equal to this value and something between red and green for values in between.
 	 *
 	 * \note Only relevant in the editor

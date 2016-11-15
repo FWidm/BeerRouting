@@ -15,7 +15,8 @@ namespace Pathfinding {
 	 * - Throw any scene at it, with minimal configurations you can get a good graph from it.
 	 * - Supports raycast and the funnel algorithm
 	 * - Predictable pattern
-	 * - Can apply penalty and walkability values from a supplied image
+	 * - Can apply pen
+     * y and walkability values from a supplied image
 	 * - Perfect for terrain worlds since it can make areas unwalkable depending on the slope
 	 *
 	 * \shadowimage{gridgraph_graph.png}

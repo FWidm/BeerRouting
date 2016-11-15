@@ -12,6 +12,8 @@ public class ExitMenu : MonoBehaviour
     public AudioSource buttonClick;
     public AudioSource successSound;
     public GameObject changeMessage;
+    public GameObject sendButton;
+
     private string defaultText = "";
     UpdateSite.PostRequestCallback callback;
 
@@ -71,6 +73,7 @@ public class ExitMenu : MonoBehaviour
                 updateSite.UpdateWebsite(callback);
                 Debug.Log("Setting guitext after website call");
                 guiText.text += updateSite.information;
+                sendButton.SetActive(false);
             }
 
         }

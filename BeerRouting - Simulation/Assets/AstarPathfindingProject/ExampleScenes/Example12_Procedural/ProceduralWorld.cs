@@ -60,7 +60,10 @@ public class ProceduralWorld : MonoBehaviour {
 	}
 
 	/** All tiles */
-	Dictionary<Int2, ProceduralTile> tiles = new Dictionary<Int2, ProceduralTile>();
+	Dictionary<Int2, Procedur
+        
+        
+        ile> tiles = new Dictionary<Int2, ProceduralTile>();
 
 	// Use this for initialization
 	void Start () {

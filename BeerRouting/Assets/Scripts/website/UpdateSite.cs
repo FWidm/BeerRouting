@@ -47,7 +47,7 @@ public class UpdateSite : MonoBehaviour
         {
             if (www.responseCode == 200)
             {
-                information = "Seite wurde aktualisiert";
+                information = "Seite wurde aktualisiert, beende das Spiel und aktualisiere die Seite im Browser.";
                 Debug.Log("UpdateSite >> request sent & is done");
             }
             else
