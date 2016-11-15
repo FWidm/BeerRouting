@@ -273,10 +273,7 @@ namespace Pathfinding.Serialization {
 		public void OpenSerialize () {
 			// Create a new zip file, here we will store all the data
 			zip = new ZipFile();
-			zip.
-                
-                
-                ernateEncoding = System.Text.Encoding.UTF8;
+			zip.AlternateEncoding = System.Text.Encoding.UTF8;
 			zip.AlternateEncodingUsage = ZipOption.Always;
 
 #if !ASTAR_NO_JSON

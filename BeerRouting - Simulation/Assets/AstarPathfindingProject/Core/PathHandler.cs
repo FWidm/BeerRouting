@@ -95,10 +95,7 @@ namespace Pathfinding {
 		private ushort pathID;
 
 		public readonly int threadID;
-		public readonly int tot
-            
-            
-            hreadCount;
+		public readonly int totalhreadCount;
 
 		/**
 		 * Binary heap to keep track of nodes on the "Open list".
@@ -169,7 +166,7 @@ namespace Pathfinding {
 
 		public PathHandler (int threadID, int totalThreadCount) {
 			this.threadID = threadID;
-			this.totalThreadCount = totalThreadCount;
+			this.totalhreadCount = totalThreadCount;
 		}
 
 		public void InitializeForPath (Path p) {

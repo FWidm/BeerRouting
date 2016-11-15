@@ -10,10 +10,7 @@ namespace Pathfinding {
 	public class AstarProfiler {
 		public class ProfilePoint {
             //public DateTime lastRecorded;
-            //public TimeSpan tot
-
-
-            ime;
+            //public TimeSpan totalime;
 			public System.Diagnostics.Stopwatch watch = new System.Diagnostics.Stopwatch();
 			public int totalCalls;
 			public long tmpBytes;

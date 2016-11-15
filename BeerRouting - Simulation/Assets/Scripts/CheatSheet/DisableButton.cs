@@ -11,9 +11,7 @@ public class DisableButton : MonoBehaviour {
         // Toggles which button is shown on desktop or android
         if (Application.platform == RuntimePlatform.Android)
         {
-            if (name == "Button
-                
-                    ")
+            if (name == "Button")
             {
                 this.gameObject.SetActive(false);
             }
