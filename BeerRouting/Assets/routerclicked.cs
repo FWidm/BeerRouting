@@ -13,8 +13,14 @@ public class routerclicked : MonoBehaviour {
         Vector2 goPos = gameObject.transform.position;
         goPos.y += .3f;
         Debug.Log(">> mouseclicked on router=" + this.name + " show=" + show + " dist=" + Vector2.Distance(goPos, mouse));
-        if (Vector2.Distance(goPos,mouse)<.25f)
-            Cursor.SetCursor(texture, new Vector2(texture.width/2, texture.height/2), CursorMode.Auto);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        //this works, as clicking on a router doesnt find an object that is hit. Don't know why.
+        if (!Physics.Raycast(ray, out hit, 200))
+        {
+            Cursor.SetCursor(texture, new Vector2(texture.width / 2, texture.height / 2), CursorMode.Auto);
+        }
+
     }
 
 
