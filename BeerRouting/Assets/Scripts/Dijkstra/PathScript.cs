@@ -26,6 +26,13 @@ public class PathScript : MonoBehaviour
         set;
     }
 
+
+    public bool PathHighlight
+    {
+        get;
+        set;
+    }
+    public bool lastPathHL = false;
     // Indicates whether the path has already been discovered or not.
     private bool isDiscovered;
 
@@ -73,9 +80,22 @@ public class PathScript : MonoBehaviour
         LineRenderer lr = GetComponentInChildren<LineRenderer>(true);
         StringBuilder sb = new StringBuilder();
 
-        if ((displayPathHovers != null && displayPathHovers.show))
+        if (PathHighlight != lastPathHL)
         {
-            Debug.Log("DisplayPathhovers != null, button active show?" + displayPathHovers.show);
+            foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
+            {
+                if (renderer.name.Equals("PathHighlight"))
+                {
+                    renderer.enabled = PathHighlight;
+                    sb.Append(renderer.transform.parent.transform.parent.name + ", ");
+                }
+            }
+            lastPathHL = PathHighlight;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        {
             if (lr != null)
             {
                 lr.transform.gameObject.SetActive(true);
@@ -88,52 +108,23 @@ public class PathScript : MonoBehaviour
                         sb.Append(renderer.transform.parent.transform.parent.name + ", ");
                     }
                 }
-                if (debugging)
-                    Debug.Log(sb.ToString());
+                lastPathHL = true;
+
             }
         }
-        else if (displayPathHovers != null)
+        else if (Input.GetKeyUp(KeyCode.LeftAlt))
         {
-            //            Debug.Log("DisplayPathhovers != null, button inactive");
-
             HideLines();
             foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
             {
                 if (renderer.name.Equals("PathHighlight"))
                     renderer.enabled = false;
-            }
-        }
-        else
-        {
-            if (true || debugging)
-                //                Debug.Log("Pathscript, show lines, button disabled!");
-                if (Input.GetKeyDown(KeyCode.LeftAlt))
-            {
-                if (lr != null)
-                {
-                    lr.transform.gameObject.SetActive(true);
-                    sb.Remove(0, sb.Length);
-                    foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
-                    {
-                        if (renderer.name.Equals("PathHighlight"))
-                        {
-                            renderer.enabled = true;
-                            sb.Append(renderer.transform.parent.transform.parent.name + ", ");
-                        }
-                    }
 
-                }
             }
-            else if (Input.GetKeyUp(KeyCode.LeftAlt))
-            {
-                HideLines();
-                foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
-                {
-                    if (renderer.name.Equals("PathHighlight"))
-                        renderer.enabled = false;
-                }
-            }
+            lastPathHL = false;
+
         }
+
 
 
         return;

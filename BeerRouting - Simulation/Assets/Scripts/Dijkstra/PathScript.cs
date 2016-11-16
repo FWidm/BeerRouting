@@ -25,6 +25,8 @@ public class PathScript : MonoBehaviour
         get;
         set;
     }
+    public bool PathHighlight { get; internal set; }
+    public bool lastPathHL = false;
 
     // Indicates whether the path has already been discovered or not.
     private bool isDiscovered;
@@ -79,7 +81,18 @@ public class PathScript : MonoBehaviour
             lr.transform.gameObject.SetActive(true);
             sb.Remove(0, sb.Length);
         }
-
+        if (PathHighlight != lastPathHL)
+        {
+            foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
+            {
+                if (renderer.name.Equals("PathHighlight"))
+                {
+                    renderer.enabled = PathHighlight;
+                    sb.Append(renderer.transform.parent.transform.parent.name + ", ");
+                    lastPathHL = PathHighlight;
+                }
+            }
+        }
         if ((displayPathHovers != null && displayPathHovers.show))
         {
             Debug.Log("DisplayPathhovers != null, button active show?" + displayPathHovers.show);
@@ -95,6 +108,8 @@ public class PathScript : MonoBehaviour
                         sb.Append(renderer.transform.parent.transform.parent.name + ", ");
                     }
                 }
+                lastPathHL = true;
+
                 if (debugging)
                     Debug.Log(sb.ToString());
             }
@@ -109,23 +124,37 @@ public class PathScript : MonoBehaviour
                 if (renderer.name.Equals("PathHighlight"))
                     renderer.enabled = false;
             }
+            lastPathHL = false;
+
         }
         else
         {
-            if (true || debugging)
-                //                Debug.Log("Pathscript, show lines, button disabled!");
-                if (Input.GetKeyDown(KeyCode.LeftAlt))
+            if (Input.GetKeyDown(KeyCode.LeftAlt))
+            {
+                foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
                 {
-                    foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
+                    if (renderer.name.Equals("PathHighlight"))
                     {
-                        if (renderer.name.Equals("PathHighlight"))
-                        {
-                            renderer.enabled = !renderer.enabled;
-                            sb.Append(renderer.transform.parent.transform.parent.name + ", ");
-                        }
+                        renderer.enabled = true;
+                        sb.Append(renderer.transform.parent.transform.parent.name + ", ");
                     }
-
                 }
+                lastPathHL = true;
+
+            }
+            else if (Input.GetKeyUp(KeyCode.LeftAlt))
+            {
+                foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
+                {
+                    if (renderer.name.Equals("PathHighlight"))
+                    {
+                        renderer.enabled = false;
+                        sb.Append(renderer.transform.parent.transform.parent.name + ", ");
+                    }
+                }
+                lastPathHL = false;
+
+            }
 
         }
 
@@ -187,7 +216,7 @@ public class PathScript : MonoBehaviour
         if (debugging)
             Debug.Log("Displaying for: " + name + " - costs=" + pathCosts);
         pathCostDisplay.transform.parent = gameObject.transform;
-        pathCostDisplay.transform.position = new Vector3(transform.GetChild(0).position.x, transform.GetChild(0).position.y+yOffsetPathCostDisplay, transform.GetChild(0).position.z);
+        pathCostDisplay.transform.position = new Vector3(transform.GetChild(0).position.x, transform.GetChild(0).position.y + yOffsetPathCostDisplay, transform.GetChild(0).position.z);
     }
 
     public void ResetPathcost()

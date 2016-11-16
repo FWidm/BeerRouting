@@ -6,6 +6,14 @@ using System.Collections.Generic;
 public class routerclicked : MonoBehaviour {
     public Texture2D texture;
     private bool show = true;
+    PathScript[] pathScripts;
+    SpriteRenderer sr;
+
+    void Start()
+    {
+        pathScripts = FindObjectsOfType<PathScript>();
+        sr = GetComponent<SpriteRenderer>();
+    }
 
     void OnMouseDown()
     {
@@ -19,8 +27,18 @@ public class routerclicked : MonoBehaviour {
         if (!Physics.Raycast(ray, out hit, 200))
         {
             Cursor.SetCursor(texture, new Vector2(texture.width / 2, texture.height / 2), CursorMode.Auto);
+            ShowAllPaths(true);
+            sr.color = Color.red;
         }
 
+    }
+
+    void ShowAllPaths(bool show)
+    {
+        foreach (var path in pathScripts)
+        {
+            path.PathHighlight = show;
+        }
     }
 
 
@@ -34,6 +52,7 @@ public class routerclicked : MonoBehaviour {
         yield return new WaitForSeconds(time);
 
         Cursor.SetCursor(null, new Vector2(), CursorMode.Auto);
-
+        ShowAllPaths(false);
+        sr.color = Color.white;
     }
 }

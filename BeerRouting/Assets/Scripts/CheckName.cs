@@ -10,7 +10,7 @@ public class CheckName : MonoBehaviour {
         if(name!=null && name.Length > 0)
         {
             Text txtUi=this.gameObject.GetComponent<Text>();
-            txtUi.text = "Hallo, " + name + ", danke für die Teilnahme!";
+            txtUi.text = "Hallo, " + name + "!";
         }
     }
 
