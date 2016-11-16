@@ -183,8 +183,8 @@
     "prof": {
       "dijkstra_tutorial": {
         "seq_0_dijkstra_tut_0": {
-          "text": "Hallo Bierfreunde!",
-          "size": 480
+          "text": "Hallo Bierfreunde! Auf der linken Seite der Sprechblase findet ihr Pfeile um unser Gespräch fortzuführen oder einen Haken, der symbolisiert, dass ich euch alles gesagt habe. Sobald das Gespräch beendet ist, dürft ihr loslegen. Ihr könnt auch die Pfeiltasten auf eurer Tastatur nutzen um durch die Texte zu kommen.",
+          "size": 1500
         },
         "seq_0_dijkstra_tut_1": {
           "text": "Ich bin <ProfessorName> und ich mag Informatik fast so sehr wie Bier.",

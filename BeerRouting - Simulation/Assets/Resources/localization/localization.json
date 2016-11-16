@@ -183,8 +183,8 @@
     "prof": {
       "dijkstra_tutorial": {
         "seq_0_dijkstra_tut_0": {
-          "text": "Willkommen zum Dijkstra Tutorial!",
-          "size": 480
+          "text": "Willkommen zum Dijkstra Tutorial!  Auf der linken Seite der findet ihr Pfeile das Tutorial voranzubringen oder einen Haken, der symbolisiert, dass die Sequenz zu Ende ist. Ihr könnt nur fortfahren, sobald die Sprechblase geschlossen ist. Ihr könnt auch die Pfeiltasten auf eurer Tastatur nutzen um durch die Texte zu kommen.",
+          "size": 1500
         },
         "seq_0_dijkstra_tut_1": {
           "text": "1",
