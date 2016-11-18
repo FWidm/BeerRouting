@@ -235,7 +235,7 @@
           "size": 600
         },
         "seq_4_dijkstra_tut_0": {
-          "text": "Gut. Du hast den ersten Tisch vollständig abgearbeitet. Der Tisch wurde entsprechend markiert.",
+          "text": "Gut. Du hast den ersten Tisch vollständig abgearbeitet und kennst die Pfade zu allen Nachbartischen. Der Tisch wurde entsprechend markiert.",
           "size": 740
         },
         "seq_4_dijkstra_tut_1": {

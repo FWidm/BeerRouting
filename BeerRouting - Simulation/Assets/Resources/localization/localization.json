@@ -235,7 +235,7 @@
           "size": 600
         },
         "seq_4_dijkstra_tut_0": {
-          "text": "Dieser Router wurde jetzt komplett abgearbeitet, der Router wird für dich dementsprechend markiert.",
+          "text": "Dieser Router wurde jetzt komplett abgearbeitet, die komplette Path Discovery wurde durchgeführt. Der Router wird für dich dementsprechend markiert.",
           "size": 740
         },
         "seq_4_dijkstra_tut_1": {
