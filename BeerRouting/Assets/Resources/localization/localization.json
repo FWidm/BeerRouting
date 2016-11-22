@@ -177,13 +177,13 @@
   },
   "german": {
     "ui": {
-      "btn_close": "Schließen",
+      "btn_close": "Schliessen",
       "btn_help": "Hilfe"
     },
     "prof": {
       "dijkstra_tutorial": {
         "seq_0_dijkstra_tut_0": {
-          "text": "Hallo Bierfreunde! Auf der linken Seite der Sprechblase findet ihr Pfeile um unser Gespräch fortzuführen oder einen Haken, der symbolisiert, dass ich euch alles gesagt habe. Sobald das Gespräch beendet ist, dürft ihr loslegen. Ihr könnt auch die Pfeiltasten auf eurer Tastatur nutzen um durch die Texte zu kommen.",
+          "text": "Hallo Bierfreunde! Auf der linken Seite der Sprechblase findet ihr Pfeile um unser Gespraech fortzufuehren oder einen Haken, der symbolisiert, dass ich euch alles gesagt habe. Sobald das Gespraech beendet ist, duerft ihr loslegen. Ihr koennt auch die Pfeiltasten auf eurer Tastatur nutzen um durch die Texte zu kommen.",
           "size": 1500
         },
         "seq_0_dijkstra_tut_1": {
@@ -195,7 +195,7 @@
           "size": 700
         },
         "seq_0_dijkstra_tut_3": {
-          "text": "Damit das nicht zu trocken wird, genehmige ich mir aber zunächst mal ein köstliches Bier...",
+          "text": "Damit das nicht zu trocken wird, genehmige ich mir aber zunaechst mal ein koestliches Bier...",
           "size": 760
         },
         "seq_1_dijkstra_tut_0": {
@@ -207,39 +207,39 @@
           "size": 800
         },
         "seq_1_dijkstra_tut_2": {
-          "text": "Als erstes kannst du z. B. den Weg zwischen Tisch A und B erkunden. Dazu musst du entweder bei Tisch A auf die Bierflasche B klicken oder auf die gegenüberliegende Bierflasche A auf Tisch B. Außerdem kannst du die Karte durch draggen verschieben. Versuche es. ",
+          "text": "Als erstes kannst du z. B. den Weg zwischen Tisch A und B erkunden. Dazu musst du entweder bei Tisch A auf die Bierflasche B klicken oder auf die gegenueberliegende Bierflasche A auf Tisch B. Ausserdem kannst du die Karte durch draggen verschieben. Versuche es. ",
           "size": 1200
         },
         "seq_2_dijkstra_tut_0": {
-          "text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Dabei benutzt <PlayerName> die Lupe um den Weg zu erkunden. Nun weiß <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird über den Bierflaschen angezeigt.",
+          "text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Dabei benutzt <PlayerName> die Lupe um den Weg zu erkunden. Nun weiss <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird ueber den Bierflaschen angezeigt.",
           "size": 1600
         },
         "seq_2_dijkstra_tut_1": {
-          "text": "<PlayerName> hat beim Erkunden etwas Bier verschüttet. Dadurch kannst du erkennen, welche Wege bereits erkundet wurden.",
+          "text": "<PlayerName> hat beim Erkunden etwas Bier verschuettet. Dadurch kannst du erkennen, welche Wege bereits erkundet wurden.",
           "size": 800
         },
         "seq_2_dijkstra_tut_2": {
-          "text": "Du hast bereits einen Weg von Tisch <CurrentRouterName> erkundet. Der Dijkstra-Algorithmus gibt vor, dass du zunächst alle Tische erkunden musst, die vom aktuellen Tisch aus erreichbar sind. Leg los!",
+          "text": "Du hast bereits einen Weg von Tisch <CurrentRouterName> erkundet. Der Dijkstra-Algorithmus gibt vor, dass du zunaechst alle Tische erkunden musst, die vom aktuellen Tisch aus erreichbar sind. Leg los!",
           "size": 1000
         },
         "seq_3_dijkstra_tut_0": {
-          "text": "Du hast für die korrekte Erkundung des Weges +5 Punkte erhalten. Für jede richtige Aktion erhälst du Pluspunke. Bei falschen Aktionen gibt es Minuspunkte.",
+          "text": "Du hast fuer die korrekte Erkundung des Weges +5 Punkte erhalten. Fuer jede richtige Aktion erhaelst du Pluspunke. Bei falschen Aktionen gibt es Minuspunkte.",
           "size": 900
         },
         "seq_3_dijkstra_tut_1": {
-          "text": "Das Bierglas (rechts oben) repräsentiert deinen aktuellen Punktestand in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist das Bier zu 100% gefüllt. Genau das ist dein Ziel!",
+          "text": "Das Bierglas (rechts oben) repraesentiert deinen aktuellen Punktestand in Prozent. Wenn du in einem Level die maximale Punktzahl erreicht hast, ist das Bier zu 100% gefuellt. Genau das ist dein Ziel!",
           "size": 1000
         },
         "seq_3_dijkstra_tut_2": {
-          "text": "Bei Tisch <CurrentRouterName> ist jetzt nur noch ein Weg übrig. Vervollständige die Erkundung.",
+          "text": "Bei Tisch <CurrentRouterName> ist jetzt nur noch ein Weg uebrig. Vervollstaendige die Erkundung.",
           "size": 600
         },
         "seq_4_dijkstra_tut_0": {
-          "text": "Gut. Du hast den ersten Tisch vollständig abgearbeitet und kennst die Pfade zu allen Nachbartischen. Der Tisch wurde entsprechend markiert.",
+          "text": "Gut. Du hast den ersten Tisch vollstaendig abgearbeitet und kennst die Pfade zu allen Nachbartischen. Der Tisch wurde entsprechend markiert.",
           "size": 740
         },
         "seq_4_dijkstra_tut_1": {
-          "text": "Laut Dijkstra-Algorithmus muss nun der Tisch, der dem Starttisch am nächsten ist, erkundet werden. Der Starttisch ist immer Tisch A.",
+          "text": "Laut Dijkstra-Algorithmus muss nun der Tisch, der dem Starttisch am naechsten ist, erkundet werden. Der Starttisch ist immer Tisch A.",
           "size": 850
         },
         "seq_4_dijkstra_tut_2": {
@@ -247,19 +247,19 @@
           "size": 1100
         },
         "seq_4_dijkstra_tut_3": {
-          "text": "Vom Starttisch zu Tisch <NeighbourRouterName1> sind es <NeighbourRouterCost1> Schritte. Zu Tisch <NeighbourRouterName2> sind es <NeighbourRouterCost2> Schritte und zu Tisch <NeighbourRouterName3> sind es <NeighbourRouterCost3> Schritte. Tisch D und F können momentan noch nicht erreicht werden. Gehe nun zum Tisch mit der geringsten Entfernung.",
+          "text": "Vom Starttisch zu Tisch <NeighbourRouterName1> sind es <NeighbourRouterCost1> Schritte. Zu Tisch <NeighbourRouterName2> sind es <NeighbourRouterCost2> Schritte und zu Tisch <NeighbourRouterName3> sind es <NeighbourRouterCost3> Schritte. Tisch D und F koennen momentan noch nicht erreicht werden. Gehe nun zum Tisch mit der geringsten Entfernung.",
           "size": 1200
         },
         "seq_5_dijkstra_tut_0": {
-          "text": "Gut. Du bist nun bei Tisch <CurrentRouterName>. Genau wie bei Tisch A musst du nun auch hier alle Wege erkunden. Erst wenn alle Wege bei Tisch <CurrentRouterName> bearbeitet wurden, geht es zum nächsten Schritt. Los gehts!",
+          "text": "Gut. Du bist nun bei Tisch <CurrentRouterName>. Genau wie bei Tisch A musst du nun auch hier alle Wege erkunden. Erst wenn alle Wege bei Tisch <CurrentRouterName> bearbeitet wurden, geht es zum naechsten Schritt. Los gehts!",
           "size": 1100
         },
         "seq_6_dijkstra_tut_0": {
-          "text": "Okay. Du hast den zweiten Tisch erfolgreich behandelt. Den nächsten Schritt kennst du prinzipiell bereits. Erkunde den Tisch, der dem Starttisch am nächsten ist..",
+          "text": "Okay. Du hast den zweiten Tisch erfolgreich behandelt. Den naechsten Schritt kennst du prinzipiell bereits. Erkunde den Tisch, der dem Starttisch am naechsten ist..",
           "size": 1000
         },
         "seq_6_dijkstra_tut_1": {
-          "text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Tisch D in der Tabelle auftaucht. Tisch D (7, C) bedeutet, dass Tisch D über Tisch C mit 7 Schritten erreicht werden kann.",
+          "text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Tisch D in der Tabelle auftaucht. Tisch D (7, C) bedeutet, dass Tisch D ueber Tisch C mit 7 Schritten erreicht werden kann.",
           "size": 1150
         },
         "seq_6_dijkstra_tut_2": {
@@ -267,15 +267,15 @@
           "size": 720
         },
         "seq_6_dijkstra_tut_3": {
-          "text": "Die Routing-Tabelle zeigt einen weiteren interessanten Punkt. Direkt vom Starttisch aus ist Tisch B mit 5 Schritten zu erreichen. Laut Tabelle gibt es allerdings einen noch schnelleren Weg. Über Tisch C sind es nur 4 Schritte bis zu Tisch B. ",
+          "text": "Die Routing-Tabelle zeigt einen weiteren interessanten Punkt. Direkt vom Starttisch aus ist Tisch B mit 5 Schritten zu erreichen. Laut Tabelle gibt es allerdings einen noch schnelleren Weg. ueber Tisch C sind es nur 4 Schritte bis zu Tisch B. ",
           "size": 1300
         },
         "seq_6_dijkstra_tut_4": {
-          "text": "Du siehst also, je mehr Tische du erkundest, desto hilfreicher ist die Routingtabelle für eine möglichst schnelle Bierauslieferung. Bearbeite nun die übrigen Tische.",
+          "text": "Du siehst also, je mehr Tische du erkundest, desto hilfreicher ist die Routingtabelle fuer eine moeglichst schnelle Bierauslieferung. Bearbeite nun die uebrigen Tische.",
           "size": 1000
         },
         "seq_7_dijkstra_tut_0": {
-          "text": "Gut. Du hast bestimmt bemerkt, dass die Entfernung zu Tischen D und Tisch F gleich ist. Wenn es mehrere Tische mit minimaler Entfernungen zum Starttisch gibt, ist es egal welchen von ihnen du als nächstes erkundest.. ",
+          "text": "Gut. Du hast bestimmt bemerkt, dass die Entfernung zu Tischen D und Tisch F gleich ist. Wenn es mehrere Tische mit minimaler Entfernungen zum Starttisch gibt, ist es egal welchen von ihnen du als naechstes erkundest.. ",
           "size": 1150
         },
         "seq_7_dijkstra_tut_1": {
@@ -287,45 +287,45 @@
           "size": 650
         },
         "seq_8_dijkstra_tut_1": {
-          "text": "<PlayerName> kennt nun die Entfernungen zwischen allen Tischen. Mit diesem Wissen kann er nun immer die schnellste Route zu einem beliebigen Tisch wählen.",
+          "text": "<PlayerName> kennt nun die Entfernungen zwischen allen Tischen. Mit diesem Wissen kann er nun immer die schnellste Route zu einem beliebigen Tisch waehlen.",
           "size": 900
         },
         "seq_8_dijkstra_tut_2": {
-          "text": "Die Gäste freuen sich sicher, wenn sie nicht lange auf ein neues Bier warten müssen. Aber als Belohnung für die harte Arbeit gönnt sich <PlayerName> zunächst einmal selbst ein kühles Bier. Prost!",
+          "text": "Die Gaeste freuen sich sicher, wenn sie nicht lange auf ein neues Bier warten muessen. Aber als Belohnung fuer die harte Arbeit goennt sich <PlayerName> zunaechst einmal selbst ein kuehles Bier. Prost!",
           "size": 1000
         },
         "seq_9_dijkstra_tut_0": {
-          "text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen möglich.",
+          "text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen moeglich.",
           "size": 850
         },
         "seq_10_dijkstra_tut_0": {
-          "text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Wege.",
+          "text": "Das war falsch. Bevor du zum naechsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurueck zu Tisch <SourceRouterName> und bearbeite die uebrigen Wege.",
           "size": 850
         },
         "seq_11_dijkstra_tut_0": {
-          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war..",
+          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der urspruengliche Fehler war..",
           "size": 900
         },
         "seq_11_dijkstra_tut_1": {
-          "text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Wege.",
+          "text": "Bevor du zum naechsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurueck zu Tisch <PreviousSourceRouterName> und bearbeite die uebrigen Wege.",
           "size": 850
         },
         "seq_12_dijkstra_tut_0": {
-          "text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> und korrigiere deinen Fehler. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+          "text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als naechste vorschreibt. Gehe zurueck zu Tisch <SourceRouterName> und korrigiere deinen Fehler. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am naechsten ist.",
           "size": 1100
         },
         "seq_13_dijkstra_tut_0": {
-          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war...",
+          "text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der urspruengliche Fehler war...",
           "size": 900
         },
         "seq_13_dijkstra_tut_1": {
-          "text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist..",
+          "text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als naechste vorschreibt. Gehe zurueck zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am naechsten ist..",
           "size": 850
         }
       },
 			"dijkstra_1":{
 				"seq_0_dijkstra_0": {
-					"text": "<LevelName>\r\nFinde die kürzesten Wege zu jedem Tisch. Verwende den Dijkstra- Algorithmus.",
+					"text": "<LevelName>\r\nFinde die kuerzesten Wege zu jedem Tisch. Verwende den Dijkstra- Algorithmus.",
 					"size": 850
 				},
 				"seq_0_dijkstra_1": {
@@ -334,35 +334,35 @@
 				},
 
 				"seq_1_dijkstra_0": {
-					"text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen möglich.",
+					"text": "Das geht nicht. Du kannst nicht zu Tisch <ClickedPathName> gehen weil du dich gerade an Tisch <CurrentRouterName> befindest. Eine Bewegung ist nur zwischen benachbarten Tischen moeglich.",
 					"size": 1000
 				},
 
 				"seq_2_dijkstra_0": {
-					"text": "Das war falsch. Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <SourceRouterName> und bearbeite die übrigen Wege.",
+					"text": "Das war falsch. Bevor du zum naechsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurueck zu Tisch <SourceRouterName> und bearbeite die uebrigen Wege.",
 					"size": 850
 				},
 
 				"seq_3_dijkstra_0": {
-					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war...",
+					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der urspruengliche Fehler war...",
 					"size": 900
 				},
 				"seq_3_dijkstra_1": {
-					"text": "Bevor du zum nächsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurück zu Tisch <PreviousSourceRouterName> und bearbeite die übrigen Wege.",
+					"text": "Bevor du zum naechsten Tisch gehen darfst, musst du alle Wege des aktuellen Tischs erkunden. Gehe zurueck zu Tisch <PreviousSourceRouterName> und bearbeite die uebrigen Wege.",
 					"size": 850
 				},
 
 				"seq_4_dijkstra_0": {
-					"text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächste vorschreibt. Gehe zurück zu Tisch <SourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+					"text": "Das war nicht richtig. Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als naechste vorschreibt. Gehe zurueck zu Tisch <SourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <SourceRouterName> zu dem Tisch, der dem Starttisch am naechsten ist.",
 					"size": 900
 				},
 
 				"seq_5_dijkstra_0": {
-					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der ursprüngliche Fehler war...",
+					"text": "Du hast gerade einen Folgefehler gemacht. Wenn du einen Fehler gemacht hast, musst du diesen korrigieren bevor du weiter machst. Der urspruengliche Fehler war...",
 					"size": 900
 				},
 				"seq_5_dijkstra_1": {
-					"text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als nächsten vorschreibt. Gehe zurück zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am nächsten ist.",
+					"text": "Tisch <ClickedPathName> ist nicht der Tisch den der Algorithmus als naechsten vorschreibt. Gehe zurueck zu Tisch <PreviousSourceRouterName> um deinen Fehler zu korrigieren. Gehe dann von Tisch <PreviousSourceRouterName> zu dem Tisch, der dem Starttisch am naechsten ist.",
 					"size": 1050
 				},
 			},
@@ -376,7 +376,7 @@
           "size": 500
         },
         "seq_0_fun_2": {
-          "text": "Aber sei vorsichtig! Die Möwen sind aggressiv, komme ihnen nicht zu nahe. Außerdem gibt es hier wahnsinnige Pinguine die dich ins Wasser schieben wollen.",
+          "text": "Aber sei vorsichtig! Die Moewen sind aggressiv, komme ihnen nicht zu nahe. Ausserdem gibt es hier wahnsinnige Pinguine die dich ins Wasser schieben wollen.",
           "size": 1200
         },
         "seq_0_fun_3": {
@@ -388,7 +388,7 @@
           "size": 760
         },
         "seq_0_fun_5": {
-          "text": "Erkunde die Insel und genieße deinen Urlaub. Viel Spaß!",
+          "text": "Erkunde die Insel und geniesse deinen Urlaub. Viel Spass!",
           "size": 550
         }
       }
