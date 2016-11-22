@@ -255,7 +255,8 @@
           "size": 1100
         },
         "seq_6_dijkstra_tut_0": {
-          "text": "Okay. Du hast den zweiten Router erfolgreich behandelt. Gehe zum nächsten Router mit den geringsten Pfadkosten und führe auch dort die Discovery durch."
+          "text": "Okay. Du hast den zweiten Router erfolgreich behandelt. Gehe zum nächsten Router mit den geringsten Pfadkosten und führe auch dort die Discovery durch.",
+          "size": 800
         },
         "seq_6_dijkstra_tut_1": {
           "text": "Die Routing-Tabelle ist hier wieder sehr hilfreich. Du kannst sehen, dass nun auch Router D in der Tabelle auftaucht. Router D (7, C) bedeutet, dass Router D über Router C mit 7 Schritten erreicht werden kann.",
