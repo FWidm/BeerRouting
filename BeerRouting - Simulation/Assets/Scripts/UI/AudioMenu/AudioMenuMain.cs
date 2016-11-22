@@ -13,7 +13,7 @@ public class AudioMenuMain : MonoBehaviour
      * Audio Mixer
      * */
     public AudioMixer masterMixer;
-    public static readonly string MASTER_VOL = "SIM_MasterVol", GAME_VOL = "SIM_GameVol", UI_VOL = "SIM_UiVol", PROF_VOL = "SIM_ProfVol", BACKGROUND_VOL = "SIM_BackgroundVol";
+    public static readonly string MASTER_VOL = "SIM_MasterVol", GAME_VOL = "SIM_GameVol", UI_VOL = "SIM_UiVol", PROF_VOL = "SIM_ProfVol", BACKGROUND_VOL = "SIM_BackgroundVol"; 
     public Toggle toggleMaster, toggleGame, toggleUi, toggleProf, toggleBackground;
     public Slider sliderMaster, sliderGame, sliderUi, sliderProf, sliderBackground;
     public static readonly float MIN_VAL = 0f, MAX_VAL = 1f;
