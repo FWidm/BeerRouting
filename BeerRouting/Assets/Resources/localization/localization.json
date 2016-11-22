@@ -211,7 +211,7 @@
           "size": 1200
         },
         "seq_2_dijkstra_tut_0": {
-          "text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Dabei nutzt du die Lupe um den Weg zu erkunden. Nun weiß <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird über den Bierflaschen angezeigt.",
+          "text": "Gut. Du hast gesehen, dass <PlayerName> den Weg zwischen Tisch <SourceRouterName> und <DestinationRouterName> erkundet hat. Dabei benutzt <PlayerName> die Lupe um den Weg zu erkunden. Nun weiß <PlayerName> wie schnell er Tisch <DestinationRouterName> von Tisch <SourceRouterName> aus erreichen kann und umgekehrt. Die Entfernung zwischen den Tischen wird über den Bierflaschen angezeigt.",
           "size": 1600
         },
         "seq_2_dijkstra_tut_1": {
