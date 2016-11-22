@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: e648fd58d3af48348beaddf64a672059
+timeCreated: 1479820383
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: info_0
+    21300002: info_1
+    21300004: info_2
+    21300006: info_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: info_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1124
+        width: 332
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 149, y: -83}
+        - {x: 160, y: -59}
+        - {x: 166, y: -36}
+        - {x: 166, y: 36}
+        - {x: 164, y: 47}
+        - {x: 148, y: 85}
+        - {x: 132, y: 108}
+        - {x: 108, y: 131}
+        - {x: 96, y: 140}
+        - {x: 83, y: 148}
+        - {x: 64, y: 158}
+        - {x: 42, y: 165}
+        - {x: 34, y: 166}
+        - {x: -32, y: 166}
+        - {x: -46, y: 164}
+        - {x: -66, y: 157}
+        - {x: -99, y: 140}
+        - {x: -133, y: 106}
+        - {x: -145, y: 89}
+        - {x: -159, y: 60}
+        - {x: -164, y: 40}
+        - {x: -166, y: 34}
+        - {x: -166, y: -32}
+        - {x: -161, y: -54}
+        - {x: -155, y: -70}
+        - {x: -136, y: -103}
+        - {x: -107, y: -132}
+        - {x: -84, y: -147}
+        - {x: -63, y: -158}
+        - {x: -41, y: -165}
+        - {x: -35, y: -166}
+        - {x: 38, y: -166}
+        - {x: 46, y: -165}
+        - {x: 89, y: -148}
+        - {x: 131, y: -109}
+    - name: info_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 752
+        width: 333
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104.5, y: -133.5}
+        - {x: 128.5, y: -111.5}
+        - {x: 145.5, y: -86.5}
+        - {x: 154.5, y: -71.5}
+        - {x: 165.5, y: -38.5}
+        - {x: 166.5, y: -29.5}
+        - {x: 166.5, y: 27.5}
+        - {x: 163.5, y: 46.5}
+        - {x: 154.5, y: 67.5}
+        - {x: 143.5, y: 89.5}
+        - {x: 134.5, y: 102.5}
+        - {x: 117.5, y: 121.5}
+        - {x: 95.5, y: 140.5}
+        - {x: 58.5, y: 159.5}
+        - {x: 48.5, y: 162.5}
+        - {x: 30.5, y: 166.5}
+        - {x: -34.5, y: 166.5}
+        - {x: -42.5, y: 165.5}
+        - {x: -81.5, y: 149.5}
+        - {x: -105.5, y: 133.5}
+        - {x: -134.5, y: 104.5}
+        - {x: -147.5, y: 85.5}
+        - {x: -159.5, y: 60.5}
+        - {x: -166.5, y: 35.5}
+        - {x: -166.5, y: -40.5}
+        - {x: -156.5, y: -68.5}
+        - {x: -139.5, y: -98.5}
+        - {x: -113.5, y: -127.5}
+        - {x: -84.5, y: -148.5}
+        - {x: -52.5, y: -163.5}
+        - {x: -33.5, y: -166.5}
+        - {x: 31.5, y: -166.5}
+        - {x: 40.5, y: -164.5}
+        - {x: 51.5, y: -162.5}
+        - {x: 85.5, y: -147.5}
+    - name: info_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 367
+        width: 334
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104, y: -134}
+        - {x: 130, y: -109}
+        - {x: 150, y: -84}
+        - {x: 166, y: -43}
+        - {x: 167, y: -34}
+        - {x: 167, y: 32}
+        - {x: 164, y: 47}
+        - {x: 148, y: 85}
+        - {x: 132, y: 108}
+        - {x: 107, y: 133}
+        - {x: 72, y: 156}
+        - {x: 38, y: 167}
+        - {x: -34, y: 167}
+        - {x: -52, y: 162}
+        - {x: -75, y: 154}
+        - {x: -100, y: 139}
+        - {x: -109, y: 131}
+        - {x: -139, y: 100}
+        - {x: -147, y: 88}
+        - {x: -161, y: 58}
+        - {x: -164, y: 45}
+        - {x: -167, y: 33}
+        - {x: -167, y: -35}
+        - {x: -160, y: -61}
+        - {x: -144, y: -91}
+        - {x: -134, y: -105}
+        - {x: -111, y: -130}
+        - {x: -89, y: -146}
+        - {x: -60, y: -160}
+        - {x: -32, y: -167}
+        - {x: 31, y: -167}
+        - {x: 47, y: -164}
+        - {x: 67, y: -157}
+        - {x: 96, y: -141}
+    - name: info_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 332
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: -124}
+        - {x: 135, y: -104}
+        - {x: 156, y: -71}
+        - {x: 166, y: -40}
+        - {x: 166, y: 35}
+        - {x: 160, y: 58}
+        - {x: 148, y: 82}
+        - {x: 135, y: 102}
+        - {x: 131, y: 107}
+        - {x: 116, y: 123}
+        - {x: 104, y: 135}
+        - {x: 65, y: 158}
+        - {x: 50, y: 162}
+        - {x: 31, y: 166}
+        - {x: -30, y: 166}
+        - {x: -48, y: 163}
+        - {x: -65, y: 157}
+        - {x: -95, y: 141}
+        - {x: -107, y: 132}
+        - {x: -132, y: 107}
+        - {x: -145, y: 89}
+        - {x: -161, y: 55}
+        - {x: -166, y: 36}
+        - {x: -166, y: -36}
+        - {x: -159, y: -62}
+        - {x: -147, y: -85}
+        - {x: -139, y: -100}
+        - {x: -108, y: -134}
+        - {x: -72, y: -155}
+        - {x: -50, y: -163}
+        - {x: -35, y: -166}
+        - {x: 37, y: -166}
+        - {x: 44, y: -165}
+        - {x: 62, y: -160}
+        - {x: 100, y: -139}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
