@@ -45,7 +45,7 @@ public class AudioMenuMain : MonoBehaviour
             SetProfSoundLevel(PlayerPrefs.GetFloat(PROF_VOL));
             sliderProf.value = PlayerPrefs.GetFloat(PROF_VOL);
             SetUiSoundLevel(PlayerPrefs.GetFloat(UI_VOL));
-            sliderProf.value = PlayerPrefs.GetFloat(UI_VOL);
+            sliderUi.value = PlayerPrefs.GetFloat(UI_VOL);
 
         }
 
