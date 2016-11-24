@@ -243,7 +243,7 @@
           "size": 850
         },
         "seq_4_dijkstra_tut_2": {
-          "text": "Die aktuellen Entfernungen vom Startrouter zu den anderen Routern sind in der Routingtabelle (Button mit Tabelle als Icon) zu finden. Immer wenn du einen Pfad erkundest wird die Tabelle aktualisiert.",
+          "text": "Die aktuellen Entfernungen vom Startrouter zu den anderen Routern sind in der Routingtabelle (Button mit Tabelle als Icon) zu finden. Immer wenn du einen Pfad erkundest wird die Tabelle aktualisiert. Sie zeigt dir an, über welchen Router man den Router Z, vom Start-Router (A) aus, in X Schritten, über Router Y erreichen kann: [Z: (X, Y)]",
           "size": 1100
         },
         "seq_4_dijkstra_tut_3": {

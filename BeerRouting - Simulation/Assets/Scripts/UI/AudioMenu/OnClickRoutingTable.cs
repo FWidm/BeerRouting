@@ -6,6 +6,8 @@ public class OnClickRoutingTable : MonoBehaviour
 
     public GameObject panel;
     public GameObject table;
+    public GameObject description;
+
     private AudioSource buttonClick;
     private int buttonClickCount;
 
@@ -31,6 +33,7 @@ public class OnClickRoutingTable : MonoBehaviour
         {
             panel.SetActive(true);
             table.SetActive(true);
+            description.SetActive(true);
             buttonClickCount++;
         }
         else
@@ -45,5 +48,6 @@ public class OnClickRoutingTable : MonoBehaviour
         // Then close panel.
         panel.SetActive(!panel.activeSelf);
         table.SetActive(!table.activeSelf);
+        description.SetActive(!description.activeSelf);
     }
 }
