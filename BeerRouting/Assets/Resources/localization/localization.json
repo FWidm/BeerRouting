@@ -243,8 +243,8 @@
           "size": 850
         },
         "seq_4_dijkstra_tut_2": {
-          "text": "Die aktuellen Entfernungen vom Starttisch zu den anderen Tischen sind in der Routingtabelle (blauer Button rechts) dargestellt. Immer wenn du einen Weg erkundest wird die Tabelle aktualisiert.",
-          "size": 1100
+          "text": "Die aktuellen Entfernungen vom Starttisch zu den anderen Tischen sind in der Routingtabelle (blauer Button rechts) dargestellt. Immer wenn du einen Weg erkundest wird die Tabelle aktualisiert. Sie zeigt dir an, über welchen Tisch man den Tisch Z, vom Start-Tisch (A) aus, in X Schritten, über Tisch Y erreichen kann: [Z: (X, Y)]",
+          "size": 1500
         },
         "seq_4_dijkstra_tut_3": {
           "text": "Vom Starttisch zu Tisch <NeighbourRouterName1> sind es <NeighbourRouterCost1> Schritte. Zu Tisch <NeighbourRouterName2> sind es <NeighbourRouterCost2> Schritte und zu Tisch <NeighbourRouterName3> sind es <NeighbourRouterCost3> Schritte. Tisch D und F koennen momentan noch nicht erreicht werden. Gehe nun zum Tisch mit der geringsten Entfernung.",
